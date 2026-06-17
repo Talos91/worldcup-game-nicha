@@ -117,6 +117,7 @@
   .pts-badge.neg { color:var(--loss); background:rgba(255,92,92,.14); }
   .pts-badge.zero { color:var(--muted); }
   .team-meta { color:var(--muted); font-size:11.5px; margin-top:8px; padding-left:38px; }
+  .record { font-size:12.5px; color:var(--muted); font-weight:700; font-variant-numeric:tabular-nums; flex:none; letter-spacing:.03em; }
 
   /* Lead tracker chart */
   .chartbox { background:var(--card); border:1px solid var(--card-line); border-radius:16px; padding:16px; }
@@ -224,7 +225,7 @@
 
     <footer>
       <div id="updated"></div>
-      <div>Data: football-data.org · refreshes automatically</div>
+      <div>v1.5 · Data: football-data.org · refreshes automatically</div>
     </footer>
   </div>
 
@@ -325,7 +326,7 @@ function teamCard(t) {
   return `<div class="team"><div class="team-head">
     ${crestImg(t.crest, t.tla, "crest")}
     <div class="team-name">${t.name}</div>
-    <span class="rchips">${resultChips(t)}</span>
+    <span class="record" title="W-L-D: ${t.w} won, ${t.l} lost, ${t.d} drawn">${t.w}-${t.l}-${t.d}</span>
     <div class="pts-badge ${cls}">${t.points > 0 ? "+" : ""}${t.points}</div>
   </div>${meta}</div>`;
 }
@@ -384,7 +385,7 @@ function groupsSection(groups) {
   const sorted = groups.slice().sort((a, b) => (b.hasTracked ? 1 : 0) - (a.hasTracked ? 1 : 0));
   return `<section class="block"><h2 class="sec"><span class="ico">🗂️</span> Group tables<span class="sub">all 12 · your teams highlighted</span></h2>
     <div class="gwrap">${sorted.map(groupCard).join("")}</div>
-    <div class="legend">Green bar = top 2 (advance). Tinted rows are your teams.</div></section>`;
+    <div class="legend"><b>P</b> played · <b>GD</b> goal difference · <b>Pts</b> points · green bar = top 2 (advance) · tinted rows are your teams.</div></section>`;
 }
 
 /* ---- Feeds ---- */
@@ -563,7 +564,8 @@ function render(data) {
     </div>`;
 
   const standings = `<section class="block"><h2 class="sec"><span class="ico">📋</span> Standings</h2>
-    <div class="grid">${panel(a, keyOf(a.name))}${panel(b, keyOf(b.name))}</div></section>`;
+    <div class="grid">${panel(a, keyOf(a.name))}${panel(b, keyOf(b.name))}</div>
+    <div class="legend">Each team's record is <b>W-L-D</b> (won-lost-drawn). Win +3 · Draw +1 · Loss −1.</div></section>`;
 
   const chart = leadChart(data.timeline || [], a.name, b.name);
   const groups = groupsSection(data.groups || []);
