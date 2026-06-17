@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-06-17 — head-to-head + fixed 3×/day schedule
+- ⚔ matches now show a historical **head-to-head** line (recent meetings + total
+  goals) from `/head2head`. The free plan only reliably returns meetings + goals
+  (not the W/D/L split), so W/D/L is shown only when the API provides it.
+- Locked the auto-update schedule to **3× daily at ~08:00 / 16:00 / 00:00
+  Bangkok** (cron `7 1,9,17 * * *` UTC) instead of every 30 minutes.
+
 ## 2026-06-17 — confetti, link preview, countdown, lead chart + polish
 - 🎊 Confetti burst in the current leader's colour on page load.
 - 🔗 Open Graph / Twitter card: sharing the link shows a branded preview image

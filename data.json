@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T08:29:26Z",
+  "updatedAt": "2026-06-17T09:32:47Z",
   "competition": "FIFA World Cup 2026",
   "rules": {
     "win": 3,
@@ -79,7 +79,7 @@
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URU",
+              "opponentTla": "URY",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-27T00:00:00Z",
               "status": "TIMED",
@@ -360,7 +360,7 @@
           "matches": [
             {
               "opponent": "Curaçao",
-              "opponentTla": "CUW",
+              "opponentTla": "CUR",
               "opponentCrest": "https://crests.football-data.org/curacao.svg",
               "utcDate": "2026-06-14T17:00:00Z",
               "status": "FINISHED",
@@ -1648,7 +1648,7 @@
       },
       "away": {
         "name": "Curaçao",
-        "tla": "CUW",
+        "tla": "CUR",
         "crest": "https://crests.football-data.org/curacao.svg"
       },
       "scoreHome": 7,
@@ -1878,7 +1878,14 @@
           "points": 0
         }
       ],
-      "headToHead": true
+      "headToHead": true,
+      "h2h": {
+        "numberOfMatches": 2,
+        "totalGoals": 7,
+        "homeWins": 0,
+        "awayWins": 0,
+        "draws": 0
+      }
     },
     {
       "id": 537348,
@@ -2295,7 +2302,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
@@ -2685,12 +2692,12 @@
     {
       "icon": "💥",
       "label": "Biggest win",
-      "value": "GER 7–1 CUW"
+      "value": "GER 7–1 CUR"
     },
     {
       "icon": "🔥",
       "label": "Wildest game",
-      "value": "GER 7–1 CUW"
+      "value": "GER 7–1 CUR"
     },
     {
       "icon": "🤝",

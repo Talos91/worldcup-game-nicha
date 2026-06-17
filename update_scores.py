@@ -223,6 +223,24 @@ def fetch_coaches(tracked):
     return out
 
 
+def fetch_h2h(match_id):
+    """Historical head-to-head aggregates for a match, or None on failure."""
+    try:
+        agg = _get(f"{API_BASE}/matches/{match_id}/head2head?limit=10").get("aggregates") or {}
+    except Exception:
+        return None
+    if not agg.get("numberOfMatches"):
+        return None
+    home, away = agg.get("homeTeam") or {}, agg.get("awayTeam") or {}
+    return {
+        "numberOfMatches": agg.get("numberOfMatches"),
+        "totalGoals": agg.get("totalGoals"),
+        "homeWins": home.get("wins"),
+        "awayWins": away.get("wins"),
+        "draws": home.get("draws"),
+    }
+
+
 def build_feeds(matches, tracked):
     """Consolidated recent (finished/live) and upcoming match feeds across all
     tracked teams. Each match appears once; a match between two tracked teams
@@ -440,6 +458,11 @@ def build():
         })
 
     recent, upcoming = build_feeds(matches, tracked)
+    for entry in recent + upcoming:
+        if entry.get("headToHead"):
+            h2h = fetch_h2h(entry.get("id"))
+            if h2h:
+                entry["h2h"] = h2h
     curiosities = build_curiosities(matches, players_out)
     scorers = fetch_scorers(tracked)
     timeline = build_timeline(matches, tracked)

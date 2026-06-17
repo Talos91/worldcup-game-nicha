@@ -30,14 +30,17 @@ scored **+3 win / +1 draw / −1 loss** per team, summed per player.
   a live next-match countdown, and the lead-tracker chart — all client-side.
 - Per-match goalscorers are NOT on the free plan (match `goals` array is empty),
   so the page shows tournament top scorers with tracked players highlighted.
-  Also available but NOT yet wired in: `/matches/{id}/head2head` (historical H2H).
-  NOT on free plan at all: venue, attendance, odds.
+  Head-to-head (`/matches/{id}/head2head`) IS wired in for ⚔ matches, but the
+  free plan reliably returns only `numberOfMatches` + `totalGoals` (W/D/L split
+  is usually 0), so the page shows meetings + goals (W/D/L only when present).
+  NOT on free plan at all: venue, attendance, odds, per-match goalscorers.
 - API key: env var `FOOTBALL_DATA_API_KEY`, else git-ignored `apikey.txt`.
 
 ## Automation
-- **GitHub Actions** (`.github/workflows/update.yml`, cron `13,43 * * * *`) is the
-  live updater: runs `update_scores.py` on GitHub's servers ~every 30 min and
-  commits `data.json`, which redeploys Pages. Runs 24/7, laptop-independent.
+- **GitHub Actions** (`.github/workflows/update.yml`, cron `7 1,9,17 * * *` UTC)
+  is the live updater: runs `update_scores.py` 3×/day at ~08:00 / 16:00 / 00:00
+  Bangkok (ICT) and commits `data.json`, which redeploys Pages. 24/7,
+  laptop-independent.
   Needs repo secret **`FOOTBALL_DATA_API_KEY`** (Settings → Secrets and variables
   → Actions).
 - The Claude scheduled task `worldcup-scores-update` is now **disabled** (it only
