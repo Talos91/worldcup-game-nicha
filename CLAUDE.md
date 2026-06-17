@@ -17,12 +17,17 @@ scored **+3 win / +1 draw / −1 loss** per team, summed per player.
   auto-refreshes every 5 min. The API key never reaches the browser. Sections:
   who's-winning hero + scoring-rules strip, Standings (form dots), Recent results
   + Upcoming feeds (head-to-head aware), and data-driven curiosities + trivia.
-- `data.json` keys: `players` (each with an `agg` totals block; each team has
-  `group` standing + `coach`), `groups` (group tables containing tracked teams),
-  `recent` / `upcoming` (matches carry half-time, referee, duration, penalties),
-  `scorers`, `curiosities` — all computed in the updater, not the browser.
+- `data.json` keys: `players` (each with `agg` totals; each team has `group`
+  standing + `coach`), `groups` (ALL 12 group tables, each flagged `hasTracked`),
+  `timeline` (cumulative points per player after each match — drives the lead
+  chart), `recent` / `upcoming` (matches carry half-time, referee, duration,
+  penalties), `scorers`, `curiosities` — all computed in the updater.
 - Endpoints used (all free tier): `/competitions/WC/matches`, `/standings`,
   `/teams` (coaches only — squads discarded), `/scorers`.
+- `og.png` is the link-preview image, made by `gen_og.py` (Pillow, run once
+  locally — score-agnostic so it never goes stale); referenced via Open Graph
+  meta tags in index.html. The page also has confetti (leader's colour on load),
+  a live next-match countdown, and the lead-tracker chart — all client-side.
 - Per-match goalscorers are NOT on the free plan (match `goals` array is empty),
   so the page shows tournament top scorers with tracked players highlighted.
   Also available but NOT yet wired in: `/matches/{id}/head2head` (historical H2H).

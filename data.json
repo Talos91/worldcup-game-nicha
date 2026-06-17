@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T08:16:45Z",
+  "updatedAt": "2026-06-17T08:29:26Z",
   "competition": "FIFA World Cup 2026",
   "rules": {
     "win": 3,
@@ -633,6 +633,7 @@
   "groups": [
     {
       "group": "Group A",
+      "hasTracked": true,
       "table": [
         {
           "position": 1,
@@ -701,7 +702,148 @@
       ]
     },
     {
+      "group": "Group B",
+      "hasTracked": false,
+      "table": [
+        {
+          "position": 1,
+          "name": "Switzerland",
+          "tla": "SUI",
+          "crest": "https://crests.football-data.org/788.svg",
+          "played": 1,
+          "won": 0,
+          "draw": 1,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "points": 1,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 2,
+          "name": "Canada",
+          "tla": "CAN",
+          "crest": "https://crests.football-data.org/canada.svg",
+          "played": 1,
+          "won": 0,
+          "draw": 1,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "points": 1,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 3,
+          "name": "Qatar",
+          "tla": "QAT",
+          "crest": "https://crests.football-data.org/8030.svg",
+          "played": 1,
+          "won": 0,
+          "draw": 1,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "points": 1,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 4,
+          "name": "Bosnia-Herzegovina",
+          "tla": "BIH",
+          "crest": "https://crests.football-data.org/bosnia.svg",
+          "played": 1,
+          "won": 0,
+          "draw": 1,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "points": 1,
+          "owner": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "group": "Group C",
+      "hasTracked": false,
+      "table": [
+        {
+          "position": 1,
+          "name": "Scotland",
+          "tla": "SCO",
+          "crest": "https://crests.football-data.org/814.svg",
+          "played": 1,
+          "won": 1,
+          "draw": 0,
+          "lost": 0,
+          "gf": 1,
+          "ga": 0,
+          "gd": 1,
+          "points": 3,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 2,
+          "name": "Morocco",
+          "tla": "MAR",
+          "crest": "https://crests.football-data.org/morocco.svg",
+          "played": 1,
+          "won": 0,
+          "draw": 1,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "points": 1,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 3,
+          "name": "Brazil",
+          "tla": "BRA",
+          "crest": "https://crests.football-data.org/764.svg",
+          "played": 1,
+          "won": 0,
+          "draw": 1,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "points": 1,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 4,
+          "name": "Haiti",
+          "tla": "HAI",
+          "crest": "https://crests.football-data.org/haiti.svg",
+          "played": 1,
+          "won": 0,
+          "draw": 0,
+          "lost": 1,
+          "gf": 0,
+          "ga": 1,
+          "gd": -1,
+          "points": 0,
+          "owner": null,
+          "color": null
+        }
+      ]
+    },
+    {
       "group": "Group D",
+      "hasTracked": true,
       "table": [
         {
           "position": 1,
@@ -771,6 +913,7 @@
     },
     {
       "group": "Group E",
+      "hasTracked": true,
       "table": [
         {
           "position": 1,
@@ -840,6 +983,7 @@
     },
     {
       "group": "Group F",
+      "hasTracked": true,
       "table": [
         {
           "position": 1,
@@ -908,7 +1052,78 @@
       ]
     },
     {
+      "group": "Group G",
+      "hasTracked": false,
+      "table": [
+        {
+          "position": 1,
+          "name": "New Zealand",
+          "tla": "NZL",
+          "crest": "https://crests.football-data.org/783.svg",
+          "played": 1,
+          "won": 0,
+          "draw": 1,
+          "lost": 0,
+          "gf": 2,
+          "ga": 2,
+          "gd": 0,
+          "points": 1,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 2,
+          "name": "Iran",
+          "tla": "IRN",
+          "crest": "https://crests.football-data.org/iran.svg",
+          "played": 1,
+          "won": 0,
+          "draw": 1,
+          "lost": 0,
+          "gf": 2,
+          "ga": 2,
+          "gd": 0,
+          "points": 1,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 3,
+          "name": "Belgium",
+          "tla": "BEL",
+          "crest": "https://crests.football-data.org/805.svg",
+          "played": 1,
+          "won": 0,
+          "draw": 1,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "points": 1,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 4,
+          "name": "Egypt",
+          "tla": "EGY",
+          "crest": "https://crests.football-data.org/825.svg",
+          "played": 1,
+          "won": 0,
+          "draw": 1,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "points": 1,
+          "owner": null,
+          "color": null
+        }
+      ]
+    },
+    {
       "group": "Group H",
+      "hasTracked": true,
       "table": [
         {
           "position": 1,
@@ -977,7 +1192,78 @@
       ]
     },
     {
+      "group": "Group I",
+      "hasTracked": false,
+      "table": [
+        {
+          "position": 1,
+          "name": "Norway",
+          "tla": "NOR",
+          "crest": "https://crests.football-data.org/813.svg",
+          "played": 1,
+          "won": 1,
+          "draw": 0,
+          "lost": 0,
+          "gf": 4,
+          "ga": 1,
+          "gd": 3,
+          "points": 3,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 2,
+          "name": "France",
+          "tla": "FRA",
+          "crest": "https://crests.football-data.org/773.svg",
+          "played": 1,
+          "won": 1,
+          "draw": 0,
+          "lost": 0,
+          "gf": 3,
+          "ga": 1,
+          "gd": 2,
+          "points": 3,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 3,
+          "name": "Senegal",
+          "tla": "SEN",
+          "crest": "https://crests.football-data.org/senegal.svg",
+          "played": 1,
+          "won": 0,
+          "draw": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 3,
+          "gd": -2,
+          "points": 0,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 4,
+          "name": "Iraq",
+          "tla": "IRQ",
+          "crest": "https://crests.football-data.org/iraq.svg",
+          "played": 1,
+          "won": 0,
+          "draw": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 4,
+          "gd": -3,
+          "points": 0,
+          "owner": null,
+          "color": null
+        }
+      ]
+    },
+    {
       "group": "Group J",
+      "hasTracked": true,
       "table": [
         {
           "position": 1,
@@ -1047,6 +1333,7 @@
     },
     {
       "group": "Group K",
+      "hasTracked": true,
       "table": [
         {
           "position": 1,
@@ -1113,6 +1400,118 @@
           "color": null
         }
       ]
+    },
+    {
+      "group": "Group L",
+      "hasTracked": false,
+      "table": [
+        {
+          "position": 1,
+          "name": "England",
+          "tla": "ENG",
+          "crest": "https://crests.football-data.org/770.svg",
+          "played": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "points": 0,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 1,
+          "name": "Ghana",
+          "tla": "GHA",
+          "crest": "https://crests.football-data.org/ghana.svg",
+          "played": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "points": 0,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 1,
+          "name": "Croatia",
+          "tla": "CRO",
+          "crest": "https://crests.football-data.org/799.svg",
+          "played": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "points": 0,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 1,
+          "name": "Panama",
+          "tla": "PAN",
+          "crest": "https://crests.football-data.org/panama.svg",
+          "played": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "points": 0,
+          "owner": null,
+          "color": null
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": null,
+      "n": 0,
+      "d": 0
+    },
+    {
+      "date": "2026-06-11T19:00:00Z",
+      "n": 0,
+      "d": 3
+    },
+    {
+      "date": "2026-06-12T02:00:00Z",
+      "n": 3,
+      "d": 3
+    },
+    {
+      "date": "2026-06-13T01:00:00Z",
+      "n": 6,
+      "d": 3
+    },
+    {
+      "date": "2026-06-14T17:00:00Z",
+      "n": 6,
+      "d": 6
+    },
+    {
+      "date": "2026-06-14T20:00:00Z",
+      "n": 6,
+      "d": 7
+    },
+    {
+      "date": "2026-06-15T16:00:00Z",
+      "n": 7,
+      "d": 7
+    },
+    {
+      "date": "2026-06-17T01:00:00Z",
+      "n": 10,
+      "d": 7
     }
   ],
   "recent": [

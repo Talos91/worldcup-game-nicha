@@ -204,8 +204,7 @@ def build_standings(tracked):
                 by_team[tid] = {k: row[k] for k in
                                 ("position", "played", "won", "draw", "lost", "gf", "ga", "gd", "points")}
                 by_team[tid]["group"] = group
-        if has_tracked:
-            groups.append({"group": group, "table": table_out})
+        groups.append({"group": group, "hasTracked": has_tracked, "table": table_out})
     return by_team, groups
 
 
@@ -361,6 +360,40 @@ def build_curiosities(matches, players_out):
     return cur
 
 
+def build_timeline(matches, tracked):
+    """Cumulative points for each player after every counted match, in date
+    order -- drives the lead-over-time chart."""
+    events = []
+    for m in matches:
+        sc = m.get("score", {})
+        winner = sc.get("winner")
+        if m.get("status") not in COUNTED_STATUSES or winner is None:
+            continue
+        deltas = {}
+        for team, is_home in ((m["homeTeam"], True), (m["awayTeam"], False)):
+            info = tracked.get(team.get("id"))
+            if not info:
+                continue
+            if winner == "DRAW":
+                pts = DRAW
+            elif (winner == "HOME_TEAM") == is_home:
+                pts = WIN
+            else:
+                pts = LOSS
+            deltas[info["player"]] = deltas.get(info["player"], 0) + pts
+        if deltas:
+            events.append((m.get("utcDate") or "", deltas))
+    events.sort(key=lambda e: e[0])
+    p0, p1 = PLAYERS[0]["name"], PLAYERS[1]["name"]
+    n = d = 0
+    tl = [{"date": None, "n": 0, "d": 0}]
+    for date, deltas in events:
+        n += deltas.get(p0, 0)
+        d += deltas.get(p1, 0)
+        tl.append({"date": date, "n": n, "d": d})
+    return tl
+
+
 def build():
     matches = fetch_matches()
 
@@ -409,6 +442,7 @@ def build():
     recent, upcoming = build_feeds(matches, tracked)
     curiosities = build_curiosities(matches, players_out)
     scorers = fetch_scorers(tracked)
+    timeline = build_timeline(matches, tracked)
 
     return {
         "updatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -416,6 +450,7 @@ def build():
         "rules": {"win": WIN, "draw": DRAW, "loss": LOSS},
         "players": players_out,
         "groups": groups,
+        "timeline": timeline,
         "recent": recent,
         "upcoming": upcoming,
         "scorers": scorers,
