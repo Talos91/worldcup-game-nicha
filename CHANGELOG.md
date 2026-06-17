@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-06-17 — v1.6
+- Expanded "Did you know?" to **100 World Cup facts** (rotating).
+- **Version is now live** — stamped into data.json by the updater and shown in
+  the footer ("v1.6 · Updated …"), so it's never stale from browser cache. Bump
+  the `VERSION` constant in update_scores.py on each code push.
+
 ## 2026-06-17 — head-to-head + fixed 3×/day schedule
 - ⚔ matches now show a historical **head-to-head** line (recent meetings + total
   goals) from `/head2head`. The free plan only reliably returns meetings + goals
