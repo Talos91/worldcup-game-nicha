@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-06-17 — 24/7 updates via GitHub Actions
+- Added `.github/workflows/update.yml`: runs the updater on GitHub's servers
+  ~every 30 min (cron `13,43 * * * *`) and commits data.json, so the site keeps
+  updating even when the laptop is off. Requires repo secret `FOOTBALL_DATA_API_KEY`.
+- Disabled the Claude scheduled task `worldcup-scores-update` so two crons don't
+  push the same file. (Re-enable only if you remove the Action.)
+
 ## 2026-06-17 — richer scoreboard
 - Added a scoring-rules strip up top (Win +3 / Draw +1 / Loss −1).
 - New **Standings** section: compact team cards with recent-form dots.

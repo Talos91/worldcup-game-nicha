@@ -22,11 +22,17 @@ scored **+3 win / +1 draw / −1 loss** per team, summed per player.
 - API key: env var `FOOTBALL_DATA_API_KEY`, else git-ignored `apikey.txt`.
 
 ## Automation
-- Claude scheduled task **`worldcup-scores-update`**, cron `7,37 * * * *`
-  (every 30 min). Runs the updater, then pushes `data.json`. Runs **only while
-  the Claude app is open** (catches up on next launch).
-- Hosting: **GitHub Pages** (public repo). No `gh` CLI on this machine — repo
-  create / first push / Pages-enable are manual browser steps.
+- **GitHub Actions** (`.github/workflows/update.yml`, cron `13,43 * * * *`) is the
+  live updater: runs `update_scores.py` on GitHub's servers ~every 30 min and
+  commits `data.json`, which redeploys Pages. Runs 24/7, laptop-independent.
+  Needs repo secret **`FOOTBALL_DATA_API_KEY`** (Settings → Secrets and variables
+  → Actions).
+- The Claude scheduled task `worldcup-scores-update` is now **disabled** (it only
+  ran while the app was open). Don't run both at once — two crons pushing the same
+  file conflict.
+- Hosting: **GitHub Pages** at github.com/Talos91/worldcup-game-nicha (Deploy from
+  branch, `main` / root). The local repo will fall behind the Actions commits —
+  run `git pull` before any local edit/push.
 
 ## Conventions
 - Never commit `apikey.txt`.
