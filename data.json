@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T07:02:50Z",
+  "updatedAt": "2026-06-17T07:21:16Z",
   "competition": "FIFA World Cup 2026",
   "rules": {
     "win": 3,
@@ -484,6 +484,769 @@
           ]
         }
       ]
+    }
+  ],
+  "recent": [
+    {
+      "id": 537397,
+      "utcDate": "2026-06-17T01:00:00Z",
+      "status": "FINISHED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_J",
+      "home": {
+        "name": "Argentina",
+        "tla": "ARG",
+        "crest": "https://crests.football-data.org/762.png"
+      },
+      "away": {
+        "name": "Algeria",
+        "tla": "ALG",
+        "crest": "https://crests.football-data.org/algeria.svg"
+      },
+      "scoreHome": 3,
+      "scoreAway": 0,
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "Argentina",
+          "tla": "ARG",
+          "isHome": true,
+          "result": "W",
+          "points": 3
+        }
+      ],
+      "headToHead": false
+    },
+    {
+      "id": 537369,
+      "utcDate": "2026-06-15T16:00:00Z",
+      "status": "FINISHED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_H",
+      "home": {
+        "name": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg"
+      },
+      "away": {
+        "name": "Cape Verde Islands",
+        "tla": "CPV",
+        "crest": "https://crests.football-data.org/cape_verde.svg"
+      },
+      "scoreHome": 0,
+      "scoreAway": 0,
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "Spain",
+          "tla": "ESP",
+          "isHome": true,
+          "result": "D",
+          "points": 1
+        }
+      ],
+      "headToHead": false
+    },
+    {
+      "id": 537357,
+      "utcDate": "2026-06-14T20:00:00Z",
+      "status": "FINISHED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_F",
+      "home": {
+        "name": "Netherlands",
+        "tla": "NED",
+        "crest": "https://crests.football-data.org/8601.svg"
+      },
+      "away": {
+        "name": "Japan",
+        "tla": "JPN",
+        "crest": "https://crests.football-data.org/766.svg"
+      },
+      "scoreHome": 2,
+      "scoreAway": 2,
+      "stakes": [
+        {
+          "player": "Daniele",
+          "color": "#3da5ff",
+          "team": "Japan",
+          "tla": "JPN",
+          "isHome": false,
+          "result": "D",
+          "points": 1
+        }
+      ],
+      "headToHead": false
+    },
+    {
+      "id": 537351,
+      "utcDate": "2026-06-14T17:00:00Z",
+      "status": "FINISHED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_E",
+      "home": {
+        "name": "Germany",
+        "tla": "GER",
+        "crest": "https://crests.football-data.org/759.svg"
+      },
+      "away": {
+        "name": "Curaçao",
+        "tla": "CUW",
+        "crest": "https://crests.football-data.org/curacao.svg"
+      },
+      "scoreHome": 7,
+      "scoreAway": 1,
+      "stakes": [
+        {
+          "player": "Daniele",
+          "color": "#3da5ff",
+          "team": "Germany",
+          "tla": "GER",
+          "isHome": true,
+          "result": "W",
+          "points": 3
+        }
+      ],
+      "headToHead": false
+    },
+    {
+      "id": 537345,
+      "utcDate": "2026-06-13T01:00:00Z",
+      "status": "FINISHED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_D",
+      "home": {
+        "name": "United States",
+        "tla": "USA",
+        "crest": "https://crests.football-data.org/usa.svg"
+      },
+      "away": {
+        "name": "Paraguay",
+        "tla": "PAR",
+        "crest": "https://crests.football-data.org/761.svg"
+      },
+      "scoreHome": 4,
+      "scoreAway": 1,
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "United States",
+          "tla": "USA",
+          "isHome": true,
+          "result": "W",
+          "points": 3
+        }
+      ],
+      "headToHead": false
+    },
+    {
+      "id": 537328,
+      "utcDate": "2026-06-12T02:00:00Z",
+      "status": "FINISHED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_A",
+      "home": {
+        "name": "South Korea",
+        "tla": "KOR",
+        "crest": "https://crests.football-data.org/772.png"
+      },
+      "away": {
+        "name": "Czechia",
+        "tla": "CZE",
+        "crest": "https://crests.football-data.org/798.svg"
+      },
+      "scoreHome": 2,
+      "scoreAway": 1,
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "South Korea",
+          "tla": "KOR",
+          "isHome": true,
+          "result": "W",
+          "points": 3
+        }
+      ],
+      "headToHead": false
+    },
+    {
+      "id": 537327,
+      "utcDate": "2026-06-11T19:00:00Z",
+      "status": "FINISHED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_A",
+      "home": {
+        "name": "Mexico",
+        "tla": "MEX",
+        "crest": "https://crests.football-data.org/769.svg"
+      },
+      "away": {
+        "name": "South Africa",
+        "tla": "RSA",
+        "crest": "https://crests.football-data.org/9396.svg"
+      },
+      "scoreHome": 2,
+      "scoreAway": 0,
+      "stakes": [
+        {
+          "player": "Daniele",
+          "color": "#3da5ff",
+          "team": "Mexico",
+          "tla": "MEX",
+          "isHome": true,
+          "result": "W",
+          "points": 3
+        }
+      ],
+      "headToHead": false
+    }
+  ],
+  "upcoming": [
+    {
+      "id": 537404,
+      "utcDate": "2026-06-18T02:00:00Z",
+      "status": "TIMED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_K",
+      "home": {
+        "name": "Uzbekistan",
+        "tla": "UZB",
+        "crest": "https://crests.football-data.org/8070.png"
+      },
+      "away": {
+        "name": "Colombia",
+        "tla": "COL",
+        "crest": "https://crests.football-data.org/818.svg"
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "stakes": [
+        {
+          "player": "Daniele",
+          "color": "#3da5ff",
+          "team": "Colombia",
+          "tla": "COL",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
+    {
+      "id": 537330,
+      "utcDate": "2026-06-19T01:00:00Z",
+      "status": "TIMED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_A",
+      "home": {
+        "name": "Mexico",
+        "tla": "MEX",
+        "crest": "https://crests.football-data.org/769.svg"
+      },
+      "away": {
+        "name": "South Korea",
+        "tla": "KOR",
+        "crest": "https://crests.football-data.org/772.png"
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "stakes": [
+        {
+          "player": "Daniele",
+          "color": "#3da5ff",
+          "team": "Mexico",
+          "tla": "MEX",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "South Korea",
+          "tla": "KOR",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": true
+    },
+    {
+      "id": 537348,
+      "utcDate": "2026-06-19T19:00:00Z",
+      "status": "TIMED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_D",
+      "home": {
+        "name": "United States",
+        "tla": "USA",
+        "crest": "https://crests.football-data.org/usa.svg"
+      },
+      "away": {
+        "name": "Australia",
+        "tla": "AUS",
+        "crest": "https://crests.football-data.org/779.svg"
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "United States",
+          "tla": "USA",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
+    {
+      "id": 537353,
+      "utcDate": "2026-06-20T20:00:00Z",
+      "status": "TIMED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_E",
+      "home": {
+        "name": "Germany",
+        "tla": "GER",
+        "crest": "https://crests.football-data.org/759.svg"
+      },
+      "away": {
+        "name": "Ivory Coast",
+        "tla": "CIV",
+        "crest": "https://crests.football-data.org/787.svg"
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "stakes": [
+        {
+          "player": "Daniele",
+          "color": "#3da5ff",
+          "team": "Germany",
+          "tla": "GER",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
+    {
+      "id": 537360,
+      "utcDate": "2026-06-21T04:00:00Z",
+      "status": "TIMED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_F",
+      "home": {
+        "name": "Tunisia",
+        "tla": "TUN",
+        "crest": "https://crests.football-data.org/tunisia.svg"
+      },
+      "away": {
+        "name": "Japan",
+        "tla": "JPN",
+        "crest": "https://crests.football-data.org/766.svg"
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "stakes": [
+        {
+          "player": "Daniele",
+          "color": "#3da5ff",
+          "team": "Japan",
+          "tla": "JPN",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
+    {
+      "id": 537371,
+      "utcDate": "2026-06-21T16:00:00Z",
+      "status": "TIMED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_H",
+      "home": {
+        "name": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg"
+      },
+      "away": {
+        "name": "Saudi Arabia",
+        "tla": "KSA",
+        "crest": "https://crests.football-data.org/saudi_arabia.svg"
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "Spain",
+          "tla": "ESP",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
+    {
+      "id": 537399,
+      "utcDate": "2026-06-22T17:00:00Z",
+      "status": "TIMED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_J",
+      "home": {
+        "name": "Argentina",
+        "tla": "ARG",
+        "crest": "https://crests.football-data.org/762.png"
+      },
+      "away": {
+        "name": "Austria",
+        "tla": "AUT",
+        "crest": "https://crests.football-data.org/816.svg"
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "Argentina",
+          "tla": "ARG",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
+    {
+      "id": 537406,
+      "utcDate": "2026-06-24T02:00:00Z",
+      "status": "TIMED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_K",
+      "home": {
+        "name": "Colombia",
+        "tla": "COL",
+        "crest": "https://crests.football-data.org/818.svg"
+      },
+      "away": {
+        "name": "Congo DR",
+        "tla": "COD",
+        "crest": "https://crests.football-data.org/congo_dr.svg"
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "stakes": [
+        {
+          "player": "Daniele",
+          "color": "#3da5ff",
+          "team": "Colombia",
+          "tla": "COL",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
+    {
+      "id": 537331,
+      "utcDate": "2026-06-25T01:00:00Z",
+      "status": "TIMED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_A",
+      "home": {
+        "name": "Czechia",
+        "tla": "CZE",
+        "crest": "https://crests.football-data.org/798.svg"
+      },
+      "away": {
+        "name": "Mexico",
+        "tla": "MEX",
+        "crest": "https://crests.football-data.org/769.svg"
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "stakes": [
+        {
+          "player": "Daniele",
+          "color": "#3da5ff",
+          "team": "Mexico",
+          "tla": "MEX",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
+    {
+      "id": 537332,
+      "utcDate": "2026-06-25T01:00:00Z",
+      "status": "TIMED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_A",
+      "home": {
+        "name": "South Africa",
+        "tla": "RSA",
+        "crest": "https://crests.football-data.org/9396.svg"
+      },
+      "away": {
+        "name": "South Korea",
+        "tla": "KOR",
+        "crest": "https://crests.football-data.org/772.png"
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "South Korea",
+          "tla": "KOR",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
+    {
+      "id": 537355,
+      "utcDate": "2026-06-25T20:00:00Z",
+      "status": "TIMED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_E",
+      "home": {
+        "name": "Ecuador",
+        "tla": "ECU",
+        "crest": "https://crests.football-data.org/791.svg"
+      },
+      "away": {
+        "name": "Germany",
+        "tla": "GER",
+        "crest": "https://crests.football-data.org/759.svg"
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "stakes": [
+        {
+          "player": "Daniele",
+          "color": "#3da5ff",
+          "team": "Germany",
+          "tla": "GER",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
+    {
+      "id": 537362,
+      "utcDate": "2026-06-25T23:00:00Z",
+      "status": "TIMED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_F",
+      "home": {
+        "name": "Japan",
+        "tla": "JPN",
+        "crest": "https://crests.football-data.org/766.svg"
+      },
+      "away": {
+        "name": "Sweden",
+        "tla": "SWE",
+        "crest": "https://crests.football-data.org/792.svg"
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "stakes": [
+        {
+          "player": "Daniele",
+          "color": "#3da5ff",
+          "team": "Japan",
+          "tla": "JPN",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
+    {
+      "id": 537349,
+      "utcDate": "2026-06-26T02:00:00Z",
+      "status": "TIMED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_D",
+      "home": {
+        "name": "Turkey",
+        "tla": "TUR",
+        "crest": "https://crests.football-data.org/803.svg"
+      },
+      "away": {
+        "name": "United States",
+        "tla": "USA",
+        "crest": "https://crests.football-data.org/usa.svg"
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "United States",
+          "tla": "USA",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
+    {
+      "id": 537373,
+      "utcDate": "2026-06-27T00:00:00Z",
+      "status": "TIMED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_H",
+      "home": {
+        "name": "Uruguay",
+        "tla": "URU",
+        "crest": "https://crests.football-data.org/758.svg"
+      },
+      "away": {
+        "name": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg"
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "Spain",
+          "tla": "ESP",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
+    {
+      "id": 537407,
+      "utcDate": "2026-06-27T23:30:00Z",
+      "status": "TIMED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_K",
+      "home": {
+        "name": "Colombia",
+        "tla": "COL",
+        "crest": "https://crests.football-data.org/818.svg"
+      },
+      "away": {
+        "name": "Portugal",
+        "tla": "POR",
+        "crest": "https://crests.football-data.org/765.svg"
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "stakes": [
+        {
+          "player": "Daniele",
+          "color": "#3da5ff",
+          "team": "Colombia",
+          "tla": "COL",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
+    {
+      "id": 537401,
+      "utcDate": "2026-06-28T02:00:00Z",
+      "status": "TIMED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_J",
+      "home": {
+        "name": "Jordan",
+        "tla": "JOR",
+        "crest": "https://crests.football-data.org/8049.png"
+      },
+      "away": {
+        "name": "Argentina",
+        "tla": "ARG",
+        "crest": "https://crests.football-data.org/762.png"
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "Argentina",
+          "tla": "ARG",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    }
+  ],
+  "curiosities": [
+    {
+      "icon": "⚽",
+      "label": "Goals so far",
+      "value": "62 in 20 games"
+    },
+    {
+      "icon": "📊",
+      "label": "Goals per game",
+      "value": "3.1"
+    },
+    {
+      "icon": "💥",
+      "label": "Biggest win",
+      "value": "GER 7–1 CUW"
+    },
+    {
+      "icon": "🔥",
+      "label": "Wildest game",
+      "value": "GER 7–1 CUW"
+    },
+    {
+      "icon": "🤝",
+      "label": "Draws so far",
+      "value": "8"
+    },
+    {
+      "icon": "🎯",
+      "label": "Your teams' goals",
+      "value": "Nicha 9 · Daniele 11"
+    },
+    {
+      "icon": "⭐",
+      "label": "Top team",
+      "value": "Germany (+3)"
     }
   ]
 }

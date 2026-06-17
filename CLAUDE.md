@@ -14,7 +14,11 @@ scored **+3 win / +1 draw / −1 loss** per team, summed per player.
   scores, writes `data.json`. Only rewrites when real data changes (it ignores
   its own `updatedAt`), so the cron commits only on genuine updates.
 - `index.html` — static page; reads `data.json`, renders the scoreboard, and
-  auto-refreshes every 5 min. The API key never reaches the browser.
+  auto-refreshes every 5 min. The API key never reaches the browser. Sections:
+  who's-winning hero + scoring-rules strip, Standings (form dots), Recent results
+  + Upcoming feeds (head-to-head aware), and data-driven curiosities + trivia.
+- `data.json` keys: `players`, `recent`, `upcoming`, `curiosities` (feeds and
+  curiosities are computed in the updater, not the browser).
 - API key: env var `FOOTBALL_DATA_API_KEY`, else git-ignored `apikey.txt`.
 
 ## Automation

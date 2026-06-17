@@ -136,8 +136,138 @@ def team_record(team_id, matches):
     return records, pts, w, d, l, crest
 
 
+def build_feeds(matches, tracked):
+    """Consolidated recent (finished/live) and upcoming match feeds across all
+    tracked teams. Each match appears once; a match between two tracked teams
+    carries two 'stakes' (a head-to-head)."""
+    recent, upcoming = [], []
+    for m in matches:
+        home, away = m["homeTeam"], m["awayTeam"]
+        hid, aid = home.get("id"), away.get("id")
+        if hid not in tracked and aid not in tracked:
+            continue
+        ft = m.get("score", {}).get("fullTime", {})
+        gh, ga = ft.get("home"), ft.get("away")
+        winner = m.get("score", {}).get("winner")
+        status = m.get("status")
+        counted = status in COUNTED_STATUSES and winner is not None
+
+        stakes = []
+        for tid, is_home in ((hid, True), (aid, False)):
+            if tid in tracked:
+                info = tracked[tid]
+                result, pts = None, 0
+                if counted:
+                    if winner == "DRAW":
+                        result, pts = "D", DRAW
+                    elif (winner == "HOME_TEAM") == is_home:
+                        result, pts = "W", WIN
+                    else:
+                        result, pts = "L", LOSS
+                stakes.append({
+                    "player": info["player"], "color": info["color"],
+                    "team": info["team"]["name"], "tla": info["team"]["tla"],
+                    "isHome": is_home, "result": result, "points": pts,
+                })
+
+        entry = {
+            "id": m.get("id"),
+            "utcDate": m.get("utcDate"),
+            "status": status,
+            "stage": m.get("stage"),
+            "group": m.get("group"),
+            "home": {"name": home.get("name"), "tla": home.get("tla"), "crest": home.get("crest")},
+            "away": {"name": away.get("name"), "tla": away.get("tla"), "crest": away.get("crest")},
+            "scoreHome": gh, "scoreAway": ga,
+            "stakes": stakes,
+            "headToHead": len(stakes) > 1,
+        }
+        if counted or status in ("IN_PLAY", "PAUSED"):
+            recent.append(entry)
+        elif status in ("SCHEDULED", "TIMED"):
+            upcoming.append(entry)
+
+    recent.sort(key=lambda e: e["utcDate"] or "", reverse=True)
+    upcoming.sort(key=lambda e: e["utcDate"] or "")
+    return recent, upcoming
+
+
+def _ft(m):
+    s = m.get("score", {}).get("fullTime", {})
+    return s.get("home"), s.get("away")
+
+
+def build_curiosities(matches, players_out):
+    """Fun, data-driven stats for the 'curiosities' section."""
+    fin = [m for m in matches
+           if m.get("status") in COUNTED_STATUSES and _ft(m)[0] is not None]
+    cur = []
+    played = len(fin)
+    if played:
+        goals = sum((_ft(m)[0] or 0) + (_ft(m)[1] or 0) for m in fin)
+        cur.append({"icon": "⚽", "label": "Goals so far", "value": f"{goals} in {played} games"})
+        cur.append({"icon": "\U0001F4CA", "label": "Goals per game", "value": f"{goals / played:.1f}"})
+
+        def margin(m):
+            h, a = _ft(m)
+            return abs((h or 0) - (a or 0))
+
+        bw = max(fin, key=margin)
+        h, a = _ft(bw)
+        if (h or 0) >= (a or 0):
+            val = f'{bw["homeTeam"]["tla"]} {h}–{a} {bw["awayTeam"]["tla"]}'
+        else:
+            val = f'{bw["awayTeam"]["tla"]} {a}–{h} {bw["homeTeam"]["tla"]}'
+        cur.append({"icon": "\U0001F4A5", "label": "Biggest win", "value": val})
+
+        def total(m):
+            h, a = _ft(m)
+            return (h or 0) + (a or 0)
+
+        wg = max(fin, key=total)
+        h, a = _ft(wg)
+        cur.append({"icon": "\U0001F525", "label": "Wildest game",
+                    "value": f'{wg["homeTeam"]["tla"]} {h}–{a} {wg["awayTeam"]["tla"]}'})
+
+        draws = sum(1 for m in fin if m.get("score", {}).get("winner") == "DRAW")
+        cur.append({"icon": "\U0001F91D", "label": "Draws so far", "value": str(draws)})
+
+    def player_goals(p):
+        return sum(r["goalsFor"] or 0
+                   for t in p["teams"] for r in t["matches"]
+                   if r["counted"] and r["goalsFor"] is not None)
+
+    if len(players_out) >= 2:
+        a, b = players_out[0], players_out[1]
+        cur.append({"icon": "\U0001F3AF", "label": "Your teams' goals",
+                    "value": f'{a["name"]} {player_goals(a)} · {b["name"]} {player_goals(b)}'})
+        def team_gd_gf(t):
+            gf = sum(r["goalsFor"] or 0 for r in t["matches"] if r["counted"])
+            ga = sum(r["goalsAgainst"] or 0 for r in t["matches"] if r["counted"])
+            return gf - ga, gf
+
+        best = None
+        for p in players_out:
+            for t in p["teams"]:
+                gd, gf = team_gd_gf(t)
+                k = (t["points"], gd, gf)
+                if best is None or k > best[0]:
+                    best = (k, t)
+        if best:
+            t = best[1]
+            cur.append({"icon": "⭐", "label": "Top team",
+                        "value": f'{t["name"]} ({t["points"]:+d})'})
+    return cur
+
+
 def build():
     matches = fetch_matches()
+
+    tracked = {}
+    for p in PLAYERS:
+        for t in p["teams"]:
+            tracked[t["id"]] = {"player": p["name"], "color": p["color"], "team": t}
+
     players_out = []
     for p in PLAYERS:
         teams_out = []
@@ -158,11 +288,18 @@ def build():
             "total": total,
             "teams": teams_out,
         })
+
+    recent, upcoming = build_feeds(matches, tracked)
+    curiosities = build_curiosities(matches, players_out)
+
     return {
         "updatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "competition": "FIFA World Cup 2026",
         "rules": {"win": WIN, "draw": DRAW, "loss": LOSS},
         "players": players_out,
+        "recent": recent,
+        "upcoming": upcoming,
+        "curiosities": curiosities,
     }
 
 
