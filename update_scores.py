@@ -179,6 +179,21 @@ def main():
 
     here = os.path.dirname(os.path.abspath(__file__))
     path = os.path.join(here, "data.json")
+
+    # Skip the write entirely if nothing but the timestamp would change, so the
+    # cron job only commits/pushes when a real result or fixture actually moves.
+    new_cmp = {k: v for k, v in out.items() if k != "updatedAt"}
+    if os.path.exists(path):
+        try:
+            with open(path, encoding="utf-8") as f:
+                old_cmp = {k: v for k, v in json.load(f).items() if k != "updatedAt"}
+            if old_cmp == new_cmp:
+                totals = " | ".join(f"{p['name']} {p['total']:+d}" for p in out["players"])
+                print(f"No changes. {totals}")
+                return
+        except Exception:
+            pass  # unreadable / old format -> fall through and rewrite
+
     with open(path, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
 

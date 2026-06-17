@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T06:59:10Z",
+  "updatedAt": "2026-06-17T07:02:50Z",
   "competition": "FIFA World Cup 2026",
   "rules": {
     "win": 3,
@@ -55,7 +55,7 @@
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URY",
+              "opponentTla": "URU",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-27T00:00:00Z",
               "status": "TIMED",
