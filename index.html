@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>World Cup 2026 · Nicha vs Daniele</title>
+<style>
+  :root {
+    --bg: #0a0e1a;
+    --bg2: #0f1830;
+    --card: rgba(255, 255, 255, 0.04);
+    --card-line: rgba(255, 255, 255, 0.09);
+    --text: #eef2ff;
+    --muted: #93a0c4;
+    --nicha: #ff5d8f;
+    --daniele: #3da5ff;
+    --win: #2ecc71;
+    --draw: #f5c451;
+    --loss: #ff5c5c;
+    --shadow: 0 10px 40px rgba(0, 0, 0, 0.45);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Segoe UI", system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif;
+    color: var(--text);
+    background:
+      radial-gradient(1200px 600px at 15% -10%, rgba(61,165,255,0.18), transparent 60%),
+      radial-gradient(1000px 600px at 90% 0%, rgba(255,93,143,0.16), transparent 55%),
+      linear-gradient(160deg, var(--bg2), var(--bg));
+    background-attachment: fixed;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 28px 18px 64px; }
+
+  header.top { text-align: center; margin-bottom: 22px; }
+  header.top .kicker {
+    letter-spacing: 0.28em; text-transform: uppercase;
+    font-size: 12px; color: var(--muted); font-weight: 700;
+  }
+  header.top h1 { margin: 6px 0 0; font-size: clamp(26px, 5vw, 40px); font-weight: 800; }
+  .live-pill {
+    display: none; align-items: center; gap: 7px; margin: 12px auto 0;
+    width: fit-content; padding: 5px 13px; border-radius: 999px;
+    background: rgba(255,92,92,0.14); color: #ff8a8a; font-weight: 700; font-size: 13px;
+    border: 1px solid rgba(255,92,92,0.4);
+  }
+  .live-pill.show { display: flex; }
+  .live-pill .dot { width: 8px; height: 8px; border-radius: 50%; background: #ff5c5c; animation: pulse 1.2s infinite; }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .25; } }
+
+  /* Hero scoreboard */
+  .hero {
+    display: grid; grid-template-columns: 1fr auto 1fr; align-items: center;
+    gap: 10px; padding: 26px 20px; border-radius: 22px;
+    background: var(--card); border: 1px solid var(--card-line); box-shadow: var(--shadow);
+  }
+  .side { text-align: center; padding: 6px 4px; border-radius: 16px; transition: background .3s; }
+  .side .pname { font-size: clamp(18px, 4vw, 26px); font-weight: 800; letter-spacing: .01em; }
+  .side .score { font-size: clamp(54px, 13vw, 92px); font-weight: 900; line-height: .95; margin: 2px 0; }
+  .side.nicha .pname { color: var(--nicha); }
+  .side.daniele .pname { color: var(--daniele); }
+  .side.nicha .score { text-shadow: 0 6px 30px rgba(255,93,143,0.35); }
+  .side.daniele .score { text-shadow: 0 6px 30px rgba(61,165,255,0.35); }
+  .side .crowns { font-size: 13px; color: var(--muted); min-height: 18px; }
+  .side.leader { background: rgba(255,255,255,0.05); }
+  .vs { font-weight: 900; color: var(--muted); font-size: 20px; opacity: .7; }
+
+  .leadbar {
+    text-align: center; margin: 14px auto 30px; font-weight: 700; font-size: 15px;
+    color: var(--muted);
+  }
+  .leadbar b { color: var(--text); }
+
+  /* Player columns */
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+  .panel h2 {
+    display: flex; align-items: baseline; gap: 10px; justify-content: space-between;
+    margin: 0 0 12px; font-size: 17px; font-weight: 800;
+  }
+  .panel.nicha h2 .nm { color: var(--nicha); }
+  .panel.daniele h2 .nm { color: var(--daniele); }
+  .panel h2 .tot { font-size: 14px; color: var(--muted); font-weight: 700; }
+
+  .team {
+    background: var(--card); border: 1px solid var(--card-line); border-radius: 16px;
+    padding: 13px 14px; margin-bottom: 12px;
+  }
+  .team-head { display: flex; align-items: center; gap: 11px; }
+  .crest {
+    width: 30px; height: 30px; object-fit: contain; border-radius: 5px;
+    background: rgba(255,255,255,0.9); padding: 2px; flex: none;
+  }
+  .crest.txt {
+    display: flex; align-items: center; justify-content: center; font-size: 11px;
+    font-weight: 800; color: #0a0e1a; background: #d7def5;
+  }
+  .team-name { font-weight: 700; font-size: 15px; flex: 1; min-width: 0; }
+  .record { font-size: 12px; color: var(--muted); font-weight: 600; }
+  .pts-badge {
+    margin-left: 8px; padding: 3px 10px; border-radius: 999px; font-weight: 800; font-size: 14px;
+    background: rgba(255,255,255,0.08); flex: none;
+  }
+  .pts-badge.pos { color: var(--win); background: rgba(46,204,113,0.14); }
+  .pts-badge.neg { color: var(--loss); background: rgba(255,92,92,0.14); }
+  .pts-badge.zero { color: var(--muted); }
+
+  ul.matches { list-style: none; margin: 11px 0 0; padding: 0; }
+  ul.matches li {
+    display: flex; align-items: center; gap: 9px; padding: 7px 0;
+    border-top: 1px solid rgba(255,255,255,0.06); font-size: 13px;
+  }
+  ul.matches li:first-child { border-top: none; }
+  .m-date { color: var(--muted); width: 92px; flex: none; font-size: 11.5px; line-height: 1.2; }
+  .m-opp { flex: 1; display: flex; align-items: center; gap: 7px; min-width: 0; }
+  .m-opp img { width: 17px; height: 17px; object-fit: contain; border-radius: 3px; background: rgba(255,255,255,.85); flex: none; }
+  .m-opp span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .m-score { font-variant-numeric: tabular-nums; font-weight: 700; width: 42px; text-align: center; flex: none; }
+  .m-score.upcoming { color: var(--muted); font-weight: 600; font-size: 11.5px; }
+  .chip {
+    width: 22px; text-align: center; padding: 2px 0; border-radius: 6px; font-weight: 800;
+    font-size: 11px; flex: none;
+  }
+  .chip.W { color: var(--win); background: rgba(46,204,113,0.16); }
+  .chip.D { color: var(--draw); background: rgba(245,196,81,0.16); }
+  .chip.L { color: var(--loss); background: rgba(255,92,92,0.16); }
+  .chip.none { color: var(--muted); background: rgba(255,255,255,0.05); }
+  .chip.live { color: #ff8a8a; background: rgba(255,92,92,0.16); }
+  .m-pts { width: 30px; text-align: right; font-weight: 800; font-size: 12px; flex: none; }
+  .m-pts.pos { color: var(--win); } .m-pts.neg { color: var(--loss); } .m-pts.zero { color: var(--muted); }
+
+  footer {
+    margin-top: 34px; text-align: center; color: var(--muted); font-size: 12.5px; line-height: 1.7;
+  }
+  footer .rules b { color: var(--text); }
+  footer a { color: var(--muted); }
+
+  .state { text-align: center; padding: 60px 20px; color: var(--muted); }
+
+  @media (max-width: 720px) {
+    .grid { grid-template-columns: 1fr; }
+    .hero { padding: 20px 12px; }
+    .m-date { width: 76px; }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div class="kicker">FIFA World Cup 2026</div>
+      <h1>🏆 Nicha vs Daniele</h1>
+      <div class="live-pill" id="livePill"><span class="dot"></span> Match in play</div>
+    </header>
+
+    <div id="app"><div class="state">Loading the scoreboard…</div></div>
+
+    <footer>
+      <div class="rules">Scoring per team: <b>Win +3</b> · <b>Draw +1</b> · <b>Loss −1</b></div>
+      <div id="updated"></div>
+      <div>Data: football-data.org · refreshes automatically</div>
+    </footer>
+  </div>
+
+<script>
+const FLAG_FALLBACK = {}; // (page uses crest images; TLA text is the fallback)
+
+function fmtParts(iso) {
+  if (!iso) return { wd: "", dm: "", tm: "" };
+  const d = new Date(iso);
+  return {
+    wd: d.toLocaleDateString(undefined, { weekday: "short" }),
+    dm: d.toLocaleDateString(undefined, { day: "numeric", month: "short" }),
+    tm: d.toLocaleTimeString(undefined, { hour: "2-digit", minute: "2-digit" }),
+  };
+}
+function crestImg(url, tla, cls) {
+  if (url) return `<img class="${cls}" src="${url}" alt="${tla||''}" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'${cls} txt',textContent:'${tla||''}'}))">`;
+  return `<span class="${cls} txt">${tla || ""}</span>`;
+}
+
+function matchRow(m) {
+  const p = fmtParts(m.utcDate);
+  const live = m.status === "IN_PLAY" || m.status === "PAUSED";
+  const finished = m.counted;
+  let scoreHtml, chip, ptsHtml;
+  if (finished || live) {
+    scoreHtml = `<span class="m-score">${m.goalsFor ?? "-"}–${m.goalsAgainst ?? "-"}</span>`;
+  } else {
+    scoreHtml = `<span class="m-score upcoming">${p.tm}</span>`;
+  }
+  if (live) chip = `<span class="chip live">●</span>`;
+  else if (finished) chip = `<span class="chip ${m.result}">${m.result}</span>`;
+  else chip = `<span class="chip none">–</span>`;
+  if (finished) {
+    const cls = m.points > 0 ? "pos" : (m.points < 0 ? "neg" : "zero");
+    ptsHtml = `<span class="m-pts ${cls}">${m.points > 0 ? "+" : ""}${m.points}</span>`;
+  } else {
+    ptsHtml = `<span class="m-pts zero"></span>`;
+  }
+  return `<li>
+    <span class="m-date">${p.wd} ${p.dm}</span>
+    <span class="m-opp">${crestImg(m.opponentCrest, m.opponentTla, "")}<span>${m.opponent}</span></span>
+    ${scoreHtml}${chip}${ptsHtml}
+  </li>`;
+}
+
+function teamCard(t) {
+  const cls = t.points > 0 ? "pos" : (t.points < 0 ? "neg" : "zero");
+  const rows = t.matches.map(matchRow).join("");
+  return `<div class="team">
+    <div class="team-head">
+      ${crestImg(t.crest, t.tla, "crest")}
+      <div class="team-name">${t.name}</div>
+      <div class="record">${t.w}W · ${t.d}D · ${t.l}L</div>
+      <div class="pts-badge ${cls}">${t.points > 0 ? "+" : ""}${t.points}</div>
+    </div>
+    ${rows ? `<ul class="matches">${rows}</ul>` : ""}
+  </div>`;
+}
+
+function playerPanel(p, key) {
+  return `<section class="panel ${key}">
+    <h2><span class="nm">${p.name}</span><span class="tot">${p.total > 0 ? "+" : ""}${p.total} pts</span></h2>
+    ${p.teams.map(teamCard).join("")}
+  </section>`;
+}
+
+function render(data) {
+  const [a, b] = data.players; // Nicha, Daniele
+  const keyOf = n => n.toLowerCase() === "nicha" ? "nicha" : "daniele";
+
+  // hero
+  const lead = a.total === b.total ? null : (a.total > b.total ? a : b);
+  const diff = Math.abs(a.total - b.total);
+  const hero = `
+    <div class="hero">
+      <div class="side nicha ${lead===a?'leader':''}">
+        <div class="pname">${a.name}</div>
+        <div class="score">${a.total}</div>
+        <div class="crowns">${lead===a?'👑 leading':''}</div>
+      </div>
+      <div class="vs">VS</div>
+      <div class="side daniele ${lead===b?'leader':''}">
+        <div class="pname">${b.name}</div>
+        <div class="score">${b.total}</div>
+        <div class="crowns">${lead===b?'👑 leading':''}</div>
+      </div>
+    </div>
+    <div class="leadbar">${lead ? `<b>${lead.name}</b> leads by <b>${diff}</b> point${diff===1?'':'s'}` : `<b>All square</b> — it's a tie!`}</div>`;
+
+  const grid = `<div class="grid">${playerPanel(a, keyOf(a.name))}${playerPanel(b, keyOf(b.name))}</div>`;
+  document.getElementById("app").innerHTML = hero + grid;
+
+  // live indicator
+  const anyLive = data.players.some(p => p.teams.some(t => t.matches.some(m => m.status === "IN_PLAY" || m.status === "PAUSED")));
+  document.getElementById("livePill").classList.toggle("show", anyLive);
+
+  // updated stamp
+  const u = new Date(data.updatedAt);
+  document.getElementById("updated").textContent =
+    "Updated " + u.toLocaleString(undefined, { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
+}
+
+async function load() {
+  try {
+    const res = await fetch("./data.json?t=" + Date.now());
+    if (!res.ok) throw new Error(res.status);
+    render(await res.json());
+  } catch (e) {
+    document.getElementById("app").innerHTML =
+      `<div class="state">Couldn't load scores yet (${e.message}).<br>The updater may not have run for the first time.</div>`;
+  }
+}
+load();
+setInterval(load, 5 * 60 * 1000); // auto-refresh every 5 min
+</script>
+</body>
+</html>

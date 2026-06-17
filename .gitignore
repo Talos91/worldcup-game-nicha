@@ -1,0 +1,6 @@
+# Local secret — never commit
+apikey.txt
+
+# Python
+__pycache__/
+*.pyc
