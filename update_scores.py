@@ -72,16 +72,48 @@ PLAYERS = [
 COUNTED_STATUSES = ("FINISHED", "AWARDED")
 
 
-def fetch_matches():
-    headers = {
+def _headers():
+    return {
         "X-Auth-Token": load_api_key(),
         "User-Agent": "worldcup-game/1.0 (+https://github.com)",
         "Accept": "application/json",
     }
-    req = urllib.request.Request(API_URL, headers=headers)
+
+
+def _get(url):
+    req = urllib.request.Request(url, headers=_headers())
     with urllib.request.urlopen(req, timeout=30) as resp:
-        data = json.loads(resp.read().decode("utf-8"))
-    return data.get("matches", [])
+        return json.loads(resp.read().decode("utf-8"))
+
+
+def fetch_matches():
+    return _get(API_URL).get("matches", [])
+
+
+def fetch_scorers(tracked, limit=30):
+    """Tournament top scorers (Golden Boot race), each tagged with which player
+    owns the team (if any). Returns [] if the endpoint isn't on the API plan, so
+    a failure here never breaks the score update."""
+    url = f"https://api.football-data.org/v4/competitions/{COMPETITION}/scorers?limit={limit}"
+    try:
+        data = _get(url)
+    except Exception:
+        return []
+    out = []
+    for s in data.get("scorers", []):
+        team = s.get("team") or {}
+        player = s.get("player") or {}
+        info = tracked.get(team.get("id"))
+        out.append({
+            "name": player.get("name"),
+            "goals": s.get("goals") or 0,
+            "team": team.get("name"),
+            "teamTla": team.get("tla"),
+            "teamCrest": team.get("crest"),
+            "owner": info["player"] if info else None,
+            "color": info["color"] if info else None,
+        })
+    return out
 
 
 def team_record(team_id, matches):
@@ -282,15 +314,27 @@ def build():
                 "matches": recs,
             })
             total += pts
+        agg = {"played": 0, "w": 0, "d": 0, "l": 0, "gf": 0, "ga": 0}
+        for t in teams_out:
+            agg["w"] += t["w"]
+            agg["d"] += t["d"]
+            agg["l"] += t["l"]
+            for r in t["matches"]:
+                if r["counted"]:
+                    agg["played"] += 1
+                    agg["gf"] += r["goalsFor"] or 0
+                    agg["ga"] += r["goalsAgainst"] or 0
         players_out.append({
             "name": p["name"],
             "color": p["color"],
             "total": total,
+            "agg": agg,
             "teams": teams_out,
         })
 
     recent, upcoming = build_feeds(matches, tracked)
     curiosities = build_curiosities(matches, players_out)
+    scorers = fetch_scorers(tracked)
 
     return {
         "updatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -299,6 +343,7 @@ def build():
         "players": players_out,
         "recent": recent,
         "upcoming": upcoming,
+        "scorers": scorers,
         "curiosities": curiosities,
     }
 

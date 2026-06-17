@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-06-17 — quick stats, Golden Boot, expandable results
+- Added a **head-to-head quick-stats** panel under the hero (played, wins, draws,
+  losses, goals for / against), a tug-of-war bar, and a playful status line.
+- Added a **Golden Boot race** section (tournament top scorers) with Nicha's and
+  Daniele's players highlighted. NOTE: per-match goalscorers aren't available on
+  the free football-data plan (match `goals` array is empty), so this top-scorers
+  view is the closest available.
+- **Recent results** and **Upcoming** now show 7 by default with a "Show all"
+  toggle for the full list.
+- Updater emits per-player `agg` stats and a `scorers` list.
+
 ## 2026-06-17 — 24/7 updates via GitHub Actions
 - Added `.github/workflows/update.yml`: runs the updater on GitHub's servers
   ~every 30 min (cron `13,43 * * * *`) and commits data.json, so the site keeps

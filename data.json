@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T07:43:46Z",
+  "updatedAt": "2026-06-17T07:55:53Z",
   "competition": "FIFA World Cup 2026",
   "rules": {
     "win": 3,
@@ -11,6 +11,14 @@
       "name": "Nicha",
       "color": "#ff5d8f",
       "total": 10,
+      "agg": {
+        "played": 4,
+        "w": 3,
+        "d": 1,
+        "l": 0,
+        "gf": 9,
+        "ga": 2
+      },
       "teams": [
         {
           "id": 760,
@@ -55,7 +63,7 @@
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URY",
+              "opponentTla": "URU",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-27T00:00:00Z",
               "status": "TIMED",
@@ -250,6 +258,14 @@
       "name": "Daniele",
       "color": "#3da5ff",
       "total": 7,
+      "agg": {
+        "played": 3,
+        "w": 2,
+        "d": 1,
+        "l": 0,
+        "gf": 11,
+        "ga": 3
+      },
       "teams": [
         {
           "id": 759,
@@ -1126,7 +1142,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
@@ -1210,6 +1226,278 @@
         }
       ],
       "headToHead": false
+    }
+  ],
+  "scorers": [
+    {
+      "name": "Lionel Messi",
+      "goals": 3,
+      "team": "Argentina",
+      "teamTla": "ARG",
+      "teamCrest": "https://crests.football-data.org/762.png",
+      "owner": "Nicha",
+      "color": "#ff5d8f"
+    },
+    {
+      "name": "Folarin Balogun",
+      "goals": 2,
+      "team": "United States",
+      "teamTla": "USA",
+      "teamCrest": "https://crests.football-data.org/usa.svg",
+      "owner": "Nicha",
+      "color": "#ff5d8f"
+    },
+    {
+      "name": "Kai Havertz",
+      "goals": 2,
+      "team": "Germany",
+      "teamTla": "GER",
+      "teamCrest": "https://crests.football-data.org/759.svg",
+      "owner": "Daniele",
+      "color": "#3da5ff"
+    },
+    {
+      "name": "Yasin Ayari",
+      "goals": 2,
+      "team": "Sweden",
+      "teamTla": "SWE",
+      "teamCrest": "https://crests.football-data.org/792.svg",
+      "owner": null,
+      "color": null
+    },
+    {
+      "name": "Elijah Just",
+      "goals": 2,
+      "team": "New Zealand",
+      "teamTla": "NZL",
+      "teamCrest": "https://crests.football-data.org/783.svg",
+      "owner": null,
+      "color": null
+    },
+    {
+      "name": "Kylian Mbappé",
+      "goals": 2,
+      "team": "France",
+      "teamTla": "FRA",
+      "teamCrest": "https://crests.football-data.org/773.svg",
+      "owner": null,
+      "color": null
+    },
+    {
+      "name": "Erling Haaland",
+      "goals": 2,
+      "team": "Norway",
+      "teamTla": "NOR",
+      "teamCrest": "https://crests.football-data.org/813.svg",
+      "owner": null,
+      "color": null
+    },
+    {
+      "name": "Julián Quiñones",
+      "goals": 1,
+      "team": "Mexico",
+      "teamTla": "MEX",
+      "teamCrest": "https://crests.football-data.org/769.svg",
+      "owner": "Daniele",
+      "color": "#3da5ff"
+    },
+    {
+      "name": "Raúl Jiménez",
+      "goals": 1,
+      "team": "Mexico",
+      "teamTla": "MEX",
+      "teamCrest": "https://crests.football-data.org/769.svg",
+      "owner": "Daniele",
+      "color": "#3da5ff"
+    },
+    {
+      "name": "Ladislav Krejčí",
+      "goals": 1,
+      "team": "Czechia",
+      "teamTla": "CZE",
+      "teamCrest": "https://crests.football-data.org/798.svg",
+      "owner": null,
+      "color": null
+    },
+    {
+      "name": "In-beom Hwang",
+      "goals": 1,
+      "team": "South Korea",
+      "teamTla": "KOR",
+      "teamCrest": "https://crests.football-data.org/772.png",
+      "owner": "Nicha",
+      "color": "#ff5d8f"
+    },
+    {
+      "name": "Hyun-Gyu Oh",
+      "goals": 1,
+      "team": "South Korea",
+      "teamTla": "KOR",
+      "teamCrest": "https://crests.football-data.org/772.png",
+      "owner": "Nicha",
+      "color": "#ff5d8f"
+    },
+    {
+      "name": "Jovo Lukić",
+      "goals": 1,
+      "team": "Bosnia-Herzegovina",
+      "teamTla": "BIH",
+      "teamCrest": "https://crests.football-data.org/bosnia.svg",
+      "owner": null,
+      "color": null
+    },
+    {
+      "name": "Cyle Larin",
+      "goals": 1,
+      "team": "Canada",
+      "teamTla": "CAN",
+      "teamCrest": "https://crests.football-data.org/canada.svg",
+      "owner": null,
+      "color": null
+    },
+    {
+      "name": "Mauricio",
+      "goals": 1,
+      "team": "Paraguay",
+      "teamTla": "PAR",
+      "teamCrest": "https://crests.football-data.org/761.svg",
+      "owner": null,
+      "color": null
+    },
+    {
+      "name": "Gio Reyna",
+      "goals": 1,
+      "team": "United States",
+      "teamTla": "USA",
+      "teamCrest": "https://crests.football-data.org/usa.svg",
+      "owner": "Nicha",
+      "color": "#ff5d8f"
+    },
+    {
+      "name": "Breel Embolo",
+      "goals": 1,
+      "team": "Switzerland",
+      "teamTla": "SUI",
+      "teamCrest": "https://crests.football-data.org/788.svg",
+      "owner": null,
+      "color": null
+    },
+    {
+      "name": "Boualem Khoukhi",
+      "goals": 1,
+      "team": "Qatar",
+      "teamTla": "QAT",
+      "teamCrest": "https://crests.football-data.org/8030.svg",
+      "owner": null,
+      "color": null
+    },
+    {
+      "name": "Ismael Saibari",
+      "goals": 1,
+      "team": "Morocco",
+      "teamTla": "MAR",
+      "teamCrest": "https://crests.football-data.org/morocco.svg",
+      "owner": null,
+      "color": null
+    },
+    {
+      "name": "Vinicius Junior",
+      "goals": 1,
+      "team": "Brazil",
+      "teamTla": "BRA",
+      "teamCrest": "https://crests.football-data.org/764.svg",
+      "owner": null,
+      "color": null
+    },
+    {
+      "name": "John McGinn",
+      "goals": 1,
+      "team": "Scotland",
+      "teamTla": "SCO",
+      "teamCrest": "https://crests.football-data.org/814.svg",
+      "owner": null,
+      "color": null
+    },
+    {
+      "name": "Nestor Irankunda",
+      "goals": 1,
+      "team": "Australia",
+      "teamTla": "AUS",
+      "teamCrest": "https://crests.football-data.org/779.svg",
+      "owner": null,
+      "color": null
+    },
+    {
+      "name": "Connor Metcalfe",
+      "goals": 1,
+      "team": "Australia",
+      "teamTla": "AUS",
+      "teamCrest": "https://crests.football-data.org/779.svg",
+      "owner": null,
+      "color": null
+    },
+    {
+      "name": "Felix Kalu Nmecha",
+      "goals": 1,
+      "team": "Germany",
+      "teamTla": "GER",
+      "teamCrest": "https://crests.football-data.org/759.svg",
+      "owner": "Daniele",
+      "color": "#3da5ff"
+    },
+    {
+      "name": "Livano Comenencia",
+      "goals": 1,
+      "team": "Curaçao",
+      "teamTla": "CUW",
+      "teamCrest": "https://crests.football-data.org/curacao.svg",
+      "owner": null,
+      "color": null
+    },
+    {
+      "name": "Nico Schlotterbeck",
+      "goals": 1,
+      "team": "Germany",
+      "teamTla": "GER",
+      "teamCrest": "https://crests.football-data.org/759.svg",
+      "owner": "Daniele",
+      "color": "#3da5ff"
+    },
+    {
+      "name": "Jamal Musiala",
+      "goals": 1,
+      "team": "Germany",
+      "teamTla": "GER",
+      "teamCrest": "https://crests.football-data.org/759.svg",
+      "owner": "Daniele",
+      "color": "#3da5ff"
+    },
+    {
+      "name": "Nathaniel Brown",
+      "goals": 1,
+      "team": "Germany",
+      "teamTla": "GER",
+      "teamCrest": "https://crests.football-data.org/759.svg",
+      "owner": "Daniele",
+      "color": "#3da5ff"
+    },
+    {
+      "name": "Deniz Undav",
+      "goals": 1,
+      "team": "Germany",
+      "teamTla": "GER",
+      "teamCrest": "https://crests.football-data.org/759.svg",
+      "owner": "Daniele",
+      "color": "#3da5ff"
+    },
+    {
+      "name": "Virgil van Dijk",
+      "goals": 1,
+      "team": "Netherlands",
+      "teamTla": "NED",
+      "teamCrest": "https://crests.football-data.org/8601.svg",
+      "owner": null,
+      "color": null
     }
   ],
   "curiosities": [
