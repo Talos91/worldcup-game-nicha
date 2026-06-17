@@ -21,7 +21,8 @@ import urllib.error
 from datetime import datetime, timezone
 
 COMPETITION = "WC"
-API_URL = f"https://api.football-data.org/v4/competitions/{COMPETITION}/matches"
+API_BASE = "https://api.football-data.org/v4"
+API_URL = f"{API_BASE}/competitions/{COMPETITION}/matches"
 
 
 def load_api_key():
@@ -168,6 +169,61 @@ def team_record(team_id, matches):
     return records, pts, w, d, l, crest
 
 
+def fetch_standings():
+    try:
+        return _get(f"{API_BASE}/competitions/{COMPETITION}/standings").get("standings", [])
+    except Exception:
+        return []
+
+
+def build_standings(tracked):
+    """Group tables. Returns (by_team_id dict, list of groups that contain a
+    tracked team). Returns ({}, []) if standings aren't available."""
+    by_team, groups = {}, []
+    for tbl in fetch_standings():
+        if tbl.get("type") not in (None, "TOTAL"):
+            continue  # skip any HOME/AWAY split tables
+        group = tbl.get("group") or tbl.get("stage")
+        table_out, has_tracked = [], False
+        for r in tbl.get("table", []) or []:
+            team = r.get("team") or {}
+            tid = team.get("id")
+            info = tracked.get(tid)
+            row = {
+                "position": r.get("position"),
+                "name": team.get("name"), "tla": team.get("tla"), "crest": team.get("crest"),
+                "played": r.get("playedGames"), "won": r.get("won"), "draw": r.get("draw"),
+                "lost": r.get("lost"), "gf": r.get("goalsFor"), "ga": r.get("goalsAgainst"),
+                "gd": r.get("goalDifference"), "points": r.get("points"),
+                "owner": info["player"] if info else None,
+                "color": info["color"] if info else None,
+            }
+            table_out.append(row)
+            if info:
+                has_tracked = True
+                by_team[tid] = {k: row[k] for k in
+                                ("position", "played", "won", "draw", "lost", "gf", "ga", "gd", "points")}
+                by_team[tid]["group"] = group
+        if has_tracked:
+            groups.append({"group": group, "table": table_out})
+    return by_team, groups
+
+
+def fetch_coaches(tracked):
+    """Map of tracked team id -> coach {name, nationality}. {} on failure."""
+    try:
+        data = _get(f"{API_BASE}/competitions/{COMPETITION}/teams")
+    except Exception:
+        return {}
+    out = {}
+    for t in data.get("teams", []):
+        if t.get("id") in tracked:
+            coach = t.get("coach") or {}
+            if coach.get("name"):
+                out[t["id"]] = {"name": coach.get("name"), "nationality": coach.get("nationality")}
+    return out
+
+
 def build_feeds(matches, tracked):
     """Consolidated recent (finished/live) and upcoming match feeds across all
     tracked teams. Each match appears once; a match between two tracked teams
@@ -183,6 +239,15 @@ def build_feeds(matches, tracked):
         winner = m.get("score", {}).get("winner")
         status = m.get("status")
         counted = status in COUNTED_STATUSES and winner is not None
+
+        sc = m.get("score", {})
+        ht = sc.get("halfTime") or {}
+        pen = sc.get("penalties") or {}
+        ref = None
+        for rr in (m.get("referees") or []):
+            if rr.get("type") == "REFEREE":
+                ref = {"name": rr.get("name"), "nationality": rr.get("nationality")}
+                break
 
         stakes = []
         for tid, is_home in ((hid, True), (aid, False)):
@@ -211,6 +276,10 @@ def build_feeds(matches, tracked):
             "home": {"name": home.get("name"), "tla": home.get("tla"), "crest": home.get("crest")},
             "away": {"name": away.get("name"), "tla": away.get("tla"), "crest": away.get("crest")},
             "scoreHome": gh, "scoreAway": ga,
+            "htHome": ht.get("home"), "htAway": ht.get("away"),
+            "duration": sc.get("duration"),
+            "penHome": pen.get("home"), "penAway": pen.get("away"),
+            "referee": ref,
             "stakes": stakes,
             "headToHead": len(stakes) > 1,
         }
@@ -300,6 +369,9 @@ def build():
         for t in p["teams"]:
             tracked[t["id"]] = {"player": p["name"], "color": p["color"], "team": t}
 
+    standings_by_team, groups = build_standings(tracked)
+    coaches = fetch_coaches(tracked)
+
     players_out = []
     for p in PLAYERS:
         teams_out = []
@@ -311,6 +383,8 @@ def build():
                 "crest": crest,
                 "points": pts,
                 "w": w, "d": d, "l": l,
+                "group": standings_by_team.get(t["id"]),
+                "coach": coaches.get(t["id"]),
                 "matches": recs,
             })
             total += pts
@@ -341,6 +415,7 @@ def build():
         "competition": "FIFA World Cup 2026",
         "rules": {"win": WIN, "draw": DRAW, "loss": LOSS},
         "players": players_out,
+        "groups": groups,
         "recent": recent,
         "upcoming": upcoming,
         "scorers": scorers,

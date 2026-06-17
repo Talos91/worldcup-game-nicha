@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-06-17 — group tables, half-time, coaches, referees
+- New **Group tables** section: every group containing one of your teams, with
+  position, P/W/D/L, goal difference and points; your teams highlighted and the
+  top-2 qualify zone marked (by table order, so it's correct even when early
+  positions are tied).
+- Standings cards now show each team's **group position** and **coach**.
+- Recent results show the **half-time score**; hovering a result shows the
+  **referee** (name + nationality).
+- Wired up **penalties / extra-time** display for knockouts (shows "a.e.t." or
+  "pens X–Y" automatically once those matches happen).
+- Updater now also pulls `/standings` and `/teams`; data.json gains `groups`,
+  per-team `group` + `coach`, and half-time/referee/duration on each match.
+
 ## 2026-06-17 — quick stats, Golden Boot, expandable results
 - Added a **head-to-head quick-stats** panel under the hero (played, wins, draws,
   losses, goals for / against), a tug-of-war bar, and a playful status line.

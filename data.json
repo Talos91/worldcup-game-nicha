@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T08:01:18Z",
+  "updatedAt": "2026-06-17T08:16:45Z",
   "competition": "FIFA World Cup 2026",
   "rules": {
     "win": 3,
@@ -30,6 +30,22 @@
           "w": 0,
           "d": 1,
           "l": 0,
+          "group": {
+            "position": 3,
+            "played": 1,
+            "won": 0,
+            "draw": 1,
+            "lost": 0,
+            "gf": 0,
+            "ga": 0,
+            "gd": 0,
+            "points": 1,
+            "group": "Group H"
+          },
+          "coach": {
+            "name": "Luis de la Fuente",
+            "nationality": "Spain"
+          },
           "matches": [
             {
               "opponent": "Cape Verde Islands",
@@ -88,6 +104,22 @@
           "w": 1,
           "d": 0,
           "l": 0,
+          "group": {
+            "position": 2,
+            "played": 1,
+            "won": 1,
+            "draw": 0,
+            "lost": 0,
+            "gf": 2,
+            "ga": 1,
+            "gd": 1,
+            "points": 3,
+            "group": "Group A"
+          },
+          "coach": {
+            "name": "Hong Myungbo",
+            "nationality": "South Korea"
+          },
           "matches": [
             {
               "opponent": "Czechia",
@@ -146,6 +178,22 @@
           "w": 1,
           "d": 0,
           "l": 0,
+          "group": {
+            "position": 1,
+            "played": 1,
+            "won": 1,
+            "draw": 0,
+            "lost": 0,
+            "gf": 3,
+            "ga": 0,
+            "gd": 3,
+            "points": 3,
+            "group": "Group J"
+          },
+          "coach": {
+            "name": "Lionel Scaloni",
+            "nationality": "Argentina"
+          },
           "matches": [
             {
               "opponent": "Algeria",
@@ -204,6 +252,22 @@
           "w": 1,
           "d": 0,
           "l": 0,
+          "group": {
+            "position": 1,
+            "played": 1,
+            "won": 1,
+            "draw": 0,
+            "lost": 0,
+            "gf": 4,
+            "ga": 1,
+            "gd": 3,
+            "points": 3,
+            "group": "Group D"
+          },
+          "coach": {
+            "name": "Mauricio Pochettino",
+            "nationality": "Argentina"
+          },
           "matches": [
             {
               "opponent": "Paraguay",
@@ -277,6 +341,22 @@
           "w": 1,
           "d": 0,
           "l": 0,
+          "group": {
+            "position": 1,
+            "played": 1,
+            "won": 1,
+            "draw": 0,
+            "lost": 0,
+            "gf": 7,
+            "ga": 1,
+            "gd": 6,
+            "points": 3,
+            "group": "Group E"
+          },
+          "coach": {
+            "name": "Julian Nagelsmann",
+            "nationality": "Germany"
+          },
           "matches": [
             {
               "opponent": "Curaçao",
@@ -335,6 +415,22 @@
           "w": 0,
           "d": 1,
           "l": 0,
+          "group": {
+            "position": 2,
+            "played": 1,
+            "won": 0,
+            "draw": 1,
+            "lost": 0,
+            "gf": 2,
+            "ga": 2,
+            "gd": 0,
+            "points": 1,
+            "group": "Group F"
+          },
+          "coach": {
+            "name": "Hajime Moriyasu",
+            "nationality": "Japan"
+          },
           "matches": [
             {
               "opponent": "Netherlands",
@@ -393,6 +489,22 @@
           "w": 1,
           "d": 0,
           "l": 0,
+          "group": {
+            "position": 1,
+            "played": 1,
+            "won": 1,
+            "draw": 0,
+            "lost": 0,
+            "gf": 2,
+            "ga": 0,
+            "gd": 2,
+            "points": 3,
+            "group": "Group A"
+          },
+          "coach": {
+            "name": "Javier Aguirre",
+            "nationality": "Mexico"
+          },
           "matches": [
             {
               "opponent": "South Africa",
@@ -451,6 +563,22 @@
           "w": 0,
           "d": 0,
           "l": 0,
+          "group": {
+            "position": 1,
+            "played": 0,
+            "won": 0,
+            "draw": 0,
+            "lost": 0,
+            "gf": 0,
+            "ga": 0,
+            "gd": 0,
+            "points": 0,
+            "group": "Group K"
+          },
+          "coach": {
+            "name": "Néstor Lorenzo",
+            "nationality": "Argentina"
+          },
           "matches": [
             {
               "opponent": "Uzbekistan",
@@ -502,6 +630,491 @@
       ]
     }
   ],
+  "groups": [
+    {
+      "group": "Group A",
+      "table": [
+        {
+          "position": 1,
+          "name": "Mexico",
+          "tla": "MEX",
+          "crest": "https://crests.football-data.org/769.svg",
+          "played": 1,
+          "won": 1,
+          "draw": 0,
+          "lost": 0,
+          "gf": 2,
+          "ga": 0,
+          "gd": 2,
+          "points": 3,
+          "owner": "Daniele",
+          "color": "#3da5ff"
+        },
+        {
+          "position": 2,
+          "name": "South Korea",
+          "tla": "KOR",
+          "crest": "https://crests.football-data.org/772.png",
+          "played": 1,
+          "won": 1,
+          "draw": 0,
+          "lost": 0,
+          "gf": 2,
+          "ga": 1,
+          "gd": 1,
+          "points": 3,
+          "owner": "Nicha",
+          "color": "#ff5d8f"
+        },
+        {
+          "position": 3,
+          "name": "Czechia",
+          "tla": "CZE",
+          "crest": "https://crests.football-data.org/798.svg",
+          "played": 1,
+          "won": 0,
+          "draw": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 2,
+          "gd": -1,
+          "points": 0,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 4,
+          "name": "South Africa",
+          "tla": "RSA",
+          "crest": "https://crests.football-data.org/9396.svg",
+          "played": 1,
+          "won": 0,
+          "draw": 0,
+          "lost": 1,
+          "gf": 0,
+          "ga": 2,
+          "gd": -2,
+          "points": 0,
+          "owner": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "table": [
+        {
+          "position": 1,
+          "name": "United States",
+          "tla": "USA",
+          "crest": "https://crests.football-data.org/usa.svg",
+          "played": 1,
+          "won": 1,
+          "draw": 0,
+          "lost": 0,
+          "gf": 4,
+          "ga": 1,
+          "gd": 3,
+          "points": 3,
+          "owner": "Nicha",
+          "color": "#ff5d8f"
+        },
+        {
+          "position": 2,
+          "name": "Australia",
+          "tla": "AUS",
+          "crest": "https://crests.football-data.org/779.svg",
+          "played": 1,
+          "won": 1,
+          "draw": 0,
+          "lost": 0,
+          "gf": 2,
+          "ga": 0,
+          "gd": 2,
+          "points": 3,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 3,
+          "name": "Turkey",
+          "tla": "TUR",
+          "crest": "https://crests.football-data.org/803.svg",
+          "played": 1,
+          "won": 0,
+          "draw": 0,
+          "lost": 1,
+          "gf": 0,
+          "ga": 2,
+          "gd": -2,
+          "points": 0,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 4,
+          "name": "Paraguay",
+          "tla": "PAR",
+          "crest": "https://crests.football-data.org/761.svg",
+          "played": 1,
+          "won": 0,
+          "draw": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 4,
+          "gd": -3,
+          "points": 0,
+          "owner": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "group": "Group E",
+      "table": [
+        {
+          "position": 1,
+          "name": "Germany",
+          "tla": "GER",
+          "crest": "https://crests.football-data.org/759.svg",
+          "played": 1,
+          "won": 1,
+          "draw": 0,
+          "lost": 0,
+          "gf": 7,
+          "ga": 1,
+          "gd": 6,
+          "points": 3,
+          "owner": "Daniele",
+          "color": "#3da5ff"
+        },
+        {
+          "position": 2,
+          "name": "Ivory Coast",
+          "tla": "CIV",
+          "crest": "https://crests.football-data.org/787.svg",
+          "played": 1,
+          "won": 1,
+          "draw": 0,
+          "lost": 0,
+          "gf": 1,
+          "ga": 0,
+          "gd": 1,
+          "points": 3,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 3,
+          "name": "Ecuador",
+          "tla": "ECU",
+          "crest": "https://crests.football-data.org/791.svg",
+          "played": 1,
+          "won": 0,
+          "draw": 0,
+          "lost": 1,
+          "gf": 0,
+          "ga": 1,
+          "gd": -1,
+          "points": 0,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 4,
+          "name": "Curaçao",
+          "tla": "CUW",
+          "crest": "https://crests.football-data.org/curacao.svg",
+          "played": 1,
+          "won": 0,
+          "draw": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 7,
+          "gd": -6,
+          "points": 0,
+          "owner": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "group": "Group F",
+      "table": [
+        {
+          "position": 1,
+          "name": "Sweden",
+          "tla": "SWE",
+          "crest": "https://crests.football-data.org/792.svg",
+          "played": 1,
+          "won": 1,
+          "draw": 0,
+          "lost": 0,
+          "gf": 5,
+          "ga": 1,
+          "gd": 4,
+          "points": 3,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 2,
+          "name": "Japan",
+          "tla": "JPN",
+          "crest": "https://crests.football-data.org/766.svg",
+          "played": 1,
+          "won": 0,
+          "draw": 1,
+          "lost": 0,
+          "gf": 2,
+          "ga": 2,
+          "gd": 0,
+          "points": 1,
+          "owner": "Daniele",
+          "color": "#3da5ff"
+        },
+        {
+          "position": 2,
+          "name": "Netherlands",
+          "tla": "NED",
+          "crest": "https://crests.football-data.org/8601.svg",
+          "played": 1,
+          "won": 0,
+          "draw": 1,
+          "lost": 0,
+          "gf": 2,
+          "ga": 2,
+          "gd": 0,
+          "points": 1,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 4,
+          "name": "Tunisia",
+          "tla": "TUN",
+          "crest": "https://crests.football-data.org/tunisia.svg",
+          "played": 1,
+          "won": 0,
+          "draw": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 5,
+          "gd": -4,
+          "points": 0,
+          "owner": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "group": "Group H",
+      "table": [
+        {
+          "position": 1,
+          "name": "Uruguay",
+          "tla": "URU",
+          "crest": "https://crests.football-data.org/758.svg",
+          "played": 1,
+          "won": 0,
+          "draw": 1,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "points": 1,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 2,
+          "name": "Saudi Arabia",
+          "tla": "KSA",
+          "crest": "https://crests.football-data.org/saudi_arabia.svg",
+          "played": 1,
+          "won": 0,
+          "draw": 1,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "points": 1,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 3,
+          "name": "Spain",
+          "tla": "ESP",
+          "crest": "https://crests.football-data.org/760.svg",
+          "played": 1,
+          "won": 0,
+          "draw": 1,
+          "lost": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "points": 1,
+          "owner": "Nicha",
+          "color": "#ff5d8f"
+        },
+        {
+          "position": 4,
+          "name": "Cape Verde Islands",
+          "tla": "CPV",
+          "crest": "https://crests.football-data.org/cape_verde.svg",
+          "played": 1,
+          "won": 0,
+          "draw": 1,
+          "lost": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "points": 1,
+          "owner": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "group": "Group J",
+      "table": [
+        {
+          "position": 1,
+          "name": "Argentina",
+          "tla": "ARG",
+          "crest": "https://crests.football-data.org/762.png",
+          "played": 1,
+          "won": 1,
+          "draw": 0,
+          "lost": 0,
+          "gf": 3,
+          "ga": 0,
+          "gd": 3,
+          "points": 3,
+          "owner": "Nicha",
+          "color": "#ff5d8f"
+        },
+        {
+          "position": 2,
+          "name": "Austria",
+          "tla": "AUT",
+          "crest": "https://crests.football-data.org/816.svg",
+          "played": 1,
+          "won": 1,
+          "draw": 0,
+          "lost": 0,
+          "gf": 3,
+          "ga": 1,
+          "gd": 2,
+          "points": 3,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 3,
+          "name": "Jordan",
+          "tla": "JOR",
+          "crest": "https://crests.football-data.org/8049.png",
+          "played": 1,
+          "won": 0,
+          "draw": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 3,
+          "gd": -2,
+          "points": 0,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 4,
+          "name": "Algeria",
+          "tla": "ALG",
+          "crest": "https://crests.football-data.org/algeria.svg",
+          "played": 1,
+          "won": 0,
+          "draw": 0,
+          "lost": 1,
+          "gf": 0,
+          "ga": 3,
+          "gd": -3,
+          "points": 0,
+          "owner": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "group": "Group K",
+      "table": [
+        {
+          "position": 1,
+          "name": "Congo DR",
+          "tla": "COD",
+          "crest": "https://crests.football-data.org/congo_dr.svg",
+          "played": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "points": 0,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 1,
+          "name": "Colombia",
+          "tla": "COL",
+          "crest": "https://crests.football-data.org/818.svg",
+          "played": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "points": 0,
+          "owner": "Daniele",
+          "color": "#3da5ff"
+        },
+        {
+          "position": 1,
+          "name": "Portugal",
+          "tla": "POR",
+          "crest": "https://crests.football-data.org/765.svg",
+          "played": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "points": 0,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 1,
+          "name": "Uzbekistan",
+          "tla": "UZB",
+          "crest": "https://crests.football-data.org/8070.png",
+          "played": 0,
+          "won": 0,
+          "draw": 0,
+          "lost": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "points": 0,
+          "owner": null,
+          "color": null
+        }
+      ]
+    }
+  ],
   "recent": [
     {
       "id": 537397,
@@ -521,6 +1134,15 @@
       },
       "scoreHome": 3,
       "scoreAway": 0,
+      "htHome": 1,
+      "htAway": 0,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Szymon Marciniak",
+        "nationality": "Poland"
+      },
       "stakes": [
         {
           "player": "Nicha",
@@ -552,6 +1174,15 @@
       },
       "scoreHome": 0,
       "scoreAway": 0,
+      "htHome": 0,
+      "htAway": 0,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Adham Makhadmeh",
+        "nationality": "Jordan"
+      },
       "stakes": [
         {
           "player": "Nicha",
@@ -583,6 +1214,15 @@
       },
       "scoreHome": 2,
       "scoreAway": 2,
+      "htHome": 0,
+      "htAway": 0,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Ismail Elfath",
+        "nationality": "United States"
+      },
       "stakes": [
         {
           "player": "Daniele",
@@ -614,6 +1254,15 @@
       },
       "scoreHome": 7,
       "scoreAway": 1,
+      "htHome": 3,
+      "htAway": 1,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Jalal Jayed",
+        "nationality": "Morocco"
+      },
       "stakes": [
         {
           "player": "Daniele",
@@ -645,6 +1294,15 @@
       },
       "scoreHome": 4,
       "scoreAway": 1,
+      "htHome": 3,
+      "htAway": 0,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Danny Makkelie",
+        "nationality": "Netherlands"
+      },
       "stakes": [
         {
           "player": "Nicha",
@@ -676,6 +1334,15 @@
       },
       "scoreHome": 2,
       "scoreAway": 1,
+      "htHome": 0,
+      "htAway": 0,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Amin Omar",
+        "nationality": "Egypt"
+      },
       "stakes": [
         {
           "player": "Nicha",
@@ -707,6 +1374,15 @@
       },
       "scoreHome": 2,
       "scoreAway": 0,
+      "htHome": 1,
+      "htAway": 0,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Wilton Sampaio",
+        "nationality": "Brazil"
+      },
       "stakes": [
         {
           "player": "Daniele",
@@ -740,6 +1416,12 @@
       },
       "scoreHome": null,
       "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
       "stakes": [
         {
           "player": "Daniele",
@@ -771,6 +1453,12 @@
       },
       "scoreHome": null,
       "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
       "stakes": [
         {
           "player": "Daniele",
@@ -811,6 +1499,12 @@
       },
       "scoreHome": null,
       "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
       "stakes": [
         {
           "player": "Nicha",
@@ -842,6 +1536,12 @@
       },
       "scoreHome": null,
       "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
       "stakes": [
         {
           "player": "Daniele",
@@ -873,6 +1573,12 @@
       },
       "scoreHome": null,
       "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
       "stakes": [
         {
           "player": "Daniele",
@@ -904,6 +1610,12 @@
       },
       "scoreHome": null,
       "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
       "stakes": [
         {
           "player": "Nicha",
@@ -935,6 +1647,12 @@
       },
       "scoreHome": null,
       "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
       "stakes": [
         {
           "player": "Nicha",
@@ -966,6 +1684,12 @@
       },
       "scoreHome": null,
       "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
       "stakes": [
         {
           "player": "Daniele",
@@ -997,6 +1721,12 @@
       },
       "scoreHome": null,
       "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
       "stakes": [
         {
           "player": "Daniele",
@@ -1028,6 +1758,12 @@
       },
       "scoreHome": null,
       "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
       "stakes": [
         {
           "player": "Nicha",
@@ -1059,6 +1795,12 @@
       },
       "scoreHome": null,
       "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
       "stakes": [
         {
           "player": "Daniele",
@@ -1090,6 +1832,12 @@
       },
       "scoreHome": null,
       "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
       "stakes": [
         {
           "player": "Daniele",
@@ -1121,6 +1869,12 @@
       },
       "scoreHome": null,
       "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
       "stakes": [
         {
           "player": "Nicha",
@@ -1152,6 +1906,12 @@
       },
       "scoreHome": null,
       "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
       "stakes": [
         {
           "player": "Nicha",
@@ -1183,6 +1943,12 @@
       },
       "scoreHome": null,
       "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
       "stakes": [
         {
           "player": "Daniele",
@@ -1214,6 +1980,12 @@
       },
       "scoreHome": null,
       "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
       "stakes": [
         {
           "player": "Nicha",

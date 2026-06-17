@@ -17,12 +17,16 @@ scored **+3 win / +1 draw / −1 loss** per team, summed per player.
   auto-refreshes every 5 min. The API key never reaches the browser. Sections:
   who's-winning hero + scoring-rules strip, Standings (form dots), Recent results
   + Upcoming feeds (head-to-head aware), and data-driven curiosities + trivia.
-- `data.json` keys: `players` (each with an `agg` totals block), `recent`,
-  `upcoming`, `scorers`, `curiosities` — all computed in the updater, not the
-  browser.
-- Per-match goalscorers are NOT on the free football-data plan (match `goals`
-  array comes back empty), so the page shows the tournament top scorers
-  (`/competitions/WC/scorers`) with tracked players highlighted instead.
+- `data.json` keys: `players` (each with an `agg` totals block; each team has
+  `group` standing + `coach`), `groups` (group tables containing tracked teams),
+  `recent` / `upcoming` (matches carry half-time, referee, duration, penalties),
+  `scorers`, `curiosities` — all computed in the updater, not the browser.
+- Endpoints used (all free tier): `/competitions/WC/matches`, `/standings`,
+  `/teams` (coaches only — squads discarded), `/scorers`.
+- Per-match goalscorers are NOT on the free plan (match `goals` array is empty),
+  so the page shows tournament top scorers with tracked players highlighted.
+  Also available but NOT yet wired in: `/matches/{id}/head2head` (historical H2H).
+  NOT on free plan at all: venue, attendance, odds.
 - API key: env var `FOOTBALL_DATA_API_KEY`, else git-ignored `apikey.txt`.
 
 ## Automation
