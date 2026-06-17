@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T10:21:34Z",
+  "updatedAt": "2026-06-17T19:29:16Z",
   "version": "1.6",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -565,7 +565,7 @@
           "d": 0,
           "l": 0,
           "group": {
-            "position": 1,
+            "position": 3,
             "played": 0,
             "won": 0,
             "draw": 0,
@@ -1341,19 +1341,35 @@
           "name": "Congo DR",
           "tla": "COD",
           "crest": "https://crests.football-data.org/congo_dr.svg",
-          "played": 0,
+          "played": 1,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
+          "gf": 1,
+          "ga": 1,
           "gd": 0,
-          "points": 0,
+          "points": 1,
           "owner": null,
           "color": null
         },
         {
           "position": 1,
+          "name": "Portugal",
+          "tla": "POR",
+          "crest": "https://crests.football-data.org/765.svg",
+          "played": 1,
+          "won": 0,
+          "draw": 1,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "points": 1,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 3,
           "name": "Colombia",
           "tla": "COL",
           "crest": "https://crests.football-data.org/818.svg",
@@ -1369,23 +1385,7 @@
           "color": "#3da5ff"
         },
         {
-          "position": 1,
-          "name": "Portugal",
-          "tla": "POR",
-          "crest": "https://crests.football-data.org/765.svg",
-          "played": 0,
-          "won": 0,
-          "draw": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "points": 0,
-          "owner": null,
-          "color": null
-        },
-        {
-          "position": 1,
+          "position": 3,
           "name": "Uzbekistan",
           "tla": "UZB",
           "crest": "https://crests.football-data.org/8070.png",
@@ -2683,12 +2683,12 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "62 in 20 games"
+      "value": "64 in 21 games"
     },
     {
       "icon": "📊",
       "label": "Goals per game",
-      "value": "3.1"
+      "value": "3.0"
     },
     {
       "icon": "💥",
@@ -2703,7 +2703,7 @@
     {
       "icon": "🤝",
       "label": "Draws so far",
-      "value": "8"
+      "value": "9"
     },
     {
       "icon": "🎯",
