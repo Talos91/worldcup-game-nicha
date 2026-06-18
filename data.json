@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T20:37:38Z",
+  "updatedAt": "2026-06-18T23:57:40Z",
   "version": "1.7",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -708,48 +708,48 @@
       "table": [
         {
           "position": 1,
-          "name": "Switzerland",
-          "tla": "SUI",
-          "crest": "https://crests.football-data.org/788.svg",
+          "name": "Canada",
+          "tla": "CAN",
+          "crest": "https://crests.football-data.org/canada.svg",
           "played": 2,
-          "won": 0,
-          "draw": 2,
+          "won": 1,
+          "draw": 1,
           "lost": 0,
-          "gf": 1,
+          "gf": 5,
           "ga": 1,
-          "gd": 0,
-          "points": 2,
+          "gd": 4,
+          "points": 4,
           "owner": null,
           "color": null
         },
         {
           "position": 2,
-          "name": "Bosnia-Herzegovina",
-          "tla": "BIH",
-          "crest": "https://crests.football-data.org/bosnia.svg",
+          "name": "Switzerland",
+          "tla": "SUI",
+          "crest": "https://crests.football-data.org/788.svg",
           "played": 2,
-          "won": 0,
-          "draw": 2,
+          "won": 1,
+          "draw": 1,
           "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "points": 2,
+          "gf": 5,
+          "ga": 2,
+          "gd": 3,
+          "points": 4,
           "owner": null,
           "color": null
         },
         {
           "position": 3,
-          "name": "Canada",
-          "tla": "CAN",
-          "crest": "https://crests.football-data.org/canada.svg",
-          "played": 1,
+          "name": "Bosnia-Herzegovina",
+          "tla": "BIH",
+          "crest": "https://crests.football-data.org/bosnia.svg",
+          "played": 2,
           "won": 0,
           "draw": 1,
-          "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
+          "lost": 1,
+          "gf": 2,
+          "ga": 5,
+          "gd": -3,
           "points": 1,
           "owner": null,
           "color": null
@@ -759,13 +759,13 @@
           "name": "Qatar",
           "tla": "QAT",
           "crest": "https://crests.football-data.org/8030.svg",
-          "played": 1,
+          "played": 2,
           "won": 0,
           "draw": 1,
-          "lost": 0,
+          "lost": 1,
           "gf": 1,
-          "ga": 1,
-          "gd": 0,
+          "ga": 5,
+          "gd": -4,
           "points": 1,
           "owner": null,
           "color": null
@@ -1866,7 +1866,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Gustavo Tejera",
+        "nationality": "Uruguay"
+      },
       "stakes": [
         {
           "player": "Daniele",
@@ -2426,6 +2429,24 @@
       "color": "#ff5d8f"
     },
     {
+      "name": "Jonathan David",
+      "goals": 3,
+      "team": "Canada",
+      "teamTla": "CAN",
+      "teamCrest": "https://crests.football-data.org/canada.svg",
+      "owner": null,
+      "color": null
+    },
+    {
+      "name": "Cyle Larin",
+      "goals": 2,
+      "team": "Canada",
+      "teamTla": "CAN",
+      "teamCrest": "https://crests.football-data.org/canada.svg",
+      "owner": null,
+      "color": null
+    },
+    {
       "name": "Folarin Balogun",
       "goals": 2,
       "team": "United States",
@@ -2489,6 +2510,15 @@
       "color": null
     },
     {
+      "name": "Johan Manzambi",
+      "goals": 2,
+      "team": "Switzerland",
+      "teamTla": "SUI",
+      "teamCrest": "https://crests.football-data.org/788.svg",
+      "owner": null,
+      "color": null
+    },
+    {
       "name": "Julián Quiñones",
       "goals": 1,
       "team": "Mexico",
@@ -2539,15 +2569,6 @@
       "team": "Bosnia-Herzegovina",
       "teamTla": "BIH",
       "teamCrest": "https://crests.football-data.org/bosnia.svg",
-      "owner": null,
-      "color": null
-    },
-    {
-      "name": "Cyle Larin",
-      "goals": 1,
-      "team": "Canada",
-      "teamTla": "CAN",
-      "teamCrest": "https://crests.football-data.org/canada.svg",
       "owner": null,
       "color": null
     },
@@ -2667,36 +2688,18 @@
       "teamCrest": "https://crests.football-data.org/759.svg",
       "owner": "Daniele",
       "color": "#3da5ff"
-    },
-    {
-      "name": "Nathaniel Brown",
-      "goals": 1,
-      "team": "Germany",
-      "teamTla": "GER",
-      "teamCrest": "https://crests.football-data.org/759.svg",
-      "owner": "Daniele",
-      "color": "#3da5ff"
-    },
-    {
-      "name": "Deniz Undav",
-      "goals": 1,
-      "team": "Germany",
-      "teamTla": "GER",
-      "teamCrest": "https://crests.football-data.org/759.svg",
-      "owner": "Daniele",
-      "color": "#3da5ff"
     }
   ],
   "curiosities": [
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "77 in 25 games"
+      "value": "82 in 26 games"
     },
     {
       "icon": "📊",
       "label": "Goals per game",
-      "value": "3.1"
+      "value": "3.2"
     },
     {
       "icon": "💥",
