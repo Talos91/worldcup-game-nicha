@@ -37,9 +37,9 @@ scored **+3 win / +1 draw / −1 loss** per team, summed per player.
 - API key: env var `FOOTBALL_DATA_API_KEY`, else git-ignored `apikey.txt`.
 
 ## Automation
-- **GitHub Actions** (`.github/workflows/update.yml`, cron `7 1,9,17 * * *` UTC)
-  is the live updater: runs `update_scores.py` 3×/day at ~08:00 / 16:00 / 00:00
-  Bangkok (ICT) and commits `data.json`, which redeploys Pages. 24/7,
+- **GitHub Actions** (`.github/workflows/update.yml`, cron `7 */2 * * *` UTC)
+  is the live updater: runs `update_scores.py` **every 2 hours** and commits
+  `data.json`, which redeploys Pages. 24/7,
   laptop-independent.
   Needs repo secret **`FOOTBALL_DATA_API_KEY`** (Settings → Secrets and variables
   → Actions).
@@ -54,7 +54,7 @@ scored **+3 win / +1 draw / −1 loss** per team, summed per player.
 - Never commit `apikey.txt`.
 - The updater is the source of truth for scoring — don't hand-edit `data.json`.
 - Keep `CHANGELOG.md` and `ROADMAP.md` current each session.
-- Bump `VERSION` in update_scores.py on every code push (currently 1.6). The
+- Bump `VERSION` in update_scores.py on every code push (currently 1.7). The
   footer reads it from data.json, so it's never cache-stale.
 
 ## Open decisions

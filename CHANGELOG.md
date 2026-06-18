@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-06-18 — v1.7
+- Auto-update cron changed from 3×/day to **every 2 hours** (`7 */2 * * *`).
+  GitHub fires scheduled jobs late/irregularly (often hours off the target time),
+  so frequent polling keeps scores fresh regardless. No-change runs don't commit.
+
 ## 2026-06-17 — v1.6
 - Expanded "Did you know?" to **100 World Cup facts** (rotating).
 - **Version is now live** — stamped into data.json by the updater and shown in
