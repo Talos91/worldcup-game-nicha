@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T17:24:23Z",
+  "updatedAt": "2026-06-18T20:37:38Z",
   "version": "1.7",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -80,7 +80,7 @@
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URY",
+              "opponentTla": "URU",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-27T00:00:00Z",
               "status": "TIMED",
@@ -674,13 +674,13 @@
           "tla": "CZE",
           "crest": "https://crests.football-data.org/798.svg",
           "played": 2,
-          "won": 1,
-          "draw": 0,
+          "won": 0,
+          "draw": 1,
           "lost": 1,
           "gf": 2,
-          "ga": 2,
-          "gd": 0,
-          "points": 3,
+          "ga": 3,
+          "gd": -1,
+          "points": 1,
           "owner": null,
           "color": null
         },
@@ -691,12 +691,12 @@
           "crest": "https://crests.football-data.org/9396.svg",
           "played": 2,
           "won": 0,
-          "draw": 0,
-          "lost": 2,
-          "gf": 0,
+          "draw": 1,
+          "lost": 1,
+          "gf": 1,
           "ga": 3,
-          "gd": -3,
-          "points": 0,
+          "gd": -2,
+          "points": 1,
           "owner": null,
           "color": null
         }
@@ -711,19 +711,35 @@
           "name": "Switzerland",
           "tla": "SUI",
           "crest": "https://crests.football-data.org/788.svg",
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "draw": 1,
+          "draw": 2,
           "lost": 0,
           "gf": 1,
           "ga": 1,
           "gd": 0,
-          "points": 1,
+          "points": 2,
           "owner": null,
           "color": null
         },
         {
           "position": 2,
+          "name": "Bosnia-Herzegovina",
+          "tla": "BIH",
+          "crest": "https://crests.football-data.org/bosnia.svg",
+          "played": 2,
+          "won": 0,
+          "draw": 2,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "points": 2,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 3,
           "name": "Canada",
           "tla": "CAN",
           "crest": "https://crests.football-data.org/canada.svg",
@@ -739,26 +755,10 @@
           "color": null
         },
         {
-          "position": 3,
+          "position": 4,
           "name": "Qatar",
           "tla": "QAT",
           "crest": "https://crests.football-data.org/8030.svg",
-          "played": 1,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "points": 1,
-          "owner": null,
-          "color": null
-        },
-        {
-          "position": 4,
-          "name": "Bosnia-Herzegovina",
-          "tla": "BIH",
-          "crest": "https://crests.football-data.org/bosnia.svg",
           "played": 1,
           "won": 0,
           "draw": 1,
@@ -2311,7 +2311,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
@@ -2691,7 +2691,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "75 in 24 games"
+      "value": "77 in 25 games"
     },
     {
       "icon": "📊",
@@ -2711,7 +2711,7 @@
     {
       "icon": "🤝",
       "label": "Draws so far",
-      "value": "9"
+      "value": "10"
     },
     {
       "icon": "🎯",
