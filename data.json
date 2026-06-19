@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T18:06:07Z",
+  "updatedAt": "2026-06-19T20:02:18Z",
   "version": "1.7",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -80,7 +80,7 @@
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URY",
+              "opponentTla": "URU",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-27T00:00:00Z",
               "status": "TIMED",
@@ -255,14 +255,14 @@
           "l": 0,
           "group": {
             "position": 1,
-            "played": 1,
-            "won": 1,
+            "played": 2,
+            "won": 2,
             "draw": 0,
             "lost": 0,
-            "gf": 4,
+            "gf": 6,
             "ga": 1,
-            "gd": 3,
-            "points": 3,
+            "gd": 5,
+            "points": 6,
             "group": "Group D"
           },
           "coach": {
@@ -290,12 +290,12 @@
               "opponentTla": "AUS",
               "opponentCrest": "https://crests.football-data.org/779.svg",
               "utcDate": "2026-06-19T19:00:00Z",
-              "status": "TIMED",
+              "status": "PAUSED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_D",
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 2,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -851,14 +851,14 @@
           "name": "United States",
           "tla": "USA",
           "crest": "https://crests.football-data.org/usa.svg",
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "draw": 0,
           "lost": 0,
-          "gf": 4,
+          "gf": 6,
           "ga": 1,
-          "gd": 3,
-          "points": 3,
+          "gd": 5,
+          "points": 6,
           "owner": "Nicha",
           "color": "#ff5d8f"
         },
@@ -867,13 +867,13 @@
           "name": "Australia",
           "tla": "AUS",
           "crest": "https://crests.football-data.org/779.svg",
-          "played": 1,
+          "played": 2,
           "won": 1,
           "draw": 0,
-          "lost": 0,
+          "lost": 1,
           "gf": 2,
-          "ga": 0,
-          "gd": 2,
+          "ga": 2,
+          "gd": 0,
           "points": 3,
           "owner": null,
           "color": null
@@ -1527,6 +1527,46 @@
   ],
   "recent": [
     {
+      "id": 537348,
+      "utcDate": "2026-06-19T19:00:00Z",
+      "status": "PAUSED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_D",
+      "home": {
+        "name": "United States",
+        "tla": "USA",
+        "crest": "https://crests.football-data.org/usa.svg"
+      },
+      "away": {
+        "name": "Australia",
+        "tla": "AUS",
+        "crest": "https://crests.football-data.org/779.svg"
+      },
+      "scoreHome": 2,
+      "scoreAway": 0,
+      "htHome": 2,
+      "htAway": 0,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Felix Zwayer",
+        "nationality": "Germany"
+      },
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "United States",
+          "tla": "USA",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
+    {
       "id": 537330,
       "utcDate": "2026-06-19T01:00:00Z",
       "status": "FINISHED",
@@ -1905,46 +1945,6 @@
   ],
   "upcoming": [
     {
-      "id": 537348,
-      "utcDate": "2026-06-19T19:00:00Z",
-      "status": "TIMED",
-      "stage": "GROUP_STAGE",
-      "group": "GROUP_D",
-      "home": {
-        "name": "United States",
-        "tla": "USA",
-        "crest": "https://crests.football-data.org/usa.svg"
-      },
-      "away": {
-        "name": "Australia",
-        "tla": "AUS",
-        "crest": "https://crests.football-data.org/779.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Felix Zwayer",
-        "nationality": "Germany"
-      },
-      "stakes": [
-        {
-          "player": "Nicha",
-          "color": "#ff5d8f",
-          "team": "United States",
-          "tla": "USA",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        }
-      ],
-      "headToHead": false
-    },
-    {
       "id": 537353,
       "utcDate": "2026-06-20T20:00:00Z",
       "status": "TIMED",
@@ -2322,7 +2322,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
