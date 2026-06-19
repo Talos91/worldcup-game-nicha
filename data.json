@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T21:18:58Z",
+  "updatedAt": "2026-06-19T23:11:53Z",
   "version": "1.7",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -778,33 +778,33 @@
       "table": [
         {
           "position": 1,
-          "name": "Scotland",
-          "tla": "SCO",
-          "crest": "https://crests.football-data.org/814.svg",
-          "played": 1,
+          "name": "Morocco",
+          "tla": "MAR",
+          "crest": "https://crests.football-data.org/morocco.svg",
+          "played": 2,
           "won": 1,
-          "draw": 0,
+          "draw": 1,
           "lost": 0,
-          "gf": 1,
-          "ga": 0,
+          "gf": 2,
+          "ga": 1,
           "gd": 1,
-          "points": 3,
+          "points": 4,
           "owner": null,
           "color": null
         },
         {
           "position": 2,
-          "name": "Morocco",
-          "tla": "MAR",
-          "crest": "https://crests.football-data.org/morocco.svg",
-          "played": 1,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
+          "name": "Scotland",
+          "tla": "SCO",
+          "crest": "https://crests.football-data.org/814.svg",
+          "played": 2,
+          "won": 1,
+          "draw": 0,
+          "lost": 1,
           "gf": 1,
           "ga": 1,
           "gd": 0,
-          "points": 1,
+          "points": 3,
           "owner": null,
           "color": null
         },
@@ -2469,6 +2469,15 @@
       "color": "#ff5d8f"
     },
     {
+      "name": "Ismael Saibari",
+      "goals": 2,
+      "team": "Morocco",
+      "teamTla": "MAR",
+      "teamCrest": "https://crests.football-data.org/morocco.svg",
+      "owner": null,
+      "color": null
+    },
+    {
       "name": "Kai Havertz",
       "goals": 2,
       "team": "Germany",
@@ -2618,15 +2627,6 @@
       "team": "Qatar",
       "teamTla": "QAT",
       "teamCrest": "https://crests.football-data.org/8030.svg",
-      "owner": null,
-      "color": null
-    },
-    {
-      "name": "Ismael Saibari",
-      "goals": 1,
-      "team": "Morocco",
-      "teamTla": "MAR",
-      "teamCrest": "https://crests.football-data.org/morocco.svg",
       "owner": null,
       "color": null
     },
