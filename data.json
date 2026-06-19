@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T20:02:18Z",
+  "updatedAt": "2026-06-19T21:18:58Z",
   "version": "1.7",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -11,13 +11,13 @@
     {
       "name": "Nicha",
       "color": "#ff5d8f",
-      "total": 9,
+      "total": 12,
       "agg": {
-        "played": 5,
-        "w": 3,
+        "played": 6,
+        "w": 4,
         "d": 1,
         "l": 1,
-        "gf": 9,
+        "gf": 11,
         "ga": 3
       },
       "teams": [
@@ -249,8 +249,8 @@
           "tla": "USA",
           "flag": "🇺🇸",
           "crest": "https://crests.football-data.org/usa.svg",
-          "points": 3,
-          "w": 1,
+          "points": 6,
+          "w": 2,
           "d": 0,
           "l": 0,
           "group": {
@@ -290,15 +290,15 @@
               "opponentTla": "AUS",
               "opponentCrest": "https://crests.football-data.org/779.svg",
               "utcDate": "2026-06-19T19:00:00Z",
-              "status": "PAUSED",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_D",
               "isHome": true,
               "goalsFor": 2,
               "goalsAgainst": 0,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "result": "W",
+              "points": 3,
+              "counted": true
             },
             {
               "opponent": "Turkey",
@@ -1523,13 +1523,18 @@
       "date": "2026-06-19T01:00:00Z",
       "n": 9,
       "d": 13
+    },
+    {
+      "date": "2026-06-19T19:00:00Z",
+      "n": 12,
+      "d": 13
     }
   ],
   "recent": [
     {
       "id": 537348,
       "utcDate": "2026-06-19T19:00:00Z",
-      "status": "PAUSED",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_D",
       "home": {
@@ -1560,8 +1565,8 @@
           "team": "United States",
           "tla": "USA",
           "isHome": true,
-          "result": null,
-          "points": 0
+          "result": "W",
+          "points": 3
         }
       ],
       "headToHead": false
@@ -2702,12 +2707,12 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "89 in 28 games"
+      "value": "91 in 29 games"
     },
     {
       "icon": "📊",
       "label": "Goals per game",
-      "value": "3.2"
+      "value": "3.1"
     },
     {
       "icon": "💥",
@@ -2727,12 +2732,12 @@
     {
       "icon": "🎯",
       "label": "Your teams' goals",
-      "value": "Nicha 9 · Daniele 15"
+      "value": "Nicha 11 · Daniele 15"
     },
     {
       "icon": "⭐",
       "label": "Top team",
-      "value": "Mexico (+6)"
+      "value": "United States (+6)"
     }
   ]
 }
