@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T23:57:40Z",
+  "updatedAt": "2026-06-19T03:09:24Z",
   "version": "1.7",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -11,14 +11,14 @@
     {
       "name": "Nicha",
       "color": "#ff5d8f",
-      "total": 10,
+      "total": 9,
       "agg": {
-        "played": 4,
+        "played": 5,
         "w": 3,
         "d": 1,
-        "l": 0,
+        "l": 1,
         "gf": 9,
-        "ga": 2
+        "ga": 3
       },
       "teams": [
         {
@@ -101,19 +101,19 @@
           "tla": "KOR",
           "flag": "🇰🇷",
           "crest": "https://crests.football-data.org/772.png",
-          "points": 3,
+          "points": 2,
           "w": 1,
           "d": 0,
-          "l": 0,
+          "l": 1,
           "group": {
             "position": 2,
-            "played": 1,
+            "played": 2,
             "won": 1,
             "draw": 0,
-            "lost": 0,
+            "lost": 1,
             "gf": 2,
-            "ga": 1,
-            "gd": 1,
+            "ga": 2,
+            "gd": 0,
             "points": 3,
             "group": "Group A"
           },
@@ -142,15 +142,15 @@
               "opponentTla": "MEX",
               "opponentCrest": "https://crests.football-data.org/769.svg",
               "utcDate": "2026-06-19T01:00:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_A",
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "goalsFor": 0,
+              "goalsAgainst": 1,
+              "result": "L",
+              "points": -1,
+              "counted": true
             },
             {
               "opponent": "South Africa",
@@ -322,13 +322,13 @@
     {
       "name": "Daniele",
       "color": "#3da5ff",
-      "total": 10,
+      "total": 13,
       "agg": {
-        "played": 4,
-        "w": 3,
+        "played": 5,
+        "w": 4,
         "d": 1,
         "l": 0,
-        "gf": 14,
+        "gf": 15,
         "ga": 4
       },
       "teams": [
@@ -486,20 +486,20 @@
           "tla": "MEX",
           "flag": "🇲🇽",
           "crest": "https://crests.football-data.org/769.svg",
-          "points": 3,
-          "w": 1,
+          "points": 6,
+          "w": 2,
           "d": 0,
           "l": 0,
           "group": {
             "position": 1,
-            "played": 1,
-            "won": 1,
+            "played": 2,
+            "won": 2,
             "draw": 0,
             "lost": 0,
-            "gf": 2,
+            "gf": 3,
             "ga": 0,
-            "gd": 2,
-            "points": 3,
+            "gd": 3,
+            "points": 6,
             "group": "Group A"
           },
           "coach": {
@@ -527,15 +527,15 @@
               "opponentTla": "KOR",
               "opponentCrest": "https://crests.football-data.org/772.png",
               "utcDate": "2026-06-19T01:00:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_A",
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "goalsFor": 1,
+              "goalsAgainst": 0,
+              "result": "W",
+              "points": 3,
+              "counted": true
             },
             {
               "opponent": "Czechia",
@@ -641,14 +641,14 @@
           "name": "Mexico",
           "tla": "MEX",
           "crest": "https://crests.football-data.org/769.svg",
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "draw": 0,
           "lost": 0,
-          "gf": 2,
+          "gf": 3,
           "ga": 0,
-          "gd": 2,
-          "points": 3,
+          "gd": 3,
+          "points": 6,
           "owner": "Daniele",
           "color": "#3da5ff"
         },
@@ -657,13 +657,13 @@
           "name": "South Korea",
           "tla": "KOR",
           "crest": "https://crests.football-data.org/772.png",
-          "played": 1,
+          "played": 2,
           "won": 1,
           "draw": 0,
-          "lost": 0,
+          "lost": 1,
           "gf": 2,
-          "ga": 1,
-          "gd": 1,
+          "ga": 2,
+          "gd": 0,
           "points": 3,
           "owner": "Nicha",
           "color": "#ff5d8f"
@@ -715,9 +715,9 @@
           "won": 1,
           "draw": 1,
           "lost": 0,
-          "gf": 5,
+          "gf": 7,
           "ga": 1,
-          "gd": 4,
+          "gd": 6,
           "points": 4,
           "owner": null,
           "color": null
@@ -764,8 +764,8 @@
           "draw": 1,
           "lost": 1,
           "gf": 1,
-          "ga": 5,
-          "gd": -4,
+          "ga": 7,
+          "gd": -6,
           "points": 1,
           "owner": null,
           "color": null
@@ -1518,9 +1518,70 @@
       "date": "2026-06-18T02:00:00Z",
       "n": 10,
       "d": 10
+    },
+    {
+      "date": "2026-06-19T01:00:00Z",
+      "n": 9,
+      "d": 13
     }
   ],
   "recent": [
+    {
+      "id": 537330,
+      "utcDate": "2026-06-19T01:00:00Z",
+      "status": "FINISHED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_A",
+      "home": {
+        "name": "Mexico",
+        "tla": "MEX",
+        "crest": "https://crests.football-data.org/769.svg"
+      },
+      "away": {
+        "name": "South Korea",
+        "tla": "KOR",
+        "crest": "https://crests.football-data.org/772.png"
+      },
+      "scoreHome": 1,
+      "scoreAway": 0,
+      "htHome": 0,
+      "htAway": 0,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Gustavo Tejera",
+        "nationality": "Uruguay"
+      },
+      "stakes": [
+        {
+          "player": "Daniele",
+          "color": "#3da5ff",
+          "team": "Mexico",
+          "tla": "MEX",
+          "isHome": true,
+          "result": "W",
+          "points": 3
+        },
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "South Korea",
+          "tla": "KOR",
+          "isHome": false,
+          "result": "L",
+          "points": -1
+        }
+      ],
+      "headToHead": true,
+      "h2h": {
+        "numberOfMatches": 3,
+        "totalGoals": 8,
+        "homeWins": 0,
+        "awayWins": 0,
+        "draws": 0
+      }
+    },
     {
       "id": 537404,
       "utcDate": "2026-06-18T02:00:00Z",
@@ -1843,62 +1904,6 @@
     }
   ],
   "upcoming": [
-    {
-      "id": 537330,
-      "utcDate": "2026-06-19T01:00:00Z",
-      "status": "TIMED",
-      "stage": "GROUP_STAGE",
-      "group": "GROUP_A",
-      "home": {
-        "name": "Mexico",
-        "tla": "MEX",
-        "crest": "https://crests.football-data.org/769.svg"
-      },
-      "away": {
-        "name": "South Korea",
-        "tla": "KOR",
-        "crest": "https://crests.football-data.org/772.png"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Gustavo Tejera",
-        "nationality": "Uruguay"
-      },
-      "stakes": [
-        {
-          "player": "Daniele",
-          "color": "#3da5ff",
-          "team": "Mexico",
-          "tla": "MEX",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        },
-        {
-          "player": "Nicha",
-          "color": "#ff5d8f",
-          "team": "South Korea",
-          "tla": "KOR",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ],
-      "headToHead": true,
-      "h2h": {
-        "numberOfMatches": 2,
-        "totalGoals": 7,
-        "homeWins": 0,
-        "awayWins": 0,
-        "draws": 0
-      }
-    },
     {
       "id": 537348,
       "utcDate": "2026-06-19T19:00:00Z",
@@ -2694,7 +2699,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "82 in 26 games"
+      "value": "89 in 28 games"
     },
     {
       "icon": "📊",
@@ -2719,12 +2724,12 @@
     {
       "icon": "🎯",
       "label": "Your teams' goals",
-      "value": "Nicha 9 · Daniele 14"
+      "value": "Nicha 9 · Daniele 15"
     },
     {
       "icon": "⭐",
       "label": "Top team",
-      "value": "Germany (+3)"
+      "value": "Mexico (+6)"
     }
   ]
 }
