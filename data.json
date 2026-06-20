@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T04:37:45Z",
+  "updatedAt": "2026-06-20T09:34:48Z",
   "version": "1.7",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -2707,12 +2707,12 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "95 in 31 games"
+      "value": "96 in 32 games"
     },
     {
       "icon": "📊",
       "label": "Goals per game",
-      "value": "3.1"
+      "value": "3.0"
     },
     {
       "icon": "💥",
