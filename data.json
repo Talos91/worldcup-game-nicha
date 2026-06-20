@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T21:37:44Z",
+  "updatedAt": "2026-06-20T23:22:26Z",
   "version": "1.7",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -80,7 +80,7 @@
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URU",
+              "opponentTla": "URY",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-27T00:00:00Z",
               "status": "TIMED",
@@ -322,14 +322,14 @@
     {
       "name": "Daniele",
       "color": "#3da5ff",
-      "total": 13,
+      "total": 16,
       "agg": {
-        "played": 5,
-        "w": 4,
+        "played": 6,
+        "w": 5,
         "d": 1,
         "l": 0,
-        "gf": 15,
-        "ga": 4
+        "gf": 17,
+        "ga": 5
       },
       "teams": [
         {
@@ -338,20 +338,20 @@
           "tla": "GER",
           "flag": "🇩🇪",
           "crest": "https://crests.football-data.org/759.svg",
-          "points": 3,
-          "w": 1,
+          "points": 6,
+          "w": 2,
           "d": 0,
           "l": 0,
           "group": {
-            "position": 2,
+            "position": 1,
             "played": 2,
-            "won": 1,
+            "won": 2,
             "draw": 0,
-            "lost": 1,
-            "gf": 7,
+            "lost": 0,
+            "gf": 9,
             "ga": 2,
-            "gd": 5,
-            "points": 3,
+            "gd": 7,
+            "points": 6,
             "group": "Group E"
           },
           "coach": {
@@ -379,15 +379,15 @@
               "opponentTla": "CIV",
               "opponentCrest": "https://crests.football-data.org/787.svg",
               "utcDate": "2026-06-20T20:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_E",
               "isHome": true,
-              "goalsFor": 1,
+              "goalsFor": 2,
               "goalsAgainst": 1,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "result": "W",
+              "points": 3,
+              "counted": true
             },
             {
               "opponent": "Ecuador",
@@ -918,35 +918,35 @@
       "table": [
         {
           "position": 1,
-          "name": "Ivory Coast",
-          "tla": "CIV",
-          "crest": "https://crests.football-data.org/787.svg",
-          "played": 2,
-          "won": 2,
-          "draw": 0,
-          "lost": 0,
-          "gf": 2,
-          "ga": 0,
-          "gd": 2,
-          "points": 6,
-          "owner": null,
-          "color": null
-        },
-        {
-          "position": 2,
           "name": "Germany",
           "tla": "GER",
           "crest": "https://crests.football-data.org/759.svg",
           "played": 2,
+          "won": 2,
+          "draw": 0,
+          "lost": 0,
+          "gf": 9,
+          "ga": 2,
+          "gd": 7,
+          "points": 6,
+          "owner": "Daniele",
+          "color": "#3da5ff"
+        },
+        {
+          "position": 2,
+          "name": "Ivory Coast",
+          "tla": "CIV",
+          "crest": "https://crests.football-data.org/787.svg",
+          "played": 2,
           "won": 1,
           "draw": 0,
           "lost": 1,
-          "gf": 7,
+          "gf": 2,
           "ga": 2,
-          "gd": 5,
+          "gd": 0,
           "points": 3,
-          "owner": "Daniele",
-          "color": "#3da5ff"
+          "owner": null,
+          "color": null
         },
         {
           "position": 3,
@@ -1528,13 +1528,18 @@
       "date": "2026-06-19T19:00:00Z",
       "n": 12,
       "d": 13
+    },
+    {
+      "date": "2026-06-20T20:00:00Z",
+      "n": 12,
+      "d": 16
     }
   ],
   "recent": [
     {
       "id": 537353,
       "utcDate": "2026-06-20T20:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_E",
       "home": {
@@ -1547,7 +1552,7 @@
         "tla": "CIV",
         "crest": "https://crests.football-data.org/787.svg"
       },
-      "scoreHome": 1,
+      "scoreHome": 2,
       "scoreAway": 1,
       "htHome": 0,
       "htAway": 1,
@@ -1565,8 +1570,8 @@
           "team": "Germany",
           "tla": "GER",
           "isHome": true,
-          "result": null,
-          "points": 0
+          "result": "W",
+          "points": 3
         }
       ],
       "headToHead": false
@@ -2330,7 +2335,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
@@ -2436,6 +2441,15 @@
   ],
   "scorers": [
     {
+      "name": "Deniz Undav",
+      "goals": 3,
+      "team": "Germany",
+      "teamTla": "GER",
+      "teamCrest": "https://crests.football-data.org/759.svg",
+      "owner": "Daniele",
+      "color": "#3da5ff"
+    },
+    {
       "name": "Lionel Messi",
       "goals": 3,
       "team": "Argentina",
@@ -2491,15 +2505,6 @@
     },
     {
       "name": "Kai Havertz",
-      "goals": 2,
-      "team": "Germany",
-      "teamTla": "GER",
-      "teamCrest": "https://crests.football-data.org/759.svg",
-      "owner": "Daniele",
-      "color": "#3da5ff"
-    },
-    {
-      "name": "Deniz Undav",
       "goals": 2,
       "team": "Germany",
       "teamTla": "GER",
@@ -2710,7 +2715,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "102 in 33 games"
+      "value": "105 in 34 games"
     },
     {
       "icon": "📊",
@@ -2735,12 +2740,12 @@
     {
       "icon": "🎯",
       "label": "Your teams' goals",
-      "value": "Nicha 11 · Daniele 15"
+      "value": "Nicha 11 · Daniele 17"
     },
     {
       "icon": "⭐",
       "label": "Top team",
-      "value": "United States (+6)"
+      "value": "Germany (+6)"
     }
   ]
 }
