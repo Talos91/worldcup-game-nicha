@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T09:34:48Z",
+  "updatedAt": "2026-06-20T17:43:20Z",
   "version": "1.7",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -80,7 +80,7 @@
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URY",
+              "opponentTla": "URU",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-27T00:00:00Z",
               "status": "TIMED",
@@ -417,7 +417,7 @@
           "d": 1,
           "l": 0,
           "group": {
-            "position": 2,
+            "position": 3,
             "played": 1,
             "won": 0,
             "draw": 1,
@@ -988,22 +988,38 @@
       "table": [
         {
           "position": 1,
-          "name": "Sweden",
-          "tla": "SWE",
-          "crest": "https://crests.football-data.org/792.svg",
-          "played": 1,
+          "name": "Netherlands",
+          "tla": "NED",
+          "crest": "https://crests.football-data.org/8601.svg",
+          "played": 2,
           "won": 1,
-          "draw": 0,
+          "draw": 1,
           "lost": 0,
-          "gf": 5,
-          "ga": 1,
-          "gd": 4,
-          "points": 3,
+          "gf": 4,
+          "ga": 2,
+          "gd": 2,
+          "points": 4,
           "owner": null,
           "color": null
         },
         {
           "position": 2,
+          "name": "Sweden",
+          "tla": "SWE",
+          "crest": "https://crests.football-data.org/792.svg",
+          "played": 2,
+          "won": 1,
+          "draw": 0,
+          "lost": 1,
+          "gf": 5,
+          "ga": 3,
+          "gd": 2,
+          "points": 3,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 3,
           "name": "Japan",
           "tla": "JPN",
           "crest": "https://crests.football-data.org/766.svg",
@@ -1017,22 +1033,6 @@
           "points": 1,
           "owner": "Daniele",
           "color": "#3da5ff"
-        },
-        {
-          "position": 2,
-          "name": "Netherlands",
-          "tla": "NED",
-          "crest": "https://crests.football-data.org/8601.svg",
-          "played": 1,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "gf": 2,
-          "ga": 2,
-          "gd": 0,
-          "points": 1,
-          "owner": null,
-          "color": null
         },
         {
           "position": 4,
@@ -2327,7 +2327,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
@@ -2559,6 +2559,15 @@
       "color": null
     },
     {
+      "name": "Brian Brobbey",
+      "goals": 2,
+      "team": "Netherlands",
+      "teamTla": "NED",
+      "teamCrest": "https://crests.football-data.org/8601.svg",
+      "owner": null,
+      "color": null
+    },
+    {
       "name": "Julián Quiñones",
       "goals": 1,
       "team": "Mexico",
@@ -2692,15 +2701,6 @@
       "teamCrest": "https://crests.football-data.org/curacao.svg",
       "owner": null,
       "color": null
-    },
-    {
-      "name": "Nico Schlotterbeck",
-      "goals": 1,
-      "team": "Germany",
-      "teamTla": "GER",
-      "teamCrest": "https://crests.football-data.org/759.svg",
-      "owner": "Daniele",
-      "color": "#3da5ff"
     }
   ],
   "curiosities": [
