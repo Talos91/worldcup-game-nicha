@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T17:43:20Z",
+  "updatedAt": "2026-06-20T19:52:20Z",
   "version": "1.7",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -995,9 +995,9 @@
           "won": 1,
           "draw": 1,
           "lost": 0,
-          "gf": 4,
-          "ga": 2,
-          "gd": 2,
+          "gf": 7,
+          "ga": 3,
+          "gd": 4,
           "points": 4,
           "owner": null,
           "color": null
@@ -1011,9 +1011,9 @@
           "won": 1,
           "draw": 0,
           "lost": 1,
-          "gf": 5,
-          "ga": 3,
-          "gd": 2,
+          "gf": 6,
+          "ga": 6,
+          "gd": 0,
           "points": 3,
           "owner": null,
           "color": null
@@ -1972,7 +1972,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Juan Benítez",
+        "nationality": "Paraguay"
+      },
       "stakes": [
         {
           "player": "Daniele",
@@ -2568,6 +2571,15 @@
       "color": null
     },
     {
+      "name": "Cody Gakpo",
+      "goals": 2,
+      "team": "Netherlands",
+      "teamTla": "NED",
+      "teamCrest": "https://crests.football-data.org/8601.svg",
+      "owner": null,
+      "color": null
+    },
+    {
       "name": "Julián Quiñones",
       "goals": 1,
       "team": "Mexico",
@@ -2692,27 +2704,18 @@
       "teamCrest": "https://crests.football-data.org/759.svg",
       "owner": "Daniele",
       "color": "#3da5ff"
-    },
-    {
-      "name": "Livano Comenencia",
-      "goals": 1,
-      "team": "Curaçao",
-      "teamTla": "CUW",
-      "teamCrest": "https://crests.football-data.org/curacao.svg",
-      "owner": null,
-      "color": null
     }
   ],
   "curiosities": [
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "96 in 32 games"
+      "value": "102 in 33 games"
     },
     {
       "icon": "📊",
       "label": "Goals per game",
-      "value": "3.0"
+      "value": "3.1"
     },
     {
       "icon": "💥",
