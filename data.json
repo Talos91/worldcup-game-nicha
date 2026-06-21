@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T23:22:26Z",
+  "updatedAt": "2026-06-21T05:15:12Z",
   "version": "1.7",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -80,7 +80,7 @@
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URY",
+              "opponentTla": "URU",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-27T00:00:00Z",
               "status": "TIMED",
@@ -417,15 +417,15 @@
           "d": 1,
           "l": 0,
           "group": {
-            "position": 3,
-            "played": 1,
-            "won": 0,
+            "position": 2,
+            "played": 2,
+            "won": 1,
             "draw": 1,
             "lost": 0,
-            "gf": 2,
+            "gf": 4,
             "ga": 2,
-            "gd": 0,
-            "points": 1,
+            "gd": 2,
+            "points": 4,
             "group": "Group F"
           },
           "coach": {
@@ -453,12 +453,12 @@
               "opponentTla": "TUN",
               "opponentCrest": "https://crests.football-data.org/tunisia.svg",
               "utcDate": "2026-06-21T04:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "GROUP_STAGE",
               "group": "GROUP_F",
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 2,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -953,14 +953,14 @@
           "name": "Ecuador",
           "tla": "ECU",
           "crest": "https://crests.football-data.org/791.svg",
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 1,
           "gf": 0,
           "ga": 1,
           "gd": -1,
-          "points": 0,
+          "points": 1,
           "owner": null,
           "color": null
         },
@@ -969,14 +969,14 @@
           "name": "Curaçao",
           "tla": "CUW",
           "crest": "https://crests.football-data.org/curacao.svg",
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 1,
           "gf": 1,
           "ga": 7,
           "gd": -6,
-          "points": 0,
+          "points": 1,
           "owner": null,
           "color": null
         }
@@ -1004,6 +1004,22 @@
         },
         {
           "position": 2,
+          "name": "Japan",
+          "tla": "JPN",
+          "crest": "https://crests.football-data.org/766.svg",
+          "played": 2,
+          "won": 1,
+          "draw": 1,
+          "lost": 0,
+          "gf": 4,
+          "ga": 2,
+          "gd": 2,
+          "points": 4,
+          "owner": "Daniele",
+          "color": "#3da5ff"
+        },
+        {
+          "position": 3,
           "name": "Sweden",
           "tla": "SWE",
           "crest": "https://crests.football-data.org/792.svg",
@@ -1019,33 +1035,17 @@
           "color": null
         },
         {
-          "position": 3,
-          "name": "Japan",
-          "tla": "JPN",
-          "crest": "https://crests.football-data.org/766.svg",
-          "played": 1,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "gf": 2,
-          "ga": 2,
-          "gd": 0,
-          "points": 1,
-          "owner": "Daniele",
-          "color": "#3da5ff"
-        },
-        {
           "position": 4,
           "name": "Tunisia",
           "tla": "TUN",
           "crest": "https://crests.football-data.org/tunisia.svg",
-          "played": 1,
+          "played": 2,
           "won": 0,
           "draw": 0,
-          "lost": 1,
+          "lost": 2,
           "gf": 1,
-          "ga": 5,
-          "gd": -4,
+          "ga": 7,
+          "gd": -6,
           "points": 0,
           "owner": null,
           "color": null
@@ -1537,6 +1537,46 @@
   ],
   "recent": [
     {
+      "id": 537360,
+      "utcDate": "2026-06-21T04:00:00Z",
+      "status": "IN_PLAY",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_F",
+      "home": {
+        "name": "Tunisia",
+        "tla": "TUN",
+        "crest": "https://crests.football-data.org/tunisia.svg"
+      },
+      "away": {
+        "name": "Japan",
+        "tla": "JPN",
+        "crest": "https://crests.football-data.org/766.svg"
+      },
+      "scoreHome": 0,
+      "scoreAway": 2,
+      "htHome": 0,
+      "htAway": 2,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "István Kovács",
+        "nationality": "Romania"
+      },
+      "stakes": [
+        {
+          "player": "Daniele",
+          "color": "#3da5ff",
+          "team": "Japan",
+          "tla": "JPN",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
+    {
       "id": 537353,
       "utcDate": "2026-06-20T20:00:00Z",
       "status": "FINISHED",
@@ -1995,43 +2035,6 @@
   ],
   "upcoming": [
     {
-      "id": 537360,
-      "utcDate": "2026-06-21T04:00:00Z",
-      "status": "TIMED",
-      "stage": "GROUP_STAGE",
-      "group": "GROUP_F",
-      "home": {
-        "name": "Tunisia",
-        "tla": "TUN",
-        "crest": "https://crests.football-data.org/tunisia.svg"
-      },
-      "away": {
-        "name": "Japan",
-        "tla": "JPN",
-        "crest": "https://crests.football-data.org/766.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Daniele",
-          "color": "#3da5ff",
-          "team": "Japan",
-          "tla": "JPN",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ],
-      "headToHead": false
-    },
-    {
       "id": 537371,
       "utcDate": "2026-06-21T16:00:00Z",
       "status": "TIMED",
@@ -2335,7 +2338,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
@@ -2509,6 +2512,15 @@
       "team": "Germany",
       "teamTla": "GER",
       "teamCrest": "https://crests.football-data.org/759.svg",
+      "owner": "Daniele",
+      "color": "#3da5ff"
+    },
+    {
+      "name": "Daichi Kamada",
+      "goals": 2,
+      "team": "Japan",
+      "teamTla": "JPN",
+      "teamCrest": "https://crests.football-data.org/766.svg",
       "owner": "Daniele",
       "color": "#3da5ff"
     },
@@ -2700,27 +2712,18 @@
       "teamCrest": "https://crests.football-data.org/779.svg",
       "owner": null,
       "color": null
-    },
-    {
-      "name": "Connor Metcalfe",
-      "goals": 1,
-      "team": "Australia",
-      "teamTla": "AUS",
-      "teamCrest": "https://crests.football-data.org/779.svg",
-      "owner": null,
-      "color": null
     }
   ],
   "curiosities": [
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "105 in 34 games"
+      "value": "105 in 35 games"
     },
     {
       "icon": "📊",
       "label": "Goals per game",
-      "value": "3.1"
+      "value": "3.0"
     },
     {
       "icon": "💥",
@@ -2735,7 +2738,7 @@
     {
       "icon": "🤝",
       "label": "Draws so far",
-      "value": "10"
+      "value": "11"
     },
     {
       "icon": "🎯",
