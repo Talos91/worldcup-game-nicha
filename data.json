@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T12:19:52Z",
+  "updatedAt": "2026-06-21T16:06:10Z",
   "version": "1.7",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -32,15 +32,15 @@
           "d": 1,
           "l": 0,
           "group": {
-            "position": 3,
-            "played": 1,
+            "position": 2,
+            "played": 2,
             "won": 0,
-            "draw": 1,
+            "draw": 2,
             "lost": 0,
             "gf": 0,
             "ga": 0,
             "gd": 0,
-            "points": 1,
+            "points": 2,
             "group": "Group H"
           },
           "coach": {
@@ -68,19 +68,19 @@
               "opponentTla": "KSA",
               "opponentCrest": "https://crests.football-data.org/saudi_arabia.svg",
               "utcDate": "2026-06-21T16:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "GROUP_STAGE",
               "group": "GROUP_H",
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URU",
+              "opponentTla": "URY",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-27T00:00:00Z",
               "status": "TIMED",
@@ -1128,6 +1128,38 @@
       "table": [
         {
           "position": 1,
+          "name": "Saudi Arabia",
+          "tla": "KSA",
+          "crest": "https://crests.football-data.org/saudi_arabia.svg",
+          "played": 2,
+          "won": 0,
+          "draw": 2,
+          "lost": 0,
+          "gf": 1,
+          "ga": 1,
+          "gd": 0,
+          "points": 2,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 2,
+          "name": "Spain",
+          "tla": "ESP",
+          "crest": "https://crests.football-data.org/760.svg",
+          "played": 2,
+          "won": 0,
+          "draw": 2,
+          "lost": 0,
+          "gf": 0,
+          "ga": 0,
+          "gd": 0,
+          "points": 2,
+          "owner": "Nicha",
+          "color": "#ff5d8f"
+        },
+        {
+          "position": 3,
           "name": "Uruguay",
           "tla": "URU",
           "crest": "https://crests.football-data.org/758.svg",
@@ -1141,38 +1173,6 @@
           "points": 1,
           "owner": null,
           "color": null
-        },
-        {
-          "position": 2,
-          "name": "Saudi Arabia",
-          "tla": "KSA",
-          "crest": "https://crests.football-data.org/saudi_arabia.svg",
-          "played": 1,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
-          "points": 1,
-          "owner": null,
-          "color": null
-        },
-        {
-          "position": 3,
-          "name": "Spain",
-          "tla": "ESP",
-          "crest": "https://crests.football-data.org/760.svg",
-          "played": 1,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "gd": 0,
-          "points": 1,
-          "owner": "Nicha",
-          "color": "#ff5d8f"
         },
         {
           "position": 4,
@@ -1541,6 +1541,46 @@
     }
   ],
   "recent": [
+    {
+      "id": 537371,
+      "utcDate": "2026-06-21T16:00:00Z",
+      "status": "IN_PLAY",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_H",
+      "home": {
+        "name": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg"
+      },
+      "away": {
+        "name": "Saudi Arabia",
+        "tla": "KSA",
+        "crest": "https://crests.football-data.org/saudi_arabia.svg"
+      },
+      "scoreHome": 0,
+      "scoreAway": 0,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Raphael Claus",
+        "nationality": "Brazil"
+      },
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "Spain",
+          "tla": "ESP",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
     {
       "id": 537360,
       "utcDate": "2026-06-21T04:00:00Z",
@@ -2040,43 +2080,6 @@
   ],
   "upcoming": [
     {
-      "id": 537371,
-      "utcDate": "2026-06-21T16:00:00Z",
-      "status": "TIMED",
-      "stage": "GROUP_STAGE",
-      "group": "GROUP_H",
-      "home": {
-        "name": "Spain",
-        "tla": "ESP",
-        "crest": "https://crests.football-data.org/760.svg"
-      },
-      "away": {
-        "name": "Saudi Arabia",
-        "tla": "KSA",
-        "crest": "https://crests.football-data.org/saudi_arabia.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Nicha",
-          "color": "#ff5d8f",
-          "team": "Spain",
-          "tla": "ESP",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        }
-      ],
-      "headToHead": false
-    },
-    {
       "id": 537399,
       "utcDate": "2026-06-22T17:00:00Z",
       "status": "TIMED",
@@ -2343,7 +2346,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
