@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T19:58:51Z",
+  "updatedAt": "2026-06-21T21:39:27Z",
   "version": "1.7",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -17,7 +17,7 @@
         "w": 5,
         "d": 1,
         "l": 1,
-        "gf": 16,
+        "gf": 15,
         "ga": 3
       },
       "teams": [
@@ -72,7 +72,7 @@
               "stage": "GROUP_STAGE",
               "group": "GROUP_H",
               "isHome": true,
-              "goalsFor": 5,
+              "goalsFor": 4,
               "goalsAgainst": 0,
               "result": "W",
               "points": 3,
@@ -80,7 +80,7 @@
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URY",
+              "opponentTla": "URU",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-27T00:00:00Z",
               "status": "TIMED",
@@ -1562,7 +1562,7 @@
         "tla": "KSA",
         "crest": "https://crests.football-data.org/saudi_arabia.svg"
       },
-      "scoreHome": 5,
+      "scoreHome": 4,
       "scoreAway": 0,
       "htHome": 3,
       "htAway": 0,
@@ -2351,7 +2351,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
@@ -2731,12 +2731,12 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "114 in 37 games"
+      "value": "113 in 38 games"
     },
     {
       "icon": "📊",
       "label": "Goals per game",
-      "value": "3.1"
+      "value": "3.0"
     },
     {
       "icon": "💥",
@@ -2751,12 +2751,12 @@
     {
       "icon": "🤝",
       "label": "Draws so far",
-      "value": "11"
+      "value": "12"
     },
     {
       "icon": "🎯",
       "label": "Your teams' goals",
-      "value": "Nicha 16 · Daniele 21"
+      "value": "Nicha 15 · Daniele 21"
     },
     {
       "icon": "⭐",
