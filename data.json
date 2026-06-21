@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T05:15:12Z",
+  "updatedAt": "2026-06-21T10:03:25Z",
   "version": "1.7",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -80,7 +80,7 @@
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URU",
+              "opponentTla": "URY",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-27T00:00:00Z",
               "status": "TIMED",
@@ -322,13 +322,13 @@
     {
       "name": "Daniele",
       "color": "#3da5ff",
-      "total": 16,
+      "total": 19,
       "agg": {
-        "played": 6,
-        "w": 5,
+        "played": 7,
+        "w": 6,
         "d": 1,
         "l": 0,
-        "gf": 17,
+        "gf": 21,
         "ga": 5
       },
       "teams": [
@@ -412,8 +412,8 @@
           "tla": "JPN",
           "flag": "🇯🇵",
           "crest": "https://crests.football-data.org/766.svg",
-          "points": 1,
-          "w": 0,
+          "points": 4,
+          "w": 1,
           "d": 1,
           "l": 0,
           "group": {
@@ -422,9 +422,9 @@
             "won": 1,
             "draw": 1,
             "lost": 0,
-            "gf": 4,
+            "gf": 6,
             "ga": 2,
-            "gd": 2,
+            "gd": 4,
             "points": 4,
             "group": "Group F"
           },
@@ -453,15 +453,15 @@
               "opponentTla": "TUN",
               "opponentCrest": "https://crests.football-data.org/tunisia.svg",
               "utcDate": "2026-06-21T04:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_F",
               "isHome": false,
-              "goalsFor": 2,
+              "goalsFor": 4,
               "goalsAgainst": 0,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "result": "W",
+              "points": 3,
+              "counted": true
             },
             {
               "opponent": "Sweden",
@@ -1011,9 +1011,9 @@
           "won": 1,
           "draw": 1,
           "lost": 0,
-          "gf": 4,
+          "gf": 6,
           "ga": 2,
-          "gd": 2,
+          "gd": 4,
           "points": 4,
           "owner": "Daniele",
           "color": "#3da5ff"
@@ -1044,8 +1044,8 @@
           "draw": 0,
           "lost": 2,
           "gf": 1,
-          "ga": 7,
-          "gd": -6,
+          "ga": 9,
+          "gd": -8,
           "points": 0,
           "owner": null,
           "color": null
@@ -1533,13 +1533,18 @@
       "date": "2026-06-20T20:00:00Z",
       "n": 12,
       "d": 16
+    },
+    {
+      "date": "2026-06-21T04:00:00Z",
+      "n": 12,
+      "d": 19
     }
   ],
   "recent": [
     {
       "id": 537360,
       "utcDate": "2026-06-21T04:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_F",
       "home": {
@@ -1553,7 +1558,7 @@
         "crest": "https://crests.football-data.org/766.svg"
       },
       "scoreHome": 0,
-      "scoreAway": 2,
+      "scoreAway": 4,
       "htHome": 0,
       "htAway": 2,
       "duration": "REGULAR",
@@ -1570,8 +1575,8 @@
           "team": "Japan",
           "tla": "JPN",
           "isHome": false,
-          "result": null,
-          "points": 0
+          "result": "W",
+          "points": 3
         }
       ],
       "headToHead": false
@@ -2338,7 +2343,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
@@ -2606,6 +2611,15 @@
       "color": null
     },
     {
+      "name": "Ayase Ueda",
+      "goals": 2,
+      "team": "Japan",
+      "teamTla": "JPN",
+      "teamCrest": "https://crests.football-data.org/766.svg",
+      "owner": "Daniele",
+      "color": "#3da5ff"
+    },
+    {
       "name": "Julián Quiñones",
       "goals": 1,
       "team": "Mexico",
@@ -2703,22 +2717,13 @@
       "teamCrest": "https://crests.football-data.org/814.svg",
       "owner": null,
       "color": null
-    },
-    {
-      "name": "Nestor Irankunda",
-      "goals": 1,
-      "team": "Australia",
-      "teamTla": "AUS",
-      "teamCrest": "https://crests.football-data.org/779.svg",
-      "owner": null,
-      "color": null
     }
   ],
   "curiosities": [
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "105 in 35 games"
+      "value": "109 in 36 games"
     },
     {
       "icon": "📊",
@@ -2743,7 +2748,7 @@
     {
       "icon": "🎯",
       "label": "Your teams' goals",
-      "value": "Nicha 11 · Daniele 17"
+      "value": "Nicha 11 · Daniele 21"
     },
     {
       "icon": "⭐",
