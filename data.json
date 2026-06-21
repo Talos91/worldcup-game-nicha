@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T10:03:25Z",
+  "updatedAt": "2026-06-21T12:19:52Z",
   "version": "1.7",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -80,7 +80,7 @@
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URY",
+              "opponentTla": "URU",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-27T00:00:00Z",
               "status": "TIMED",
@@ -2343,7 +2343,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
