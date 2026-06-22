@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T18:16:34Z",
+  "updatedAt": "2026-06-22T22:13:39Z",
   "version": "1.7",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -11,13 +11,13 @@
     {
       "name": "Nicha",
       "color": "#ff5d8f",
-      "total": 15,
+      "total": 18,
       "agg": {
-        "played": 7,
-        "w": 5,
+        "played": 8,
+        "w": 6,
         "d": 1,
         "l": 1,
-        "gf": 15,
+        "gf": 17,
         "ga": 3
       },
       "teams": [
@@ -80,7 +80,7 @@
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URY",
+              "opponentTla": "URU",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-27T00:00:00Z",
               "status": "TIMED",
@@ -175,8 +175,8 @@
           "tla": "ARG",
           "flag": "🇦🇷",
           "crest": "https://crests.football-data.org/762.png",
-          "points": 3,
-          "w": 1,
+          "points": 6,
+          "w": 2,
           "d": 0,
           "l": 0,
           "group": {
@@ -185,9 +185,9 @@
             "won": 2,
             "draw": 0,
             "lost": 0,
-            "gf": 4,
+            "gf": 5,
             "ga": 0,
-            "gd": 4,
+            "gd": 5,
             "points": 6,
             "group": "Group J"
           },
@@ -216,15 +216,15 @@
               "opponentTla": "AUT",
               "opponentCrest": "https://crests.football-data.org/816.svg",
               "utcDate": "2026-06-22T17:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_J",
               "isHome": true,
-              "goalsFor": 1,
+              "goalsFor": 2,
               "goalsAgainst": 0,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "result": "W",
+              "points": 3,
+              "counted": true
             },
             {
               "opponent": "Jordan",
@@ -1198,6 +1198,22 @@
       "table": [
         {
           "position": 1,
+          "name": "France",
+          "tla": "FRA",
+          "crest": "https://crests.football-data.org/773.svg",
+          "played": 2,
+          "won": 2,
+          "draw": 0,
+          "lost": 0,
+          "gf": 4,
+          "ga": 1,
+          "gd": 3,
+          "points": 6,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 2,
           "name": "Norway",
           "tla": "NOR",
           "crest": "https://crests.football-data.org/813.svg",
@@ -1208,22 +1224,6 @@
           "gf": 4,
           "ga": 1,
           "gd": 3,
-          "points": 3,
-          "owner": null,
-          "color": null
-        },
-        {
-          "position": 2,
-          "name": "France",
-          "tla": "FRA",
-          "crest": "https://crests.football-data.org/773.svg",
-          "played": 1,
-          "won": 1,
-          "draw": 0,
-          "lost": 0,
-          "gf": 3,
-          "ga": 1,
-          "gd": 2,
           "points": 3,
           "owner": null,
           "color": null
@@ -1249,13 +1249,13 @@
           "name": "Iraq",
           "tla": "IRQ",
           "crest": "https://crests.football-data.org/iraq.svg",
-          "played": 1,
+          "played": 2,
           "won": 0,
           "draw": 0,
-          "lost": 1,
+          "lost": 2,
           "gf": 1,
-          "ga": 4,
-          "gd": -3,
+          "ga": 5,
+          "gd": -4,
           "points": 0,
           "owner": null,
           "color": null
@@ -1275,9 +1275,9 @@
           "won": 2,
           "draw": 0,
           "lost": 0,
-          "gf": 4,
+          "gf": 5,
           "ga": 0,
-          "gd": 4,
+          "gd": 5,
           "points": 6,
           "owner": "Nicha",
           "color": "#ff5d8f"
@@ -1292,8 +1292,8 @@
           "draw": 0,
           "lost": 1,
           "gf": 3,
-          "ga": 2,
-          "gd": 1,
+          "ga": 3,
+          "gd": 0,
           "points": 3,
           "owner": null,
           "color": null
@@ -1543,13 +1543,18 @@
       "date": "2026-06-21T16:00:00Z",
       "n": 15,
       "d": 19
+    },
+    {
+      "date": "2026-06-22T17:00:00Z",
+      "n": 18,
+      "d": 19
     }
   ],
   "recent": [
     {
       "id": 537399,
       "utcDate": "2026-06-22T17:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_J",
       "home": {
@@ -1562,7 +1567,7 @@
         "tla": "AUT",
         "crest": "https://crests.football-data.org/816.svg"
       },
-      "scoreHome": 1,
+      "scoreHome": 2,
       "scoreAway": 0,
       "htHome": 1,
       "htAway": 0,
@@ -1580,8 +1585,8 @@
           "team": "Argentina",
           "tla": "ARG",
           "isHome": true,
-          "result": null,
-          "points": 0
+          "result": "W",
+          "points": 3
         }
       ],
       "headToHead": false
@@ -2354,7 +2359,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URY",
+        "tla": "URU",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
@@ -2461,7 +2466,7 @@
   "scorers": [
     {
       "name": "Lionel Messi",
-      "goals": 4,
+      "goals": 5,
       "team": "Argentina",
       "teamTla": "ARG",
       "teamCrest": "https://crests.football-data.org/762.png",
@@ -2476,6 +2481,15 @@
       "teamCrest": "https://crests.football-data.org/759.svg",
       "owner": "Daniele",
       "color": "#3da5ff"
+    },
+    {
+      "name": "Kylian Mbappé",
+      "goals": 3,
+      "team": "France",
+      "teamTla": "FRA",
+      "teamCrest": "https://crests.football-data.org/773.svg",
+      "owner": null,
+      "color": null
     },
     {
       "name": "Jonathan David",
@@ -2564,15 +2578,6 @@
       "team": "New Zealand",
       "teamTla": "NZL",
       "teamCrest": "https://crests.football-data.org/783.svg",
-      "owner": null,
-      "color": null
-    },
-    {
-      "name": "Kylian Mbappé",
-      "goals": 2,
-      "team": "France",
-      "teamTla": "FRA",
-      "teamCrest": "https://crests.football-data.org/773.svg",
       "owner": null,
       "color": null
     },
@@ -2734,7 +2739,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "121 in 40 games"
+      "value": "123 in 41 games"
     },
     {
       "icon": "📊",
@@ -2759,7 +2764,7 @@
     {
       "icon": "🎯",
       "label": "Your teams' goals",
-      "value": "Nicha 15 · Daniele 21"
+      "value": "Nicha 17 · Daniele 21"
     },
     {
       "icon": "⭐",
