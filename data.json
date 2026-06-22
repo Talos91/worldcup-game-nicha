@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T23:40:11Z",
+  "updatedAt": "2026-06-22T05:26:01Z",
   "version": "1.7",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -80,7 +80,7 @@
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URU",
+              "opponentTla": "URY",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-27T00:00:00Z",
               "status": "TIMED",
@@ -1058,6 +1058,22 @@
       "table": [
         {
           "position": 1,
+          "name": "Egypt",
+          "tla": "EGY",
+          "crest": "https://crests.football-data.org/825.svg",
+          "played": 2,
+          "won": 1,
+          "draw": 1,
+          "lost": 0,
+          "gf": 4,
+          "ga": 2,
+          "gd": 2,
+          "points": 4,
+          "owner": null,
+          "color": null
+        },
+        {
+          "position": 2,
           "name": "Iran",
           "tla": "IRN",
           "crest": "https://crests.football-data.org/iran.svg",
@@ -1073,7 +1089,7 @@
           "color": null
         },
         {
-          "position": 2,
+          "position": 3,
           "name": "Belgium",
           "tla": "BEL",
           "crest": "https://crests.football-data.org/805.svg",
@@ -1089,33 +1105,17 @@
           "color": null
         },
         {
-          "position": 3,
+          "position": 4,
           "name": "New Zealand",
           "tla": "NZL",
           "crest": "https://crests.football-data.org/783.svg",
-          "played": 1,
+          "played": 2,
           "won": 0,
           "draw": 1,
-          "lost": 0,
-          "gf": 2,
-          "ga": 2,
-          "gd": 0,
-          "points": 1,
-          "owner": null,
-          "color": null
-        },
-        {
-          "position": 4,
-          "name": "Egypt",
-          "tla": "EGY",
-          "crest": "https://crests.football-data.org/825.svg",
-          "played": 1,
-          "won": 0,
-          "draw": 1,
-          "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "gd": 0,
+          "lost": 1,
+          "gf": 3,
+          "ga": 5,
+          "gd": -2,
           "points": 1,
           "owner": null,
           "color": null
@@ -2351,7 +2351,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
@@ -2731,7 +2731,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "113 in 38 games"
+      "value": "121 in 40 games"
     },
     {
       "icon": "📊",
@@ -2751,7 +2751,7 @@
     {
       "icon": "🤝",
       "label": "Draws so far",
-      "value": "12"
+      "value": "13"
     },
     {
       "icon": "🎯",
