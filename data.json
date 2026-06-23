@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T22:13:39Z",
+  "updatedAt": "2026-06-23T04:17:37Z",
   "version": "1.7",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -1205,9 +1205,9 @@
           "won": 2,
           "draw": 0,
           "lost": 0,
-          "gf": 4,
+          "gf": 6,
           "ga": 1,
-          "gd": 3,
+          "gd": 5,
           "points": 6,
           "owner": null,
           "color": null
@@ -1217,14 +1217,14 @@
           "name": "Norway",
           "tla": "NOR",
           "crest": "https://crests.football-data.org/813.svg",
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "draw": 0,
           "lost": 0,
-          "gf": 4,
-          "ga": 1,
-          "gd": 3,
-          "points": 3,
+          "gf": 7,
+          "ga": 3,
+          "gd": 4,
+          "points": 6,
           "owner": null,
           "color": null
         },
@@ -1233,13 +1233,13 @@
           "name": "Senegal",
           "tla": "SEN",
           "crest": "https://crests.football-data.org/senegal.svg",
-          "played": 1,
+          "played": 2,
           "won": 0,
           "draw": 0,
-          "lost": 1,
-          "gf": 1,
-          "ga": 3,
-          "gd": -2,
+          "lost": 2,
+          "gf": 3,
+          "ga": 6,
+          "gd": -3,
           "points": 0,
           "owner": null,
           "color": null
@@ -1254,8 +1254,8 @@
           "draw": 0,
           "lost": 2,
           "gf": 1,
-          "ga": 5,
-          "gd": -4,
+          "ga": 7,
+          "gd": -6,
           "points": 0,
           "owner": null,
           "color": null
@@ -1303,14 +1303,14 @@
           "name": "Jordan",
           "tla": "JOR",
           "crest": "https://crests.football-data.org/8049.png",
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "draw": 0,
           "lost": 1,
-          "gf": 1,
+          "gf": 2,
           "ga": 3,
-          "gd": -2,
-          "points": 0,
+          "gd": -1,
+          "points": 3,
           "owner": null,
           "color": null
         },
@@ -1319,13 +1319,13 @@
           "name": "Algeria",
           "tla": "ALG",
           "crest": "https://crests.football-data.org/algeria.svg",
-          "played": 1,
+          "played": 2,
           "won": 0,
           "draw": 0,
-          "lost": 1,
+          "lost": 2,
           "gf": 0,
-          "ga": 3,
-          "gd": -3,
+          "ga": 4,
+          "gd": -4,
           "points": 0,
           "owner": null,
           "color": null
@@ -2474,6 +2474,24 @@
       "color": "#ff5d8f"
     },
     {
+      "name": "Kylian Mbappé",
+      "goals": 4,
+      "team": "France",
+      "teamTla": "FRA",
+      "teamCrest": "https://crests.football-data.org/773.svg",
+      "owner": null,
+      "color": null
+    },
+    {
+      "name": "Erling Haaland",
+      "goals": 4,
+      "team": "Norway",
+      "teamTla": "NOR",
+      "teamCrest": "https://crests.football-data.org/813.svg",
+      "owner": null,
+      "color": null
+    },
+    {
       "name": "Deniz Undav",
       "goals": 3,
       "team": "Germany",
@@ -2481,15 +2499,6 @@
       "teamCrest": "https://crests.football-data.org/759.svg",
       "owner": "Daniele",
       "color": "#3da5ff"
-    },
-    {
-      "name": "Kylian Mbappé",
-      "goals": 3,
-      "team": "France",
-      "teamTla": "FRA",
-      "teamCrest": "https://crests.football-data.org/773.svg",
-      "owner": null,
-      "color": null
     },
     {
       "name": "Jonathan David",
@@ -2582,15 +2591,6 @@
       "color": null
     },
     {
-      "name": "Erling Haaland",
-      "goals": 2,
-      "team": "Norway",
-      "teamTla": "NOR",
-      "teamCrest": "https://crests.football-data.org/813.svg",
-      "owner": null,
-      "color": null
-    },
-    {
       "name": "Harry Kane",
       "goals": 2,
       "team": "England",
@@ -2652,6 +2652,15 @@
       "teamCrest": "https://crests.football-data.org/760.svg",
       "owner": "Nicha",
       "color": "#ff5d8f"
+    },
+    {
+      "name": "Ismaïla Sarr",
+      "goals": 2,
+      "team": "Senegal",
+      "teamTla": "SEN",
+      "teamCrest": "https://crests.football-data.org/senegal.svg",
+      "owner": null,
+      "color": null
     },
     {
       "name": "Julián Quiñones",
@@ -2724,22 +2733,13 @@
       "teamCrest": "https://crests.football-data.org/usa.svg",
       "owner": "Nicha",
       "color": "#ff5d8f"
-    },
-    {
-      "name": "Breel Embolo",
-      "goals": 1,
-      "team": "Switzerland",
-      "teamTla": "SUI",
-      "teamCrest": "https://crests.football-data.org/788.svg",
-      "owner": null,
-      "color": null
     }
   ],
   "curiosities": [
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "123 in 41 games"
+      "value": "131 in 43 games"
     },
     {
       "icon": "📊",
