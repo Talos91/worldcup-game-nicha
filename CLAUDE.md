@@ -54,7 +54,7 @@ scored **+3 win / +1 draw / −1 loss** per team, summed per player.
 - Never commit `apikey.txt`.
 - The updater is the source of truth for scoring — don't hand-edit `data.json`.
 - Keep `CHANGELOG.md` and `ROADMAP.md` current each session.
-- Bump `VERSION` in update_scores.py on every code push (currently 1.7). The
+- Bump `VERSION` in update_scores.py on every code push (currently 1.8). The
   footer reads it from data.json, so it's never cache-stale.
 
 ## Open decisions

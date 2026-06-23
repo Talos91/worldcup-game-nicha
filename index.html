@@ -118,6 +118,9 @@
   .pts-badge.zero { color:var(--muted); }
   .team-meta { color:var(--muted); font-size:11.5px; margin-top:8px; padding-left:38px; }
   .record { font-size:12.5px; color:var(--muted); font-weight:700; font-variant-numeric:tabular-nums; flex:none; letter-spacing:.03em; }
+  .team.elim { opacity:.5; }
+  .tag-out { font-size:10px; font-weight:800; color:var(--loss); background:rgba(255,92,92,.16); padding:2px 7px; border-radius:5px; letter-spacing:.04em; flex:none; }
+  .tag-champ { font-size:13px; flex:none; }
 
   /* Lead tracker chart */
   .chartbox { background:var(--card); border:1px solid var(--card-line); border-radius:16px; padding:16px; }
@@ -407,22 +410,29 @@ function resultChips(t) {
     return `<span class="rchip ${m.result}" title="${word} ${m.goalsFor}–${m.goalsAgainst} vs ${m.opponent}">${m.goalsFor}-${m.goalsAgainst}</span>`;
   }).join("");
 }
+function statusTag(t) {
+  if (t.status === "out") return `<span class="tag-out">OUT</span>`;
+  if (t.status === "champion") return `<span class="tag-champ" title="Champion">🏆</span>`;
+  return "";
+}
 function teamCard(t) {
   const cls = t.points > 0 ? "pos" : (t.points < 0 ? "neg" : "zero");
   const g = t.group, c = t.coach, bits = [];
   if (g && g.position) bits.push(`${ordinal(g.position)} in ${g.group}`);
   if (c && c.name) bits.push(`👔 ${c.name.split(" ").slice(-1)[0]}`);
   const meta = bits.length ? `<div class="team-meta">${bits.join("  ·  ")}</div>` : "";
-  return `<div class="team"><div class="team-head">
+  return `<div class="team${t.status === "out" ? " elim" : ""}"><div class="team-head">
     ${crestImg(t.crest, t.tla, "crest")}
     <div class="team-name">${t.name}</div>
+    ${statusTag(t)}
     <span class="record" title="W-L-D: ${t.w} won, ${t.l} lost, ${t.d} drawn">${t.w}-${t.l}-${t.d}</span>
     <div class="pts-badge ${cls}">${t.points > 0 ? "+" : ""}${t.points}</div>
   </div>${meta}</div>`;
 }
 function panel(p, key) {
+  const alive = (p.alive != null && p.alive < p.teams.length) ? ` · ${p.alive}/${p.teams.length} alive` : "";
   return `<section class="panel ${key}">
-    <h3><span class="nm">${p.name}</span><span class="tot">${p.total > 0 ? "+" : ""}${p.total} pts</span></h3>
+    <h3><span class="nm">${p.name}</span><span class="tot">${p.total > 0 ? "+" : ""}${p.total} pts${alive}</span></h3>
     ${p.teams.map(teamCard).join("")}
   </section>`;
 }

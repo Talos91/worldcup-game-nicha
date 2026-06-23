@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-06-18 — v1.8
+- **Elimination visuals:** knocked-out teams dim out with an **OUT** tag, the
+  champion gets a 🏆, and each player's header shows **teams alive** once any of
+  theirs is out. Status inferred from fixtures + group tables (no scoring change —
+  an eliminated team's points simply freeze).
+
 ## 2026-06-18 — v1.7
 - Auto-update cron changed from 3×/day to **every 2 hours** (`7 */2 * * *`).
   GitHub fires scheduled jobs late/irregularly (often hours off the target time),
