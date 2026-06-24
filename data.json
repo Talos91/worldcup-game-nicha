@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T20:02:10Z",
+  "updatedAt": "2026-06-24T21:41:33Z",
   "version": "1.8",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -80,7 +80,7 @@
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URU",
+              "opponentTla": "URY",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-27T00:00:00Z",
               "status": "TIMED",
@@ -718,33 +718,33 @@
       "table": [
         {
           "position": 1,
-          "name": "Canada",
-          "tla": "CAN",
-          "crest": "https://crests.football-data.org/canada.svg",
+          "name": "Switzerland",
+          "tla": "SUI",
+          "crest": "https://crests.football-data.org/788.svg",
           "played": 3,
-          "won": 1,
-          "draw": 2,
+          "won": 2,
+          "draw": 1,
           "lost": 0,
           "gf": 7,
-          "ga": 1,
-          "gd": 6,
-          "points": 5,
+          "ga": 3,
+          "gd": 4,
+          "points": 7,
           "owner": null,
           "color": null
         },
         {
           "position": 2,
-          "name": "Switzerland",
-          "tla": "SUI",
-          "crest": "https://crests.football-data.org/788.svg",
+          "name": "Canada",
+          "tla": "CAN",
+          "crest": "https://crests.football-data.org/canada.svg",
           "played": 3,
           "won": 1,
-          "draw": 2,
-          "lost": 0,
-          "gf": 5,
-          "ga": 2,
-          "gd": 3,
-          "points": 5,
+          "draw": 1,
+          "lost": 1,
+          "gf": 8,
+          "ga": 3,
+          "gd": 5,
+          "points": 4,
           "owner": null,
           "color": null
         },
@@ -757,9 +757,9 @@
           "won": 1,
           "draw": 1,
           "lost": 1,
-          "gf": 4,
+          "gf": 5,
           "ga": 6,
-          "gd": -2,
+          "gd": -1,
           "points": 4,
           "owner": null,
           "color": null
@@ -774,8 +774,8 @@
           "draw": 1,
           "lost": 2,
           "gf": 2,
-          "ga": 9,
-          "gd": -7,
+          "ga": 10,
+          "gd": -8,
           "points": 1,
           "owner": null,
           "color": null
@@ -2374,7 +2374,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
@@ -2516,6 +2516,15 @@
       "color": "#3da5ff"
     },
     {
+      "name": "Johan Manzambi",
+      "goals": 3,
+      "team": "Switzerland",
+      "teamTla": "SUI",
+      "teamCrest": "https://crests.football-data.org/788.svg",
+      "owner": null,
+      "color": null
+    },
+    {
       "name": "Jonathan David",
       "goals": 3,
       "team": "Canada",
@@ -2633,11 +2642,20 @@
       "color": "#3da5ff"
     },
     {
-      "name": "Johan Manzambi",
+      "name": "Ruben Vargas",
       "goals": 2,
       "team": "Switzerland",
       "teamTla": "SUI",
       "teamCrest": "https://crests.football-data.org/788.svg",
+      "owner": null,
+      "color": null
+    },
+    {
+      "name": "Ermin Mahmic",
+      "goals": 2,
+      "team": "Bosnia-Herzegovina",
+      "teamTla": "BIH",
+      "teamCrest": "https://crests.football-data.org/bosnia.svg",
       "owner": null,
       "color": null
     },
@@ -2730,36 +2748,18 @@
       "teamCrest": "https://crests.football-data.org/798.svg",
       "owner": null,
       "color": null
-    },
-    {
-      "name": "In-beom Hwang",
-      "goals": 1,
-      "team": "South Korea",
-      "teamTla": "KOR",
-      "teamCrest": "https://crests.football-data.org/772.png",
-      "owner": "Nicha",
-      "color": "#ff5d8f"
-    },
-    {
-      "name": "Hyun-Gyu Oh",
-      "goals": 1,
-      "team": "South Korea",
-      "teamTla": "KOR",
-      "teamCrest": "https://crests.football-data.org/772.png",
-      "owner": "Nicha",
-      "color": "#ff5d8f"
     }
   ],
   "curiosities": [
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "141 in 48 games"
+      "value": "146 in 49 games"
     },
     {
       "icon": "📊",
       "label": "Goals per game",
-      "value": "2.9"
+      "value": "3.0"
     },
     {
       "icon": "💥",
@@ -2774,7 +2774,7 @@
     {
       "icon": "🤝",
       "label": "Draws so far",
-      "value": "14"
+      "value": "13"
     },
     {
       "icon": "🎯",
