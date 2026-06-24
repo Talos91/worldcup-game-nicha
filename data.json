@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T21:41:33Z",
+  "updatedAt": "2026-06-24T23:18:43Z",
   "version": "1.8",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -791,14 +791,14 @@
           "name": "Brazil",
           "tla": "BRA",
           "crest": "https://crests.football-data.org/764.svg",
-          "played": 2,
-          "won": 1,
+          "played": 3,
+          "won": 2,
           "draw": 1,
           "lost": 0,
-          "gf": 4,
+          "gf": 6,
           "ga": 1,
-          "gd": 3,
-          "points": 4,
+          "gd": 5,
+          "points": 7,
           "owner": null,
           "color": null
         },
@@ -807,14 +807,14 @@
           "name": "Morocco",
           "tla": "MAR",
           "crest": "https://crests.football-data.org/morocco.svg",
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "draw": 1,
+          "draw": 2,
           "lost": 0,
-          "gf": 2,
-          "ga": 1,
+          "gf": 4,
+          "ga": 3,
           "gd": 1,
-          "points": 4,
+          "points": 5,
           "owner": null,
           "color": null
         },
@@ -823,13 +823,13 @@
           "name": "Scotland",
           "tla": "SCO",
           "crest": "https://crests.football-data.org/814.svg",
-          "played": 2,
+          "played": 3,
           "won": 1,
           "draw": 0,
-          "lost": 1,
+          "lost": 2,
           "gf": 1,
-          "ga": 1,
-          "gd": 0,
+          "ga": 3,
+          "gd": -2,
           "points": 3,
           "owner": null,
           "color": null
@@ -839,14 +839,14 @@
           "name": "Haiti",
           "tla": "HAI",
           "crest": "https://crests.football-data.org/haiti.svg",
-          "played": 2,
+          "played": 3,
           "won": 0,
-          "draw": 0,
+          "draw": 1,
           "lost": 2,
-          "gf": 0,
-          "ga": 4,
+          "gf": 2,
+          "ga": 6,
           "gd": -4,
-          "points": 0,
+          "points": 1,
           "owner": null,
           "color": null
         }
@@ -2204,7 +2204,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Yael Falcón",
+        "nationality": "Argentina"
+      },
       "stakes": [
         {
           "player": "Daniele",
@@ -2241,7 +2244,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Facundo Tello",
+        "nationality": "Argentina"
+      },
       "stakes": [
         {
           "player": "Nicha",
@@ -2489,6 +2495,15 @@
       "color": "#ff5d8f"
     },
     {
+      "name": "Vinicius Junior",
+      "goals": 4,
+      "team": "Brazil",
+      "teamTla": "BRA",
+      "teamCrest": "https://crests.football-data.org/764.svg",
+      "owner": null,
+      "color": null
+    },
+    {
       "name": "Kylian Mbappé",
       "goals": 4,
       "team": "France",
@@ -2503,6 +2518,15 @@
       "team": "Norway",
       "teamTla": "NOR",
       "teamCrest": "https://crests.football-data.org/813.svg",
+      "owner": null,
+      "color": null
+    },
+    {
+      "name": "Ismael Saibari",
+      "goals": 3,
+      "team": "Morocco",
+      "teamTla": "MAR",
+      "teamCrest": "https://crests.football-data.org/morocco.svg",
       "owner": null,
       "color": null
     },
@@ -2550,24 +2574,6 @@
       "teamCrest": "https://crests.football-data.org/usa.svg",
       "owner": "Nicha",
       "color": "#ff5d8f"
-    },
-    {
-      "name": "Ismael Saibari",
-      "goals": 2,
-      "team": "Morocco",
-      "teamTla": "MAR",
-      "teamCrest": "https://crests.football-data.org/morocco.svg",
-      "owner": null,
-      "color": null
-    },
-    {
-      "name": "Vinicius Junior",
-      "goals": 2,
-      "team": "Brazil",
-      "teamTla": "BRA",
-      "teamCrest": "https://crests.football-data.org/764.svg",
-      "owner": null,
-      "color": null
     },
     {
       "name": "Kai Havertz",
@@ -2754,7 +2760,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "146 in 49 games"
+      "value": "148 in 50 games"
     },
     {
       "icon": "📊",
@@ -2774,7 +2780,7 @@
     {
       "icon": "🤝",
       "label": "Draws so far",
-      "value": "13"
+      "value": "14"
     },
     {
       "icon": "🎯",
