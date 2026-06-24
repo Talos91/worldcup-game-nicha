@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T23:18:33Z",
+  "updatedAt": "2026-06-24T04:21:09Z",
   "version": "1.8",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -327,13 +327,13 @@
     {
       "name": "Daniele",
       "color": "#3da5ff",
-      "total": 19,
+      "total": 22,
       "agg": {
-        "played": 7,
-        "w": 6,
+        "played": 8,
+        "w": 7,
         "d": 1,
         "l": 0,
-        "gf": 21,
+        "gf": 22,
         "ga": 5
       },
       "teams": [
@@ -568,20 +568,20 @@
           "tla": "COL",
           "flag": "🇨🇴",
           "crest": "https://crests.football-data.org/818.svg",
-          "points": 3,
-          "w": 1,
+          "points": 6,
+          "w": 2,
           "d": 0,
           "l": 0,
           "group": {
-            "position": 2,
-            "played": 1,
-            "won": 1,
+            "position": 1,
+            "played": 2,
+            "won": 2,
             "draw": 0,
             "lost": 0,
-            "gf": 3,
+            "gf": 4,
             "ga": 1,
-            "gd": 2,
-            "points": 3,
+            "gd": 3,
+            "points": 6,
             "group": "Group K"
           },
           "coach": {
@@ -609,15 +609,15 @@
               "opponentTla": "COD",
               "opponentCrest": "https://crests.football-data.org/congo_dr.svg",
               "utcDate": "2026-06-24T02:00:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_K",
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "goalsFor": 1,
+              "goalsAgainst": 0,
+              "result": "W",
+              "points": 3,
+              "counted": true
             },
             {
               "opponent": "Portugal",
@@ -1348,6 +1348,22 @@
       "table": [
         {
           "position": 1,
+          "name": "Colombia",
+          "tla": "COL",
+          "crest": "https://crests.football-data.org/818.svg",
+          "played": 2,
+          "won": 2,
+          "draw": 0,
+          "lost": 0,
+          "gf": 4,
+          "ga": 1,
+          "gd": 3,
+          "points": 6,
+          "owner": "Daniele",
+          "color": "#3da5ff"
+        },
+        {
+          "position": 2,
           "name": "Portugal",
           "tla": "POR",
           "crest": "https://crests.football-data.org/765.svg",
@@ -1363,33 +1379,17 @@
           "color": null
         },
         {
-          "position": 2,
-          "name": "Colombia",
-          "tla": "COL",
-          "crest": "https://crests.football-data.org/818.svg",
-          "played": 1,
-          "won": 1,
-          "draw": 0,
-          "lost": 0,
-          "gf": 3,
-          "ga": 1,
-          "gd": 2,
-          "points": 3,
-          "owner": "Daniele",
-          "color": "#3da5ff"
-        },
-        {
           "position": 3,
           "name": "Congo DR",
           "tla": "COD",
           "crest": "https://crests.football-data.org/congo_dr.svg",
-          "played": 1,
+          "played": 2,
           "won": 0,
           "draw": 1,
-          "lost": 0,
+          "lost": 1,
           "gf": 1,
-          "ga": 1,
-          "gd": 0,
+          "ga": 2,
+          "gd": -1,
           "points": 1,
           "owner": null,
           "color": null
@@ -1450,33 +1450,33 @@
         },
         {
           "position": 3,
-          "name": "Panama",
-          "tla": "PAN",
-          "crest": "https://crests.football-data.org/panama.svg",
+          "name": "Croatia",
+          "tla": "CRO",
+          "crest": "https://crests.football-data.org/799.svg",
           "played": 2,
-          "won": 0,
-          "draw": 1,
+          "won": 1,
+          "draw": 0,
           "lost": 1,
-          "gf": 0,
-          "ga": 1,
+          "gf": 3,
+          "ga": 4,
           "gd": -1,
-          "points": 1,
+          "points": 3,
           "owner": null,
           "color": null
         },
         {
           "position": 4,
-          "name": "Croatia",
-          "tla": "CRO",
-          "crest": "https://crests.football-data.org/799.svg",
+          "name": "Panama",
+          "tla": "PAN",
+          "crest": "https://crests.football-data.org/panama.svg",
           "played": 2,
           "won": 0,
-          "draw": 1,
-          "lost": 1,
-          "gf": 2,
-          "ga": 4,
+          "draw": 0,
+          "lost": 2,
+          "gf": 0,
+          "ga": 2,
           "gd": -2,
-          "points": 1,
+          "points": 0,
           "owner": null,
           "color": null
         }
@@ -1558,9 +1558,51 @@
       "date": "2026-06-22T17:00:00Z",
       "n": 18,
       "d": 19
+    },
+    {
+      "date": "2026-06-24T02:00:00Z",
+      "n": 18,
+      "d": 22
     }
   ],
   "recent": [
+    {
+      "id": 537406,
+      "utcDate": "2026-06-24T02:00:00Z",
+      "status": "FINISHED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_K",
+      "home": {
+        "name": "Colombia",
+        "tla": "COL",
+        "crest": "https://crests.football-data.org/818.svg"
+      },
+      "away": {
+        "name": "Congo DR",
+        "tla": "COD",
+        "crest": "https://crests.football-data.org/congo_dr.svg"
+      },
+      "scoreHome": 1,
+      "scoreAway": 0,
+      "htHome": 0,
+      "htAway": 0,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
+      "stakes": [
+        {
+          "player": "Daniele",
+          "color": "#3da5ff",
+          "team": "Colombia",
+          "tla": "COL",
+          "isHome": true,
+          "result": "W",
+          "points": 3
+        }
+      ],
+      "headToHead": false
+    },
     {
       "id": 537399,
       "utcDate": "2026-06-22T17:00:00Z",
@@ -2140,43 +2182,6 @@
   ],
   "upcoming": [
     {
-      "id": 537406,
-      "utcDate": "2026-06-24T02:00:00Z",
-      "status": "TIMED",
-      "stage": "GROUP_STAGE",
-      "group": "GROUP_K",
-      "home": {
-        "name": "Colombia",
-        "tla": "COL",
-        "crest": "https://crests.football-data.org/818.svg"
-      },
-      "away": {
-        "name": "Congo DR",
-        "tla": "COD",
-        "crest": "https://crests.football-data.org/congo_dr.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Daniele",
-          "color": "#3da5ff",
-          "team": "Colombia",
-          "tla": "COL",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        }
-      ],
-      "headToHead": false
-    },
-    {
       "id": 537331,
       "utcDate": "2026-06-25T01:00:00Z",
       "status": "TIMED",
@@ -2619,6 +2624,15 @@
       "color": null
     },
     {
+      "name": "Daniel Muñoz",
+      "goals": 2,
+      "team": "Colombia",
+      "teamTla": "COL",
+      "teamCrest": "https://crests.football-data.org/818.svg",
+      "owner": "Daniele",
+      "color": "#3da5ff"
+    },
+    {
       "name": "Johan Manzambi",
       "goals": 2,
       "team": "Switzerland",
@@ -2734,27 +2748,18 @@
       "teamCrest": "https://crests.football-data.org/772.png",
       "owner": "Nicha",
       "color": "#ff5d8f"
-    },
-    {
-      "name": "Jovo Lukić",
-      "goals": 1,
-      "team": "Bosnia-Herzegovina",
-      "teamTla": "BIH",
-      "teamCrest": "https://crests.football-data.org/bosnia.svg",
-      "owner": null,
-      "color": null
     }
   ],
   "curiosities": [
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "139 in 46 games"
+      "value": "141 in 48 games"
     },
     {
       "icon": "📊",
       "label": "Goals per game",
-      "value": "3.0"
+      "value": "2.9"
     },
     {
       "icon": "💥",
@@ -2774,7 +2779,7 @@
     {
       "icon": "🎯",
       "label": "Your teams' goals",
-      "value": "Nicha 17 · Daniele 21"
+      "value": "Nicha 17 · Daniele 22"
     },
     {
       "icon": "⭐",
