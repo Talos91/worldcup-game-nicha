@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-06-25T12:37:57Z",
-  "version": "2.2",
+  "updatedAt": "2026-06-25T17:29:10Z",
+  "version": "2.3",
   "competition": "FIFA World Cup 2026",
   "rules": {
     "win": 3,
     "draw": 1,
-    "loss": -1
+    "loss": 0
   },
   "players": [
     {
       "name": "Nicha",
       "color": "#ff5d8f",
-      "total": 17,
+      "total": 19,
       "agg": {
         "played": 9,
         "w": 6,
@@ -102,7 +102,7 @@
           "tla": "KOR",
           "flag": "🇰🇷",
           "crest": "https://crests.football-data.org/772.png",
-          "points": 1,
+          "points": 3,
           "w": 1,
           "d": 0,
           "l": 2,
@@ -150,7 +150,7 @@
               "goalsFor": 0,
               "goalsAgainst": 1,
               "result": "L",
-              "points": -1,
+              "points": 0,
               "counted": true
             },
             {
@@ -165,7 +165,7 @@
               "goalsFor": 0,
               "goalsAgainst": 1,
               "result": "L",
-              "points": -1,
+              "points": 0,
               "counted": true
             }
           ],
@@ -1531,47 +1531,47 @@
     },
     {
       "date": "2026-06-19T01:00:00Z",
-      "n": 9,
+      "n": 10,
       "d": 13
     },
     {
       "date": "2026-06-19T19:00:00Z",
-      "n": 12,
+      "n": 13,
       "d": 13
     },
     {
       "date": "2026-06-20T20:00:00Z",
-      "n": 12,
+      "n": 13,
       "d": 16
     },
     {
       "date": "2026-06-21T04:00:00Z",
-      "n": 12,
+      "n": 13,
       "d": 19
     },
     {
       "date": "2026-06-21T16:00:00Z",
-      "n": 15,
+      "n": 16,
       "d": 19
     },
     {
       "date": "2026-06-22T17:00:00Z",
-      "n": 18,
+      "n": 19,
       "d": 19
     },
     {
       "date": "2026-06-24T02:00:00Z",
-      "n": 18,
+      "n": 19,
       "d": 22
     },
     {
       "date": "2026-06-25T01:00:00Z",
-      "n": 18,
+      "n": 19,
       "d": 25
     },
     {
       "date": "2026-06-25T01:00:00Z",
-      "n": 17,
+      "n": 19,
       "d": 25
     }
   ],
@@ -2485,7 +2485,7 @@
           "tla": "KOR",
           "isHome": false,
           "result": "L",
-          "points": -1
+          "points": 0
         }
       ],
       "headToHead": false
@@ -2771,7 +2771,7 @@
           "tla": "KOR",
           "isHome": false,
           "result": "L",
-          "points": -1
+          "points": 0
         }
       ],
       "headToHead": true,

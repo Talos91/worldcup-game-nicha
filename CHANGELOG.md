@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-06-26 — v2.3
+- **Dropped the −1 loss penalty.** Scoring is now Win +3 / Draw +1 / **Loss 0**
+  (matching the office league); all totals recalculated.
+- Slightly wider page (max-width 1180) + narrower bracket columns so the
+  knockout bracket fits without a horizontal scrollbar on desktop.
+
 ## 2026-06-25 — v2.2
 - Confirmed qualifiers now carry a **✓** in the "as it stands" board (teams that
   have mathematically clinched a top-2 spot).

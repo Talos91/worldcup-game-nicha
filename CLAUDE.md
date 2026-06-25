@@ -4,7 +4,7 @@ Context and working notes for Claude sessions on this project.
 
 ## What this is
 A fun head-to-head World Cup tracker. Each player has 4 teams; results are
-scored **+3 win / +1 draw / −1 loss** per team, summed per player.
+scored **+3 win / +1 draw / 0 loss** per team, summed per player.
 - **Nicha:** Spain, South Korea, Argentina, United States
 - **Daniele:** Germany, Japan, Mexico, Colombia
 
@@ -54,11 +54,11 @@ scored **+3 win / +1 draw / −1 loss** per team, summed per player.
 - Never commit `apikey.txt`.
 - The updater is the source of truth for scoring — don't hand-edit `data.json`.
 - Keep `CHANGELOG.md` and `ROADMAP.md` current each session.
-- Bump `VERSION` in update_scores.py on every code push (currently 2.2). The
+- Bump `VERSION` in update_scores.py on every code push (currently 2.3). The
   footer reads it from data.json, so it's never cache-stale.
 
 ## Open decisions
 - **Penalty shootouts (knockouts, ~early July):** currently scored as Win(+3) /
-  Loss(−1) by the official result, NOT a draw. Confirm the rule with Nicha
+  Loss(0) by the official result, NOT a draw. Confirm the rule with Nicha
   before the knockouts. To switch to draw-counts-as-even, change the
   `winner == "DRAW"` handling in `team_record()`.

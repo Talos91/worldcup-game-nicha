@@ -6,7 +6,7 @@
 <title>World Cup 2026 · Nicha vs Daniele</title>
 <meta name="theme-color" content="#0a0e1a" />
 <meta property="og:title" content="World Cup 2026 — Nicha vs Daniele 🏆" />
-<meta property="og:description" content="Our live World Cup scoreboard: 8 teams, +3 win / +1 draw / −1 loss. Who's winning?" />
+<meta property="og:description" content="Our live World Cup scoreboard: 8 teams, +3 win / +1 draw / 0 loss. Who's winning?" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://talos91.github.io/worldcup-game-nicha/" />
 <meta property="og:image" content="https://talos91.github.io/worldcup-game-nicha/og.png" />
@@ -37,7 +37,7 @@
       linear-gradient(160deg, var(--bg2), var(--bg));
     background-attachment: fixed; min-height: 100vh; -webkit-font-smoothing: antialiased;
   }
-  .wrap { max-width: 1080px; margin: 0 auto; padding: 28px 18px 64px; }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 28px 18px 64px; }
 
   header.top { text-align: center; margin-bottom: 20px; }
   header.top .kicker { letter-spacing:.28em; text-transform:uppercase; font-size:12px; color:var(--muted); font-weight:700; }
@@ -225,8 +225,8 @@
   .third-tag { font-size:9.5px; font-weight:800; padding:2px 6px; border-radius:5px; text-align:center; }
   .third-tag.yes { color:var(--win); background:rgba(46,204,113,.15); }
   .third-tag.no { color:var(--muted); background:rgba(255,255,255,.06); }
-  .ko-wrap { display:flex; gap:14px; overflow-x:auto; padding-bottom:10px; }
-  .ko-col { flex:0 0 auto; width:205px; }
+  .ko-wrap { display:flex; gap:12px; overflow-x:auto; padding-bottom:10px; }
+  .ko-col { flex:0 0 auto; width:174px; }
   .ko-col-h { font-size:12px; font-weight:800; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; margin-bottom:9px; text-align:center; }
   .ko-match { background:var(--card); border:1px solid var(--card-line); border-radius:10px; padding:7px 10px; margin-bottom:10px; }
   .ko-team { display:flex; align-items:center; gap:7px; padding:3px 0; font-size:13px; }
@@ -754,12 +754,12 @@ function render(data) {
     <div class="rules-strip">
       <span class="rule win">Win <b>+3</b></span>
       <span class="rule draw">Draw <b>+1</b></span>
-      <span class="rule loss">Loss <b>−1</b></span>
+      <span class="rule loss">Loss <b>0</b></span>
     </div>`;
 
   const standings = `<section class="block"><h2 class="sec"><span class="ico">📋</span> Standings</h2>
     <div class="grid">${panel(a, keyOf(a.name))}${panel(b, keyOf(b.name))}</div>
-    <div class="legend">Each team's record is <b>W-L-D</b> (won-lost-drawn). Win +3 · Draw +1 · Loss −1.</div></section>`;
+    <div class="legend">Each team's record is <b>W-L-D</b> (won-lost-drawn). Win +3 · Draw +1 · Loss 0.</div></section>`;
 
   const chart = leadChart(data.timeline || [], a.name, b.name);
   const koReady = bracketDrawn(data.knockout || []);

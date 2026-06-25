@@ -4,7 +4,7 @@
 Fetches FIFA World Cup matches from football-data.org, computes the head-to-head
 game score and writes data.json next to this script for the static page to read.
 
-Game rules: win = +3, draw = +1, loss = -1 (per team, summed per player).
+Game rules: win = +3, draw = +1, loss = 0 (per team, summed per player).
 
 Pure Python standard library -- no `pip install` needed. Runs anywhere Python 3
 runs (local, GitHub Actions, a Claude scheduled task, etc.).
@@ -43,8 +43,8 @@ def load_api_key():
         "or put your football-data.org key in apikey.txt next to this script."
     )
 
-WIN, DRAW, LOSS = 3, 1, -1
-VERSION = "2.2"  # bump on every code push; shown in the page footer (via data.json)
+WIN, DRAW, LOSS = 3, 1, 0  # a loss counts 0 (the old -1 was dropped 2026-06-25)
+VERSION = "2.3"  # bump on every code push; shown in the page footer (via data.json)
 
 # Tracked teams keyed by football-data team id (stable across name spellings).
 # `flag` is an emoji fallback; the page prefers the real crest image from the API.

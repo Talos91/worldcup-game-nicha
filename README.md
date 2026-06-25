@@ -3,7 +3,7 @@
 A tiny auto-updating scoreboard for our World Cup game. Each of us picked 4
 teams; their results are scored automatically.
 
-**Scoring (per team):** win = **+3**, draw = **+1**, loss = **−1**.
+**Scoring (per team):** win = **+3**, draw = **+1**, loss = **0**.
 
 | Nicha | Daniele |
 |-------|---------|
@@ -45,7 +45,7 @@ git-ignored, so the key is never committed — this repo is safe to make public.
 
 In the group stage every match is a clean win/draw/loss. In the knockouts there
 are no draws — a match decided on penalties is currently recorded as a
-**win (+3)** for the shootout winner and a **loss (−1)** for the loser (the
+**win (+3)** for the shootout winner and a **loss (0)** for the loser (the
 official FIFA result). If you'd rather count a penalty result as a draw
 (+1 each), it's a one-line change.
 
