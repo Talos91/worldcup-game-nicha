@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-06-25 — v1.9
+- New **Knockout board**: a "Round of 32 — as it stands" preview (current group
+  winners, runners-up, and the live race for the 8 best 3rd-placed spots),
+  owner-coloured and updating each refresh. When the draw is made it auto-swaps
+  to the real **bracket** (R32 → final, from the API) and the group tables step
+  aside. Per-match goalscorers/minutes remain unavailable on the free API plan.
+
 ## 2026-06-18 — v1.8
 - **Elimination visuals:** knocked-out teams dim out with an **OUT** tag, the
   champion gets a 🏆, and each player's header shows **teams alive** once any of
