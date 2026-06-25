@@ -44,7 +44,7 @@ def load_api_key():
     )
 
 WIN, DRAW, LOSS = 3, 1, -1
-VERSION = "1.9"  # bump on every code push; shown in the page footer (via data.json)
+VERSION = "2.0"  # bump on every code push; shown in the page footer (via data.json)
 
 # Tracked teams keyed by football-data team id (stable across name spellings).
 # `flag` is an emoji fallback; the page prefers the real crest image from the API.

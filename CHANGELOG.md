@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-06-25 — v2.0
+- Knockout section now shows **both** during the group stage: the "Round of 32 —
+  as it stands" qualifier board **and** the full **bracket tree** (R32 → final,
+  with dates) below it. The bracket fills in real teams once the draw is made.
+
 ## 2026-06-25 — v1.9
 - New **Knockout board**: a "Round of 32 — as it stands" preview (current group
   winners, runners-up, and the live race for the 8 best 3rd-placed spots),
