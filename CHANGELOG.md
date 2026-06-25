@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-06-25 — v2.2
+- Confirmed qualifiers now carry a **✓** in the "as it stands" board (teams that
+  have mathematically clinched a top-2 spot).
+- The bracket **fills progressively** as the API assigns teams to R32 slots
+  (group winners appear in their slot as they're confirmed). The page only
+  switches to the bracket-only view once the **full** draw is set (all 16 ties),
+  so the qualifier board + group tables stay until then.
+
 ## 2026-06-25 — v2.0
 - Knockout section now shows **both** during the group stage: the "Round of 32 —
   as it stands" qualifier board **and** the full **bracket tree** (R32 → final,
