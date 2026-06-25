@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T12:37:57Z",
+  "updatedAt": "2026-06-25T16:34:09Z",
   "version": "2.2",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -242,6 +242,21 @@
               "result": null,
               "points": 0,
               "counted": false
+            },
+            {
+              "opponent": null,
+              "opponentTla": null,
+              "opponentCrest": null,
+              "utcDate": "2026-07-03T22:00:00Z",
+              "status": "TIMED",
+              "stage": "LAST_32",
+              "group": null,
+              "isHome": true,
+              "goalsFor": null,
+              "goalsAgainst": null,
+              "result": null,
+              "points": 0,
+              "counted": false
             }
           ],
           "status": "in"
@@ -312,6 +327,21 @@
               "stage": "GROUP_STAGE",
               "group": "GROUP_D",
               "isHome": false,
+              "goalsFor": null,
+              "goalsAgainst": null,
+              "result": null,
+              "points": 0,
+              "counted": false
+            },
+            {
+              "opponent": null,
+              "opponentTla": null,
+              "opponentCrest": null,
+              "utcDate": "2026-07-02T00:00:00Z",
+              "status": "TIMED",
+              "stage": "LAST_32",
+              "group": null,
+              "isHome": true,
               "goalsFor": null,
               "goalsAgainst": null,
               "result": null,
@@ -403,6 +433,21 @@
               "stage": "GROUP_STAGE",
               "group": "GROUP_E",
               "isHome": false,
+              "goalsFor": null,
+              "goalsAgainst": null,
+              "result": null,
+              "points": 0,
+              "counted": false
+            },
+            {
+              "opponent": null,
+              "opponentTla": null,
+              "opponentCrest": null,
+              "utcDate": "2026-06-29T20:30:00Z",
+              "status": "TIMED",
+              "stage": "LAST_32",
+              "group": null,
+              "isHome": true,
               "goalsFor": null,
               "goalsAgainst": null,
               "result": null,
@@ -558,6 +603,21 @@
               "result": "W",
               "points": 3,
               "counted": true
+            },
+            {
+              "opponent": null,
+              "opponentTla": null,
+              "opponentCrest": null,
+              "utcDate": "2026-07-01T01:00:00Z",
+              "status": "TIMED",
+              "stage": "LAST_32",
+              "group": null,
+              "isHome": true,
+              "goalsFor": null,
+              "goalsAgainst": null,
+              "result": null,
+              "points": 0,
+              "counted": false
             }
           ],
           "status": "in"
@@ -1634,11 +1694,11 @@
       "utcDate": "2026-06-29T20:30:00Z",
       "status": "TIMED",
       "home": {
-        "name": null,
-        "tla": null,
-        "crest": null,
-        "owner": null,
-        "color": null,
+        "name": "Germany",
+        "tla": "GER",
+        "crest": "https://crests.football-data.org/759.svg",
+        "owner": "Daniele",
+        "color": "#3da5ff",
         "result": null
       },
       "away": {
@@ -1738,11 +1798,11 @@
       "utcDate": "2026-07-01T01:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": null,
-        "tla": null,
-        "crest": null,
-        "owner": null,
-        "color": null,
+        "name": "Mexico",
+        "tla": "MEX",
+        "crest": "https://crests.football-data.org/769.svg",
+        "owner": "Daniele",
+        "color": "#3da5ff",
         "result": null
       },
       "away": {
@@ -1816,11 +1876,11 @@
       "utcDate": "2026-07-02T00:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": null,
-        "tla": null,
-        "crest": null,
-        "owner": null,
-        "color": null,
+        "name": "United States",
+        "tla": "USA",
+        "crest": "https://crests.football-data.org/usa.svg",
+        "owner": "Nicha",
+        "color": "#ff5d8f",
         "result": null
       },
       "away": {
@@ -1946,11 +2006,11 @@
       "utcDate": "2026-07-03T22:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": null,
-        "tla": null,
-        "crest": null,
-        "owner": null,
-        "color": null,
+        "name": "Argentina",
+        "tla": "ARG",
+        "crest": "https://crests.football-data.org/762.png",
+        "owner": "Nicha",
+        "color": "#ff5d8f",
         "result": null
       },
       "away": {
@@ -3321,6 +3381,154 @@
           "team": "Argentina",
           "tla": "ARG",
           "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
+    {
+      "id": 537415,
+      "utcDate": "2026-06-29T20:30:00Z",
+      "status": "TIMED",
+      "stage": "LAST_32",
+      "group": null,
+      "home": {
+        "name": "Germany",
+        "tla": "GER",
+        "crest": "https://crests.football-data.org/759.svg"
+      },
+      "away": {
+        "name": null,
+        "tla": null,
+        "crest": null
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
+      "stakes": [
+        {
+          "player": "Daniele",
+          "color": "#3da5ff",
+          "team": "Germany",
+          "tla": "GER",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
+    {
+      "id": 537425,
+      "utcDate": "2026-07-01T01:00:00Z",
+      "status": "TIMED",
+      "stage": "LAST_32",
+      "group": null,
+      "home": {
+        "name": "Mexico",
+        "tla": "MEX",
+        "crest": "https://crests.football-data.org/769.svg"
+      },
+      "away": {
+        "name": null,
+        "tla": null,
+        "crest": null
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
+      "stakes": [
+        {
+          "player": "Daniele",
+          "color": "#3da5ff",
+          "team": "Mexico",
+          "tla": "MEX",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
+    {
+      "id": 537421,
+      "utcDate": "2026-07-02T00:00:00Z",
+      "status": "TIMED",
+      "stage": "LAST_32",
+      "group": null,
+      "home": {
+        "name": "United States",
+        "tla": "USA",
+        "crest": "https://crests.football-data.org/usa.svg"
+      },
+      "away": {
+        "name": null,
+        "tla": null,
+        "crest": null
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "United States",
+          "tla": "USA",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
+    {
+      "id": 537427,
+      "utcDate": "2026-07-03T22:00:00Z",
+      "status": "TIMED",
+      "stage": "LAST_32",
+      "group": null,
+      "home": {
+        "name": "Argentina",
+        "tla": "ARG",
+        "crest": "https://crests.football-data.org/762.png"
+      },
+      "away": {
+        "name": null,
+        "tla": null,
+        "crest": null
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "Argentina",
+          "tla": "ARG",
+          "isHome": true,
           "result": null,
           "points": 0
         }
