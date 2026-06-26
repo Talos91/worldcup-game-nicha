@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T20:05:20Z",
+  "updatedAt": "2026-06-26T21:39:11Z",
   "version": "2.3",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -1290,9 +1290,9 @@
           "won": 3,
           "draw": 0,
           "lost": 0,
-          "gf": 9,
+          "gf": 10,
           "ga": 2,
-          "gd": 7,
+          "gd": 8,
           "points": 9,
           "owner": null,
           "color": null
@@ -1307,8 +1307,8 @@
           "draw": 0,
           "lost": 1,
           "gf": 8,
-          "ga": 6,
-          "gd": 2,
+          "ga": 7,
+          "gd": 1,
           "points": 6,
           "owner": null,
           "color": null
@@ -1322,9 +1322,9 @@
           "won": 1,
           "draw": 0,
           "lost": 2,
-          "gf": 4,
+          "gf": 8,
           "ga": 6,
-          "gd": -2,
+          "gd": 2,
           "points": 3,
           "owner": null,
           "color": null
@@ -1339,8 +1339,8 @@
           "draw": 0,
           "lost": 3,
           "gf": 1,
-          "ga": 8,
-          "gd": -7,
+          "ga": 12,
+          "gd": -11,
           "points": 0,
           "owner": null,
           "color": null
@@ -3713,6 +3713,15 @@
       "color": null
     },
     {
+      "name": "Ismaïla Sarr",
+      "goals": 3,
+      "team": "Senegal",
+      "teamTla": "SEN",
+      "teamCrest": "https://crests.football-data.org/senegal.svg",
+      "owner": null,
+      "color": null
+    },
+    {
       "name": "Julián Quiñones",
       "goals": 2,
       "team": "Mexico",
@@ -3866,15 +3875,6 @@
       "color": "#ff5d8f"
     },
     {
-      "name": "Ismaïla Sarr",
-      "goals": 2,
-      "team": "Senegal",
-      "teamTla": "SEN",
-      "teamCrest": "https://crests.football-data.org/senegal.svg",
-      "owner": null,
-      "color": null
-    },
-    {
       "name": "Cristiano Ronaldo",
       "goals": 2,
       "team": "Portugal",
@@ -3888,7 +3888,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "177 in 60 games"
+      "value": "187 in 62 games"
     },
     {
       "icon": "📊",
