@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T23:41:05Z",
+  "updatedAt": "2026-06-26T04:36:31Z",
   "version": "2.3",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -13,12 +13,12 @@
       "color": "#ff5d8f",
       "total": 19,
       "agg": {
-        "played": 9,
+        "played": 10,
         "w": 6,
         "d": 1,
-        "l": 2,
-        "gf": 17,
-        "ga": 4
+        "l": 3,
+        "gf": 19,
+        "ga": 7
       },
       "teams": [
         {
@@ -80,7 +80,7 @@
             },
             {
               "opponent": "Uruguay",
-              "opponentTla": "URU",
+              "opponentTla": "URY",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-27T00:00:00Z",
               "status": "TIMED",
@@ -255,16 +255,16 @@
           "points": 6,
           "w": 2,
           "d": 0,
-          "l": 0,
+          "l": 1,
           "group": {
             "position": 1,
-            "played": 2,
+            "played": 3,
             "won": 2,
             "draw": 0,
-            "lost": 0,
-            "gf": 6,
-            "ga": 1,
-            "gd": 5,
+            "lost": 1,
+            "gf": 8,
+            "ga": 4,
+            "gd": 4,
             "points": 6,
             "group": "Group D"
           },
@@ -308,15 +308,15 @@
               "opponentTla": "TUR",
               "opponentCrest": "https://crests.football-data.org/803.svg",
               "utcDate": "2026-06-26T02:00:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_D",
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
+              "goalsFor": 2,
+              "goalsAgainst": 3,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
           "status": "in"
@@ -327,14 +327,14 @@
     {
       "name": "Daniele",
       "color": "#3da5ff",
-      "total": 25,
+      "total": 26,
       "agg": {
-        "played": 10,
+        "played": 11,
         "w": 8,
-        "d": 1,
+        "d": 2,
         "l": 1,
-        "gf": 26,
-        "ga": 7
+        "gf": 27,
+        "ga": 8
       },
       "teams": [
         {
@@ -418,9 +418,9 @@
           "tla": "JPN",
           "flag": "🇯🇵",
           "crest": "https://crests.football-data.org/766.svg",
-          "points": 4,
+          "points": 5,
           "w": 1,
-          "d": 1,
+          "d": 2,
           "l": 0,
           "group": {
             "position": 2,
@@ -428,8 +428,8 @@
             "won": 1,
             "draw": 2,
             "lost": 0,
-            "gf": 6,
-            "ga": 2,
+            "gf": 7,
+            "ga": 3,
             "gd": 4,
             "points": 5,
             "group": "Group F"
@@ -474,15 +474,15 @@
               "opponentTla": "SWE",
               "opponentCrest": "https://crests.football-data.org/792.svg",
               "utcDate": "2026-06-25T23:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_F",
               "isHome": true,
-              "goalsFor": 0,
-              "goalsAgainst": 0,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "goalsFor": 1,
+              "goalsAgainst": 1,
+              "result": "D",
+              "points": 1,
+              "counted": true
             }
           ],
           "status": "in"
@@ -861,13 +861,13 @@
           "name": "United States",
           "tla": "USA",
           "crest": "https://crests.football-data.org/usa.svg",
-          "played": 2,
+          "played": 3,
           "won": 2,
           "draw": 0,
-          "lost": 0,
-          "gf": 6,
-          "ga": 1,
-          "gd": 5,
+          "lost": 1,
+          "gf": 8,
+          "ga": 4,
+          "gd": 4,
           "points": 6,
           "owner": "Nicha",
           "color": "#ff5d8f"
@@ -877,14 +877,14 @@
           "name": "Australia",
           "tla": "AUS",
           "crest": "https://crests.football-data.org/779.svg",
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "draw": 0,
+          "draw": 1,
           "lost": 1,
           "gf": 2,
           "ga": 2,
           "gd": 0,
-          "points": 3,
+          "points": 4,
           "owner": null,
           "color": null
         },
@@ -893,14 +893,14 @@
           "name": "Paraguay",
           "tla": "PAR",
           "crest": "https://crests.football-data.org/761.svg",
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "draw": 0,
+          "draw": 1,
           "lost": 1,
           "gf": 2,
           "ga": 4,
           "gd": -2,
-          "points": 3,
+          "points": 4,
           "owner": null,
           "color": null
         },
@@ -909,14 +909,14 @@
           "name": "Turkey",
           "tla": "TUR",
           "crest": "https://crests.football-data.org/803.svg",
-          "played": 2,
-          "won": 0,
+          "played": 3,
+          "won": 1,
           "draw": 0,
           "lost": 2,
-          "gf": 0,
-          "ga": 3,
-          "gd": -3,
-          "points": 0,
+          "gf": 3,
+          "ga": 5,
+          "gd": -2,
+          "points": 3,
           "owner": null,
           "color": null
         }
@@ -1005,8 +1005,8 @@
           "won": 2,
           "draw": 1,
           "lost": 0,
-          "gf": 9,
-          "ga": 3,
+          "gf": 10,
+          "ga": 4,
           "gd": 6,
           "points": 7,
           "owner": null,
@@ -1021,8 +1021,8 @@
           "won": 1,
           "draw": 2,
           "lost": 0,
-          "gf": 6,
-          "ga": 2,
+          "gf": 7,
+          "ga": 3,
           "gd": 4,
           "points": 5,
           "owner": "Daniele",
@@ -1037,8 +1037,8 @@
           "won": 1,
           "draw": 1,
           "lost": 1,
-          "gf": 6,
-          "ga": 6,
+          "gf": 7,
+          "ga": 7,
           "gd": 0,
           "points": 4,
           "owner": null,
@@ -1053,8 +1053,8 @@
           "won": 0,
           "draw": 0,
           "lost": 3,
-          "gf": 1,
-          "ga": 11,
+          "gf": 2,
+          "ga": 12,
           "gd": -10,
           "points": 0,
           "owner": null,
@@ -1578,6 +1578,16 @@
       "date": "2026-06-25T20:00:00Z",
       "n": 19,
       "d": 25
+    },
+    {
+      "date": "2026-06-25T23:00:00Z",
+      "n": 19,
+      "d": 26
+    },
+    {
+      "date": "2026-06-26T02:00:00Z",
+      "n": 19,
+      "d": 26
     }
   ],
   "knockout": [
@@ -2416,9 +2426,49 @@
   ],
   "recent": [
     {
+      "id": 537349,
+      "utcDate": "2026-06-26T02:00:00Z",
+      "status": "FINISHED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_D",
+      "home": {
+        "name": "Turkey",
+        "tla": "TUR",
+        "crest": "https://crests.football-data.org/803.svg"
+      },
+      "away": {
+        "name": "United States",
+        "tla": "USA",
+        "crest": "https://crests.football-data.org/usa.svg"
+      },
+      "scoreHome": 3,
+      "scoreAway": 2,
+      "htHome": 2,
+      "htAway": 1,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Mustapha Ghorbal",
+        "nationality": null
+      },
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "United States",
+          "tla": "USA",
+          "isHome": false,
+          "result": "L",
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
+    {
       "id": 537362,
       "utcDate": "2026-06-25T23:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "GROUP_STAGE",
       "group": "GROUP_F",
       "home": {
@@ -2431,10 +2481,10 @@
         "tla": "SWE",
         "crest": "https://crests.football-data.org/792.svg"
       },
-      "scoreHome": 0,
-      "scoreAway": 0,
-      "htHome": null,
-      "htAway": null,
+      "scoreHome": 1,
+      "scoreAway": 1,
+      "htHome": 0,
+      "htAway": 0,
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
@@ -2449,8 +2499,8 @@
           "team": "Japan",
           "tla": "JPN",
           "isHome": true,
-          "result": null,
-          "points": 0
+          "result": "D",
+          "points": 1
         }
       ],
       "headToHead": false
@@ -3191,43 +3241,6 @@
   ],
   "upcoming": [
     {
-      "id": 537349,
-      "utcDate": "2026-06-26T02:00:00Z",
-      "status": "TIMED",
-      "stage": "GROUP_STAGE",
-      "group": "GROUP_D",
-      "home": {
-        "name": "Turkey",
-        "tla": "TUR",
-        "crest": "https://crests.football-data.org/803.svg"
-      },
-      "away": {
-        "name": "United States",
-        "tla": "USA",
-        "crest": "https://crests.football-data.org/usa.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Nicha",
-          "color": "#ff5d8f",
-          "team": "United States",
-          "tla": "USA",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ],
-      "headToHead": false
-    },
-    {
       "id": 537373,
       "utcDate": "2026-06-27T00:00:00Z",
       "status": "TIMED",
@@ -3235,7 +3248,7 @@
       "group": "GROUP_H",
       "home": {
         "name": "Uruguay",
-        "tla": "URU",
+        "tla": "URY",
         "crest": "https://crests.football-data.org/758.svg"
       },
       "away": {
@@ -3557,6 +3570,15 @@
       "color": null
     },
     {
+      "name": "Anthony Elanga",
+      "goals": 2,
+      "team": "Sweden",
+      "teamTla": "SWE",
+      "teamCrest": "https://crests.football-data.org/792.svg",
+      "owner": null,
+      "color": null
+    },
+    {
       "name": "Ayase Ueda",
       "goals": 2,
       "team": "Japan",
@@ -3600,22 +3622,13 @@
       "teamCrest": "https://crests.football-data.org/787.svg",
       "owner": null,
       "color": null
-    },
-    {
-      "name": "Raúl Jiménez",
-      "goals": 1,
-      "team": "Mexico",
-      "teamTla": "MEX",
-      "teamCrest": "https://crests.football-data.org/769.svg",
-      "owner": "Daniele",
-      "color": "#3da5ff"
     }
   ],
   "curiosities": [
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "166 in 56 games"
+      "value": "177 in 60 games"
     },
     {
       "icon": "📊",
@@ -3635,12 +3648,12 @@
     {
       "icon": "🤝",
       "label": "Draws so far",
-      "value": "14"
+      "value": "16"
     },
     {
       "icon": "🎯",
       "label": "Your teams' goals",
-      "value": "Nicha 17 · Daniele 26"
+      "value": "Nicha 19 · Daniele 27"
     },
     {
       "icon": "⭐",
