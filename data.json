@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T21:39:11Z",
+  "updatedAt": "2026-06-26T23:19:50Z",
   "version": "2.3",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -3338,7 +3338,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Ismail Elfath",
+        "nationality": "United States"
+      },
       "stakes": [
         {
           "player": "Nicha",
