@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T08:48:24Z",
+  "updatedAt": "2026-06-27T11:44:15Z",
   "version": "2.3",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -1781,9 +1781,9 @@
       "utcDate": "2026-06-30T17:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": "Ivory Coast",
-        "tla": "CIV",
-        "crest": "https://crests.football-data.org/787.svg",
+        "name": null,
+        "tla": null,
+        "crest": null,
         "owner": null,
         "color": null,
         "result": null
@@ -3896,12 +3896,12 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "196 in 66 games"
+      "value": "187 in 64 games"
     },
     {
       "icon": "📊",
       "label": "Goals per game",
-      "value": "3.0"
+      "value": "2.9"
     },
     {
       "icon": "💥",
@@ -3916,7 +3916,7 @@
     {
       "icon": "🤝",
       "label": "Draws so far",
-      "value": "18"
+      "value": "17"
     },
     {
       "icon": "🎯",
