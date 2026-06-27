@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T23:19:50Z",
+  "updatedAt": "2026-06-27T04:12:59Z",
   "version": "2.3",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -11,13 +11,13 @@
     {
       "name": "Nicha",
       "color": "#ff5d8f",
-      "total": 19,
+      "total": 22,
       "agg": {
-        "played": 10,
-        "w": 6,
+        "played": 11,
+        "w": 7,
         "d": 1,
         "l": 3,
-        "gf": 19,
+        "gf": 20,
         "ga": 7
       },
       "teams": [
@@ -27,20 +27,20 @@
           "tla": "ESP",
           "flag": "🇪🇸",
           "crest": "https://crests.football-data.org/760.svg",
-          "points": 4,
-          "w": 1,
+          "points": 7,
+          "w": 2,
           "d": 1,
           "l": 0,
           "group": {
             "position": 1,
-            "played": 2,
-            "won": 1,
+            "played": 3,
+            "won": 2,
             "draw": 1,
             "lost": 0,
-            "gf": 4,
+            "gf": 5,
             "ga": 0,
-            "gd": 4,
-            "points": 4,
+            "gd": 5,
+            "points": 7,
             "group": "Group H"
           },
           "coach": {
@@ -83,15 +83,15 @@
               "opponentTla": "URU",
               "opponentCrest": "https://crests.football-data.org/758.svg",
               "utcDate": "2026-06-27T00:00:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "GROUP_STAGE",
               "group": "GROUP_H",
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "goalsFor": 1,
+              "goalsAgainst": 0,
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
           "status": "in"
@@ -1143,49 +1143,49 @@
       "table": [
         {
           "position": 1,
-          "name": "Egypt",
-          "tla": "EGY",
-          "crest": "https://crests.football-data.org/825.svg",
-          "played": 2,
+          "name": "Belgium",
+          "tla": "BEL",
+          "crest": "https://crests.football-data.org/805.svg",
+          "played": 3,
           "won": 1,
-          "draw": 1,
+          "draw": 2,
           "lost": 0,
-          "gf": 4,
-          "ga": 2,
-          "gd": 2,
-          "points": 4,
+          "gf": 2,
+          "ga": 1,
+          "gd": 1,
+          "points": 5,
           "owner": null,
           "color": null
         },
         {
           "position": 2,
-          "name": "Iran",
-          "tla": "IRN",
-          "crest": "https://crests.football-data.org/iran.svg",
-          "played": 2,
-          "won": 0,
+          "name": "Egypt",
+          "tla": "EGY",
+          "crest": "https://crests.football-data.org/825.svg",
+          "played": 3,
+          "won": 1,
           "draw": 2,
           "lost": 0,
-          "gf": 2,
-          "ga": 2,
-          "gd": 0,
-          "points": 2,
+          "gf": 5,
+          "ga": 3,
+          "gd": 2,
+          "points": 5,
           "owner": null,
           "color": null
         },
         {
           "position": 3,
-          "name": "Belgium",
-          "tla": "BEL",
-          "crest": "https://crests.football-data.org/805.svg",
-          "played": 2,
+          "name": "Iran",
+          "tla": "IRN",
+          "crest": "https://crests.football-data.org/iran.svg",
+          "played": 3,
           "won": 0,
-          "draw": 2,
+          "draw": 3,
           "lost": 0,
-          "gf": 1,
-          "ga": 1,
+          "gf": 3,
+          "ga": 3,
           "gd": 0,
-          "points": 2,
+          "points": 3,
           "owner": null,
           "color": null
         },
@@ -1194,13 +1194,13 @@
           "name": "New Zealand",
           "tla": "NZL",
           "crest": "https://crests.football-data.org/783.svg",
-          "played": 2,
+          "played": 3,
           "won": 0,
           "draw": 1,
-          "lost": 1,
+          "lost": 2,
           "gf": 3,
-          "ga": 5,
-          "gd": -2,
+          "ga": 6,
+          "gd": -3,
           "points": 1,
           "owner": null,
           "color": null
@@ -1216,45 +1216,45 @@
           "name": "Spain",
           "tla": "ESP",
           "crest": "https://crests.football-data.org/760.svg",
-          "played": 2,
-          "won": 1,
+          "played": 3,
+          "won": 2,
           "draw": 1,
           "lost": 0,
-          "gf": 4,
+          "gf": 5,
           "ga": 0,
-          "gd": 4,
-          "points": 4,
+          "gd": 5,
+          "points": 7,
           "owner": "Nicha",
           "color": "#ff5d8f"
         },
         {
           "position": 2,
-          "name": "Uruguay",
-          "tla": "URU",
-          "crest": "https://crests.football-data.org/758.svg",
-          "played": 2,
+          "name": "Cape Verde Islands",
+          "tla": "CPV",
+          "crest": "https://crests.football-data.org/cape_verde.svg",
+          "played": 3,
           "won": 0,
-          "draw": 2,
+          "draw": 3,
           "lost": 0,
-          "gf": 3,
-          "ga": 3,
+          "gf": 2,
+          "ga": 2,
           "gd": 0,
-          "points": 2,
+          "points": 3,
           "owner": null,
           "color": null
         },
         {
           "position": 3,
-          "name": "Cape Verde Islands",
-          "tla": "CPV",
-          "crest": "https://crests.football-data.org/cape_verde.svg",
-          "played": 2,
+          "name": "Uruguay",
+          "tla": "URU",
+          "crest": "https://crests.football-data.org/758.svg",
+          "played": 3,
           "won": 0,
           "draw": 2,
-          "lost": 0,
-          "gf": 2,
-          "ga": 2,
-          "gd": 0,
+          "lost": 1,
+          "gf": 3,
+          "ga": 4,
+          "gd": -1,
           "points": 2,
           "owner": null,
           "color": null
@@ -1264,14 +1264,14 @@
           "name": "Saudi Arabia",
           "tla": "KSA",
           "crest": "https://crests.football-data.org/saudi_arabia.svg",
-          "played": 2,
+          "played": 3,
           "won": 0,
-          "draw": 1,
+          "draw": 2,
           "lost": 1,
           "gf": 1,
           "ga": 5,
           "gd": -4,
-          "points": 1,
+          "points": 2,
           "owner": null,
           "color": null
         }
@@ -1662,6 +1662,11 @@
     {
       "date": "2026-06-26T02:00:00Z",
       "n": 19,
+      "d": 26
+    },
+    {
+      "date": "2026-06-27T00:00:00Z",
+      "n": 22,
       "d": 26
     }
   ],
@@ -2501,6 +2506,46 @@
   ],
   "recent": [
     {
+      "id": 537373,
+      "utcDate": "2026-06-27T00:00:00Z",
+      "status": "FINISHED",
+      "stage": "GROUP_STAGE",
+      "group": "GROUP_H",
+      "home": {
+        "name": "Uruguay",
+        "tla": "URU",
+        "crest": "https://crests.football-data.org/758.svg"
+      },
+      "away": {
+        "name": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg"
+      },
+      "scoreHome": 0,
+      "scoreAway": 1,
+      "htHome": 0,
+      "htAway": 1,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Ismail Elfath",
+        "nationality": "United States"
+      },
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "Spain",
+          "tla": "ESP",
+          "isHome": false,
+          "result": "W",
+          "points": 3
+        }
+      ],
+      "headToHead": false
+    },
+    {
       "id": 537349,
       "utcDate": "2026-06-26T02:00:00Z",
       "status": "FINISHED",
@@ -3316,46 +3361,6 @@
   ],
   "upcoming": [
     {
-      "id": 537373,
-      "utcDate": "2026-06-27T00:00:00Z",
-      "status": "TIMED",
-      "stage": "GROUP_STAGE",
-      "group": "GROUP_H",
-      "home": {
-        "name": "Uruguay",
-        "tla": "URU",
-        "crest": "https://crests.football-data.org/758.svg"
-      },
-      "away": {
-        "name": "Spain",
-        "tla": "ESP",
-        "crest": "https://crests.football-data.org/760.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Ismail Elfath",
-        "nationality": "United States"
-      },
-      "stakes": [
-        {
-          "player": "Nicha",
-          "color": "#ff5d8f",
-          "team": "Spain",
-          "tla": "ESP",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ],
-      "headToHead": false
-    },
-    {
       "id": 537407,
       "utcDate": "2026-06-27T23:30:00Z",
       "status": "TIMED",
@@ -3806,6 +3811,15 @@
       "color": null
     },
     {
+      "name": "Ramin Rezaeian",
+      "goals": 2,
+      "team": "Iran",
+      "teamTla": "IRN",
+      "teamCrest": "https://crests.football-data.org/iran.svg",
+      "owner": null,
+      "color": null
+    },
+    {
       "name": "Harry Kane",
       "goals": 2,
       "team": "England",
@@ -3876,27 +3890,18 @@
       "teamCrest": "https://crests.football-data.org/760.svg",
       "owner": "Nicha",
       "color": "#ff5d8f"
-    },
-    {
-      "name": "Cristiano Ronaldo",
-      "goals": 2,
-      "team": "Portugal",
-      "teamTla": "POR",
-      "teamCrest": "https://crests.football-data.org/765.svg",
-      "owner": null,
-      "color": null
     }
   ],
   "curiosities": [
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "187 in 62 games"
+      "value": "188 in 64 games"
     },
     {
       "icon": "📊",
       "label": "Goals per game",
-      "value": "3.0"
+      "value": "2.9"
     },
     {
       "icon": "💥",
@@ -3911,12 +3916,12 @@
     {
       "icon": "🤝",
       "label": "Draws so far",
-      "value": "16"
+      "value": "17"
     },
     {
       "icon": "🎯",
       "label": "Your teams' goals",
-      "value": "Nicha 19 · Daniele 27"
+      "value": "Nicha 20 · Daniele 27"
     },
     {
       "icon": "⭐",
