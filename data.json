@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T09:28:36Z",
+  "updatedAt": "2026-06-28T19:43:05Z",
   "version": "2.3",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -1715,7 +1715,7 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-06-28T19:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "home": {
         "name": "South Africa",
         "tla": "RSA",
@@ -1732,8 +1732,8 @@
         "color": null,
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 0,
+      "scoreAway": 0,
       "penHome": null,
       "penAway": null
     },
