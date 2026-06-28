@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T19:43:05Z",
+  "updatedAt": "2026-06-28T21:15:24Z",
   "version": "2.3",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -184,7 +184,7 @@
               "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 762,
@@ -367,7 +367,7 @@
           "status": "in"
         }
       ],
-      "alive": 4
+      "alive": 3
     },
     {
       "name": "Daniele",
@@ -1715,14 +1715,14 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-06-28T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "home": {
         "name": "South Africa",
         "tla": "RSA",
         "crest": "https://crests.football-data.org/9396.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "L"
       },
       "away": {
         "name": "Canada",
@@ -1730,10 +1730,10 @@
         "crest": "https://crests.football-data.org/canada.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "W"
       },
       "scoreHome": 0,
-      "scoreAway": 0,
+      "scoreAway": 1,
       "penHome": null,
       "penAway": null
     },
@@ -4016,7 +4016,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "215 in 72 games"
+      "value": "216 in 73 games"
     },
     {
       "icon": "📊",
