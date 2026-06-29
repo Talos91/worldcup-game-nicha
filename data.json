@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T21:15:24Z",
+  "updatedAt": "2026-06-29T11:21:36Z",
   "version": "2.3",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -2133,9 +2133,9 @@
       "utcDate": "2026-07-04T17:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": null,
-        "tla": null,
-        "crest": null,
+        "name": "Canada",
+        "tla": "CAN",
+        "crest": "https://crests.football-data.org/canada.svg",
         "owner": null,
         "color": null,
         "result": null
