@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T18:21:28Z",
+  "updatedAt": "2026-06-29T21:42:34Z",
   "version": "2.3",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -374,12 +374,12 @@
       "color": "#3da5ff",
       "total": 27,
       "agg": {
-        "played": 12,
+        "played": 13,
         "w": 8,
         "d": 3,
-        "l": 1,
-        "gf": 27,
-        "ga": 8
+        "l": 2,
+        "gf": 28,
+        "ga": 10
       },
       "teams": [
         {
@@ -459,12 +459,12 @@
               "opponentTla": "PAR",
               "opponentCrest": "https://crests.football-data.org/761.svg",
               "utcDate": "2026-06-29T20:30:00Z",
-              "status": "TIMED",
+              "status": "PAUSED",
               "stage": "LAST_32",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 1,
               "result": null,
               "points": 0,
               "counted": false
@@ -481,7 +481,7 @@
           "points": 5,
           "w": 1,
           "d": 2,
-          "l": 0,
+          "l": 1,
           "group": {
             "position": 2,
             "played": 3,
@@ -549,18 +549,18 @@
               "opponentTla": "BRA",
               "opponentCrest": "https://crests.football-data.org/764.svg",
               "utcDate": "2026-06-29T17:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": false,
               "goalsFor": 1,
-              "goalsAgainst": 0,
-              "result": null,
+              "goalsAgainst": 2,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 769,
@@ -743,7 +743,7 @@
           "status": "in"
         }
       ],
-      "alive": 4
+      "alive": 3
     }
   ],
   "groups": [
@@ -1708,6 +1708,11 @@
       "date": "2026-06-28T02:00:00Z",
       "n": 25,
       "d": 27
+    },
+    {
+      "date": "2026-06-29T17:00:00Z",
+      "n": 25,
+      "d": 27
     }
   ],
   "knockout": [
@@ -1741,14 +1746,14 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-06-29T17:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "home": {
         "name": "Brazil",
         "tla": "BRA",
         "crest": "https://crests.football-data.org/764.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "W"
       },
       "away": {
         "name": "Japan",
@@ -1756,9 +1761,9 @@
         "crest": "https://crests.football-data.org/766.svg",
         "owner": "Daniele",
         "color": "#3da5ff",
-        "result": null
+        "result": "L"
       },
-      "scoreHome": 0,
+      "scoreHome": 2,
       "scoreAway": 1,
       "penHome": null,
       "penAway": null
@@ -1767,7 +1772,7 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-06-29T20:30:00Z",
-      "status": "TIMED",
+      "status": "PAUSED",
       "home": {
         "name": "Germany",
         "tla": "GER",
@@ -1784,8 +1789,8 @@
         "color": null,
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 0,
+      "scoreAway": 1,
       "penHome": null,
       "penAway": null
     },
@@ -2546,9 +2551,49 @@
   ],
   "recent": [
     {
+      "id": 537415,
+      "utcDate": "2026-06-29T20:30:00Z",
+      "status": "PAUSED",
+      "stage": "LAST_32",
+      "group": null,
+      "home": {
+        "name": "Germany",
+        "tla": "GER",
+        "crest": "https://crests.football-data.org/759.svg"
+      },
+      "away": {
+        "name": "Paraguay",
+        "tla": "PAR",
+        "crest": "https://crests.football-data.org/761.svg"
+      },
+      "scoreHome": 0,
+      "scoreAway": 1,
+      "htHome": 0,
+      "htAway": 1,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Jalal Jayed",
+        "nationality": "Morocco"
+      },
+      "stakes": [
+        {
+          "player": "Daniele",
+          "color": "#3da5ff",
+          "team": "Germany",
+          "tla": "GER",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
+    {
       "id": 537423,
       "utcDate": "2026-06-29T17:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "LAST_32",
       "group": null,
       "home": {
@@ -2561,7 +2606,7 @@
         "tla": "JPN",
         "crest": "https://crests.football-data.org/766.svg"
       },
-      "scoreHome": 0,
+      "scoreHome": 2,
       "scoreAway": 1,
       "htHome": 0,
       "htAway": 1,
@@ -2579,7 +2624,7 @@
           "team": "Japan",
           "tla": "JPN",
           "isHome": false,
-          "result": null,
+          "result": "L",
           "points": 0
         }
       ],
@@ -3521,43 +3566,6 @@
   ],
   "upcoming": [
     {
-      "id": 537415,
-      "utcDate": "2026-06-29T20:30:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "Germany",
-        "tla": "GER",
-        "crest": "https://crests.football-data.org/759.svg"
-      },
-      "away": {
-        "name": "Paraguay",
-        "tla": "PAR",
-        "crest": "https://crests.football-data.org/761.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Daniele",
-          "color": "#3da5ff",
-          "team": "Germany",
-          "tla": "GER",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        }
-      ],
-      "headToHead": false
-    },
-    {
       "id": 537425,
       "utcDate": "2026-07-01T01:00:00Z",
       "status": "TIMED",
@@ -4019,7 +4027,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "216 in 73 games"
+      "value": "219 in 74 games"
     },
     {
       "icon": "📊",
@@ -4044,7 +4052,7 @@
     {
       "icon": "🎯",
       "label": "Your teams' goals",
-      "value": "Nicha 23 · Daniele 27"
+      "value": "Nicha 23 · Daniele 28"
     },
     {
       "icon": "⭐",
