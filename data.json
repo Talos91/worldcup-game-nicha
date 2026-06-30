@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T07:34:48Z",
+  "updatedAt": "2026-06-30T20:13:43Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -1829,14 +1829,14 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-06-30T17:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "home": {
         "name": "Ivory Coast",
         "tla": "CIV",
         "crest": "https://crests.football-data.org/787.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "L"
       },
       "away": {
         "name": "Norway",
@@ -1844,10 +1844,10 @@
         "crest": "https://crests.football-data.org/813.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "W"
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 1,
+      "scoreAway": 2,
       "penHome": null,
       "penAway": null
     },
@@ -3767,6 +3767,15 @@
       "color": "#ff5d8f"
     },
     {
+      "name": "Erling Haaland",
+      "goals": 5,
+      "team": "Norway",
+      "teamTla": "NOR",
+      "teamCrest": "https://crests.football-data.org/813.svg",
+      "owner": null,
+      "color": null
+    },
+    {
       "name": "Vinicius Junior",
       "goals": 4,
       "team": "Brazil",
@@ -3781,15 +3790,6 @@
       "team": "France",
       "teamTla": "FRA",
       "teamCrest": "https://crests.football-data.org/773.svg",
-      "owner": null,
-      "color": null
-    },
-    {
-      "name": "Erling Haaland",
-      "goals": 4,
-      "team": "Norway",
-      "teamTla": "NOR",
-      "teamCrest": "https://crests.football-data.org/813.svg",
       "owner": null,
       "color": null
     },
@@ -3956,6 +3956,15 @@
       "color": "#3da5ff"
     },
     {
+      "name": "Amad Diallo",
+      "goals": 2,
+      "team": "Ivory Coast",
+      "teamTla": "CIV",
+      "teamCrest": "https://crests.football-data.org/787.svg",
+      "owner": null,
+      "color": null
+    },
+    {
       "name": "Yasin Ayari",
       "goals": 2,
       "team": "Sweden",
@@ -4017,22 +4026,13 @@
       "teamCrest": "https://crests.football-data.org/788.svg",
       "owner": null,
       "color": null
-    },
-    {
-      "name": "Ermin Mahmic",
-      "goals": 2,
-      "team": "Bosnia-Herzegovina",
-      "teamTla": "BIH",
-      "teamCrest": "https://crests.football-data.org/bosnia.svg",
-      "owner": null,
-      "color": null
     }
   ],
   "curiosities": [
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "235 in 76 games"
+      "value": "238 in 77 games"
     },
     {
       "icon": "📊",
