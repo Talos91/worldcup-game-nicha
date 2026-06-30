@@ -44,7 +44,7 @@ def load_api_key():
     )
 
 WIN, DRAW, LOSS = 3, 1, 0  # a loss counts 0 (the old -1 was dropped 2026-06-25)
-VERSION = "2.3"  # bump on every code push; shown in the page footer (via data.json)
+VERSION = "2.5"  # bump on every code push; shown in the page footer (via data.json)
 
 # Tracked teams keyed by football-data team id (stable across name spellings).
 # `flag` is an emoji fallback; the page prefers the real crest image from the API.
@@ -429,7 +429,9 @@ def team_status(team, knockout_started):
         return "in"
     last = finished[-1]                       # most recent finished match
     if last.get("stage") in KNOCKOUT_STAGES:
-        return "out"                          # knockout run ended, no next fixture
+        # No next fixture yet: a LOSER is eliminated, but a WINNER is just between
+        # rounds (the API hasn't assigned their next match) — keep them alive.
+        return "out" if last.get("result") == "L" else "in"
     g = team.get("group") or {}
     if g.get("position") and g.get("played", 0) >= 3 and g["position"] >= 4:
         return "out"                          # bottom of a completed group

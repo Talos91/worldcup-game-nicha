@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-06-30 — v2.5
+- **Fixed: knockout winners no longer flash "out".** A team that *won* its last
+  knockout match is now kept **alive** while waiting for its next-round fixture
+  to be scheduled — previously it was wrongly marked eliminated between rounds.
+- **Group stage tidied away once the knockouts begin.** The group tables and the
+  "Round of 32 — as it stands" predictor now disappear as soon as a knockout
+  match is played (or the full draw is set), leaving just the live bracket.
+- Group tables also gained dimmed rows + an "out" tag for eliminated teams (for
+  the brief window they're still shown during the group stage).
+
 ## 2026-06-26 — v2.3
 - **Dropped the −1 loss penalty.** Scoring is now Win +3 / Draw +1 / **Loss 0**
   (matching the office league); all totals recalculated.

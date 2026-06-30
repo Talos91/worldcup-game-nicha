@@ -146,6 +146,8 @@
   .gname { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
   .gnum { text-align:center; color:var(--muted); font-variant-numeric:tabular-nums; }
   .gpts { text-align:center; font-weight:800; font-variant-numeric:tabular-nums; }
+  .grow.gout { opacity:.5; }
+  .gout-tag { font-size:9px; font-weight:800; color:var(--loss); background:rgba(255,92,92,.16); padding:1px 5px; border-radius:4px; }
 
   /* Feeds */
   .feedbox { background:var(--card); border:1px solid var(--card-line); border-radius:16px; overflow:hidden; }
@@ -504,10 +506,11 @@ function groupRow(r, i) {
   const style = owned ? ` style="background:${r.color}14"` : "";
   const dot = owned ? `<span class="odot" style="background:${r.color}"></span>` : "";
   const gd = r.gd > 0 ? "+" + r.gd : r.gd;
-  return `<div class="grow ${i < 2 ? "qual" : ""}"${style}>
+  const out = r.played >= 3 && r.position >= 4;
+  return `<div class="grow ${i < 2 ? "qual" : ""} ${out ? "gout" : ""}"${style}>
     <span class="gpos">${r.position}</span>
     ${crestImg(r.crest, r.tla, "")}
-    <span class="gname">${dot}${r.name}</span>
+    <span class="gname">${dot}${r.name}${out ? ` <span class="gout-tag">out</span>` : ""}</span>
     <span class="gnum">${r.played}</span>
     <span class="gnum">${gd}</span>
     <span class="gpts">${r.points}</span>
@@ -717,9 +720,13 @@ function bracketDrawn(ko) {
   const r32 = (ko || []).filter(e => e.stage === "LAST_32");
   return r32.length > 0 && r32.every(e => e.home.name && e.away.name);
 }
+function koStarted(ko) {            // knockouts underway: a KO match has a result, or the draw is fully set
+  const k = ko || [];
+  return k.some(e => e.scoreHome != null) || bracketDrawn(k);
+}
 function knockoutSection(data) {
   const ko = data.knockout || [];
-  const koReady = bracketDrawn(ko);
+  const koReady = koStarted(ko);
   if (koReady) {
     return `<section class="block"><h2 class="sec"><span class="ico">🗝️</span> Knockout bracket</h2>${bracketHtml(ko)}</section>`;
   }
@@ -762,7 +769,7 @@ function render(data) {
     <div class="legend">Each team's record is <b>W-L-D</b> (won-lost-drawn). Win +3 · Draw +1 · Loss 0.</div></section>`;
 
   const chart = leadChart(data.timeline || [], a.name, b.name);
-  const koReady = bracketDrawn(data.knockout || []);
+  const koReady = koStarted(data.knockout || []);
   const knockout = knockoutSection(data);
   const groups = koReady ? "" : groupsSection(data.groups || []);
   const recent = feedSection("Recent results", "✅", data.recent || [], recentRow, "No results yet — kickoff soon!", "recentFeed");
