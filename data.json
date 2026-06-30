@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T20:13:43Z",
+  "updatedAt": "2026-06-30T23:24:17Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -1855,14 +1855,14 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-06-30T21:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "home": {
         "name": "France",
         "tla": "FRA",
         "crest": "https://crests.football-data.org/773.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "W"
       },
       "away": {
         "name": "Sweden",
@@ -1870,10 +1870,10 @@
         "crest": "https://crests.football-data.org/792.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "L"
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 3,
+      "scoreAway": 0,
       "penHome": null,
       "penAway": null
     },
@@ -3593,7 +3593,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Slavko Vinčič",
+        "nationality": "Slovenia"
+      },
       "stakes": [
         {
           "player": "Daniele",
@@ -3758,6 +3761,15 @@
   ],
   "scorers": [
     {
+      "name": "Kylian Mbappé",
+      "goals": 6,
+      "team": "France",
+      "teamTla": "FRA",
+      "teamCrest": "https://crests.football-data.org/773.svg",
+      "owner": null,
+      "color": null
+    },
+    {
       "name": "Lionel Messi",
       "goals": 6,
       "team": "Argentina",
@@ -3781,15 +3793,6 @@
       "team": "Brazil",
       "teamTla": "BRA",
       "teamCrest": "https://crests.football-data.org/764.svg",
-      "owner": null,
-      "color": null
-    },
-    {
-      "name": "Kylian Mbappé",
-      "goals": 4,
-      "team": "France",
-      "teamTla": "FRA",
-      "teamCrest": "https://crests.football-data.org/773.svg",
       "owner": null,
       "color": null
     },
@@ -3992,6 +3995,15 @@
       "color": null
     },
     {
+      "name": "Bradley Barcola",
+      "goals": 2,
+      "team": "France",
+      "teamTla": "FRA",
+      "teamCrest": "https://crests.football-data.org/773.svg",
+      "owner": null,
+      "color": null
+    },
+    {
       "name": "Marko Arnautovic",
       "goals": 2,
       "team": "Austria",
@@ -4017,22 +4029,13 @@
       "teamCrest": "https://crests.football-data.org/818.svg",
       "owner": "Daniele",
       "color": "#3da5ff"
-    },
-    {
-      "name": "Ruben Vargas",
-      "goals": 2,
-      "team": "Switzerland",
-      "teamTla": "SUI",
-      "teamCrest": "https://crests.football-data.org/788.svg",
-      "owner": null,
-      "color": null
     }
   ],
   "curiosities": [
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "238 in 77 games"
+      "value": "241 in 78 games"
     },
     {
       "icon": "📊",
