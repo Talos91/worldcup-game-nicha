@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T21:44:41Z",
+  "updatedAt": "2026-07-01T23:38:25Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -1938,14 +1938,14 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-07-01T20:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "home": {
         "name": "Belgium",
         "tla": "BEL",
         "crest": "https://crests.football-data.org/805.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "W"
       },
       "away": {
         "name": "Senegal",
@@ -1953,9 +1953,9 @@
         "crest": "https://crests.football-data.org/senegal.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "L"
       },
-      "scoreHome": 0,
+      "scoreHome": 3,
       "scoreAway": 2,
       "penHome": null,
       "penAway": null
@@ -3638,7 +3638,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Raphael Claus",
+        "nationality": "Brazil"
+      },
       "stakes": [
         {
           "player": "Nicha",
@@ -4040,7 +4043,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "246 in 80 games"
+      "value": "251 in 81 games"
     },
     {
       "icon": "📊",
