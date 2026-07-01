@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T23:24:17Z",
+  "updatedAt": "2026-07-01T04:49:53Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -372,13 +372,13 @@
     {
       "name": "Daniele",
       "color": "#3da5ff",
-      "total": 27,
+      "total": 30,
       "agg": {
-        "played": 14,
-        "w": 8,
+        "played": 15,
+        "w": 9,
         "d": 3,
         "l": 3,
-        "gf": 32,
+        "gf": 34,
         "ga": 15
       },
       "teams": [
@@ -568,8 +568,8 @@
           "tla": "MEX",
           "flag": "🇲🇽",
           "crest": "https://crests.football-data.org/769.svg",
-          "points": 9,
-          "w": 3,
+          "points": 12,
+          "w": 4,
           "d": 0,
           "l": 0,
           "group": {
@@ -639,15 +639,15 @@
               "opponentTla": "ECU",
               "opponentCrest": "https://crests.football-data.org/791.svg",
               "utcDate": "2026-07-01T01:00:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "goalsFor": 2,
+              "goalsAgainst": 0,
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
           "status": "in"
@@ -1718,6 +1718,11 @@
       "date": "2026-06-29T20:30:00Z",
       "n": 25,
       "d": 27
+    },
+    {
+      "date": "2026-07-01T01:00:00Z",
+      "n": 25,
+      "d": 30
     }
   ],
   "knockout": [
@@ -1881,14 +1886,14 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-07-01T01:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "home": {
         "name": "Mexico",
         "tla": "MEX",
         "crest": "https://crests.football-data.org/769.svg",
         "owner": "Daniele",
         "color": "#3da5ff",
-        "result": null
+        "result": "W"
       },
       "away": {
         "name": "Ecuador",
@@ -1896,10 +1901,10 @@
         "crest": "https://crests.football-data.org/791.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "L"
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 2,
+      "scoreAway": 0,
       "penHome": null,
       "penAway": null
     },
@@ -2555,6 +2560,46 @@
     }
   ],
   "recent": [
+    {
+      "id": 537425,
+      "utcDate": "2026-07-01T01:00:00Z",
+      "status": "FINISHED",
+      "stage": "LAST_32",
+      "group": null,
+      "home": {
+        "name": "Mexico",
+        "tla": "MEX",
+        "crest": "https://crests.football-data.org/769.svg"
+      },
+      "away": {
+        "name": "Ecuador",
+        "tla": "ECU",
+        "crest": "https://crests.football-data.org/791.svg"
+      },
+      "scoreHome": 2,
+      "scoreAway": 0,
+      "htHome": 2,
+      "htAway": 0,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Slavko Vinčič",
+        "nationality": "Slovenia"
+      },
+      "stakes": [
+        {
+          "player": "Daniele",
+          "color": "#3da5ff",
+          "team": "Mexico",
+          "tla": "MEX",
+          "isHome": true,
+          "result": "W",
+          "points": 3
+        }
+      ],
+      "headToHead": false
+    },
     {
       "id": 537415,
       "utcDate": "2026-06-29T20:30:00Z",
@@ -3571,46 +3616,6 @@
   ],
   "upcoming": [
     {
-      "id": 537425,
-      "utcDate": "2026-07-01T01:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "Mexico",
-        "tla": "MEX",
-        "crest": "https://crests.football-data.org/769.svg"
-      },
-      "away": {
-        "name": "Ecuador",
-        "tla": "ECU",
-        "crest": "https://crests.football-data.org/791.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Slavko Vinčič",
-        "nationality": "Slovenia"
-      },
-      "stakes": [
-        {
-          "player": "Daniele",
-          "color": "#3da5ff",
-          "team": "Mexico",
-          "tla": "MEX",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        }
-      ],
-      "headToHead": false
-    },
-    {
       "id": 537421,
       "utcDate": "2026-07-02T00:00:00Z",
       "status": "TIMED",
@@ -3806,6 +3811,15 @@
       "color": null
     },
     {
+      "name": "Julián Quiñones",
+      "goals": 3,
+      "team": "Mexico",
+      "teamTla": "MEX",
+      "teamCrest": "https://crests.football-data.org/769.svg",
+      "owner": "Daniele",
+      "color": "#3da5ff"
+    },
+    {
       "name": "Ismael Saibari",
       "goals": 3,
       "team": "Morocco",
@@ -3914,7 +3928,7 @@
       "color": null
     },
     {
-      "name": "Julián Quiñones",
+      "name": "Raúl Jiménez",
       "goals": 2,
       "team": "Mexico",
       "teamTla": "MEX",
@@ -4020,22 +4034,13 @@
       "teamCrest": "https://crests.football-data.org/770.svg",
       "owner": null,
       "color": null
-    },
-    {
-      "name": "Daniel Muñoz",
-      "goals": 2,
-      "team": "Colombia",
-      "teamTla": "COL",
-      "teamCrest": "https://crests.football-data.org/818.svg",
-      "owner": "Daniele",
-      "color": "#3da5ff"
     }
   ],
   "curiosities": [
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "241 in 78 games"
+      "value": "243 in 79 games"
     },
     {
       "icon": "📊",
@@ -4060,12 +4065,12 @@
     {
       "icon": "🎯",
       "label": "Your teams' goals",
-      "value": "Nicha 23 · Daniele 32"
+      "value": "Nicha 23 · Daniele 34"
     },
     {
       "icon": "⭐",
       "label": "Top team",
-      "value": "Argentina (+9)"
+      "value": "Mexico (+12)"
     }
   ]
 }
