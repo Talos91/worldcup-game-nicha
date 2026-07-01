@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T14:54:32Z",
+  "updatedAt": "2026-07-01T18:08:18Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -1912,14 +1912,14 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-07-01T16:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "home": {
         "name": "England",
         "tla": "ENG",
         "crest": "https://crests.football-data.org/770.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "W"
       },
       "away": {
         "name": "Congo DR",
@@ -1927,10 +1927,10 @@
         "crest": "https://crests.football-data.org/congo_dr.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "L"
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 2,
+      "scoreAway": 1,
       "penHome": null,
       "penAway": null
     },
@@ -3793,6 +3793,15 @@
       "color": null
     },
     {
+      "name": "Harry Kane",
+      "goals": 5,
+      "team": "England",
+      "teamTla": "ENG",
+      "teamCrest": "https://crests.football-data.org/770.svg",
+      "owner": null,
+      "color": null
+    },
+    {
       "name": "Vinicius Junior",
       "goals": 4,
       "team": "Brazil",
@@ -3861,15 +3870,6 @@
       "team": "Congo DR",
       "teamTla": "COD",
       "teamCrest": "https://crests.football-data.org/congo_dr.svg",
-      "owner": null,
-      "color": null
-    },
-    {
-      "name": "Harry Kane",
-      "goals": 3,
-      "team": "England",
-      "teamTla": "ENG",
-      "teamCrest": "https://crests.football-data.org/770.svg",
       "owner": null,
       "color": null
     },
@@ -4040,7 +4040,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "243 in 79 games"
+      "value": "246 in 80 games"
     },
     {
       "icon": "📊",
