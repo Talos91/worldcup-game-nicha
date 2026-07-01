@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T18:08:18Z",
+  "updatedAt": "2026-07-01T21:44:41Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -1938,7 +1938,7 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-07-01T20:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "home": {
         "name": "Belgium",
         "tla": "BEL",
@@ -1955,8 +1955,8 @@
         "color": null,
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 0,
+      "scoreAway": 2,
       "penHome": null,
       "penAway": null
     },
@@ -3820,6 +3820,15 @@
       "color": null
     },
     {
+      "name": "Ismaïla Sarr",
+      "goals": 4,
+      "team": "Senegal",
+      "teamTla": "SEN",
+      "teamCrest": "https://crests.football-data.org/senegal.svg",
+      "owner": null,
+      "color": null
+    },
+    {
       "name": "Julián Quiñones",
       "goals": 3,
       "team": "Mexico",
@@ -3915,15 +3924,6 @@
       "team": "Netherlands",
       "teamTla": "NED",
       "teamCrest": "https://crests.football-data.org/8601.svg",
-      "owner": null,
-      "color": null
-    },
-    {
-      "name": "Ismaïla Sarr",
-      "goals": 3,
-      "team": "Senegal",
-      "teamTla": "SEN",
-      "teamCrest": "https://crests.football-data.org/senegal.svg",
       "owner": null,
       "color": null
     },
