@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T04:17:50Z",
+  "updatedAt": "2026-07-02T09:29:34Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -362,6 +362,21 @@
               "result": "W",
               "points": 3,
               "counted": true
+            },
+            {
+              "opponent": "Belgium",
+              "opponentTla": "BEL",
+              "opponentCrest": "https://crests.football-data.org/805.svg",
+              "utcDate": "2026-07-07T00:00:00Z",
+              "status": "TIMED",
+              "stage": "LAST_16",
+              "group": null,
+              "isHome": true,
+              "goalsFor": null,
+              "goalsAgainst": null,
+              "result": null,
+              "points": 0,
+              "counted": false
             }
           ],
           "status": "in"
@@ -648,6 +663,21 @@
               "result": "W",
               "points": 3,
               "counted": true
+            },
+            {
+              "opponent": "England",
+              "opponentTla": "ENG",
+              "opponentCrest": "https://crests.football-data.org/770.svg",
+              "utcDate": "2026-07-06T00:00:00Z",
+              "status": "TIMED",
+              "stage": "LAST_16",
+              "group": null,
+              "isHome": true,
+              "goalsFor": null,
+              "goalsAgainst": null,
+              "result": null,
+              "points": 0,
+              "counted": false
             }
           ],
           "status": "in"
@@ -2231,17 +2261,17 @@
       "utcDate": "2026-07-06T00:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": null,
-        "tla": null,
-        "crest": null,
-        "owner": null,
-        "color": null,
+        "name": "Mexico",
+        "tla": "MEX",
+        "crest": "https://crests.football-data.org/769.svg",
+        "owner": "Daniele",
+        "color": "#3da5ff",
         "result": null
       },
       "away": {
-        "name": null,
-        "tla": null,
-        "crest": null,
+        "name": "England",
+        "tla": "ENG",
+        "crest": "https://crests.football-data.org/770.svg",
         "owner": null,
         "color": null,
         "result": null
@@ -2283,17 +2313,17 @@
       "utcDate": "2026-07-07T00:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": null,
-        "tla": null,
-        "crest": null,
-        "owner": null,
-        "color": null,
+        "name": "United States",
+        "tla": "USA",
+        "crest": "https://crests.football-data.org/usa.svg",
+        "owner": "Nicha",
+        "color": "#ff5d8f",
         "result": null
       },
       "away": {
-        "name": null,
-        "tla": null,
-        "crest": null,
+        "name": "Belgium",
+        "tla": "BEL",
+        "crest": "https://crests.football-data.org/805.svg",
         "owner": null,
         "color": null,
         "result": null
@@ -3764,6 +3794,80 @@
           "color": "#3da5ff",
           "team": "Colombia",
           "tla": "COL",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
+    {
+      "id": 537378,
+      "utcDate": "2026-07-06T00:00:00Z",
+      "status": "TIMED",
+      "stage": "LAST_16",
+      "group": null,
+      "home": {
+        "name": "Mexico",
+        "tla": "MEX",
+        "crest": "https://crests.football-data.org/769.svg"
+      },
+      "away": {
+        "name": "England",
+        "tla": "ENG",
+        "crest": "https://crests.football-data.org/770.svg"
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
+      "stakes": [
+        {
+          "player": "Daniele",
+          "color": "#3da5ff",
+          "team": "Mexico",
+          "tla": "MEX",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
+    {
+      "id": 537380,
+      "utcDate": "2026-07-07T00:00:00Z",
+      "status": "TIMED",
+      "stage": "LAST_16",
+      "group": null,
+      "home": {
+        "name": "United States",
+        "tla": "USA",
+        "crest": "https://crests.football-data.org/usa.svg"
+      },
+      "away": {
+        "name": "Belgium",
+        "tla": "BEL",
+        "crest": "https://crests.football-data.org/805.svg"
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "United States",
+          "tla": "USA",
           "isHome": true,
           "result": null,
           "points": 0
