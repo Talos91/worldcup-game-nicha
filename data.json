@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T09:29:34Z",
+  "updatedAt": "2026-07-02T19:46:13Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -102,8 +102,8 @@
               "stage": "LAST_32",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 1,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -2042,8 +2042,8 @@
         "color": null,
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 1,
+      "scoreAway": 0,
       "penHome": null,
       "penAway": null
     },
@@ -3706,14 +3706,17 @@
         "tla": "AUT",
         "crest": "https://crests.football-data.org/816.svg"
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 1,
+      "scoreAway": 0,
       "htHome": null,
       "htAway": null,
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Glenn Nyberg",
+        "nationality": "Sweden"
+      },
       "stakes": [
         {
           "player": "Nicha",
@@ -4049,6 +4052,15 @@
       "color": null
     },
     {
+      "name": "Mikel Oyarzabal",
+      "goals": 3,
+      "team": "Spain",
+      "teamTla": "ESP",
+      "teamCrest": "https://crests.football-data.org/760.svg",
+      "owner": "Nicha",
+      "color": "#ff5d8f"
+    },
+    {
       "name": "Raúl Jiménez",
       "goals": 2,
       "team": "Mexico",
@@ -4135,15 +4147,6 @@
       "team": "Austria",
       "teamTla": "AUT",
       "teamCrest": "https://crests.football-data.org/816.svg",
-      "owner": null,
-      "color": null
-    },
-    {
-      "name": "Jude Bellingham",
-      "goals": 2,
-      "team": "England",
-      "teamTla": "ENG",
-      "teamCrest": "https://crests.football-data.org/770.svg",
       "owner": null,
       "color": null
     }
