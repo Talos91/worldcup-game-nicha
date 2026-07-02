@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T23:38:25Z",
+  "updatedAt": "2026-07-02T04:17:50Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -11,13 +11,13 @@
     {
       "name": "Nicha",
       "color": "#ff5d8f",
-      "total": 25,
+      "total": 28,
       "agg": {
-        "played": 12,
-        "w": 8,
+        "played": 13,
+        "w": 9,
         "d": 1,
         "l": 3,
-        "gf": 23,
+        "gf": 25,
         "ga": 8
       },
       "teams": [
@@ -282,8 +282,8 @@
           "tla": "USA",
           "flag": "🇺🇸",
           "crest": "https://crests.football-data.org/usa.svg",
-          "points": 6,
-          "w": 2,
+          "points": 9,
+          "w": 3,
           "d": 0,
           "l": 1,
           "group": {
@@ -353,15 +353,15 @@
               "opponentTla": "BIH",
               "opponentCrest": "https://crests.football-data.org/bosnia.svg",
               "utcDate": "2026-07-02T00:00:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "goalsFor": 2,
+              "goalsAgainst": 0,
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
           "status": "in"
@@ -638,7 +638,7 @@
               "opponent": "Ecuador",
               "opponentTla": "ECU",
               "opponentCrest": "https://crests.football-data.org/791.svg",
-              "utcDate": "2026-07-01T01:00:00Z",
+              "utcDate": "2026-07-01T02:00:00Z",
               "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
@@ -1720,8 +1720,13 @@
       "d": 27
     },
     {
-      "date": "2026-07-01T01:00:00Z",
+      "date": "2026-07-01T02:00:00Z",
       "n": 25,
+      "d": 30
+    },
+    {
+      "date": "2026-07-02T00:00:00Z",
+      "n": 28,
       "d": 30
     }
   ],
@@ -1885,7 +1890,7 @@
     {
       "stage": "LAST_32",
       "order": 1,
-      "utcDate": "2026-07-01T01:00:00Z",
+      "utcDate": "2026-07-01T02:00:00Z",
       "status": "FINISHED",
       "home": {
         "name": "Mexico",
@@ -1964,14 +1969,14 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-07-02T00:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "home": {
         "name": "United States",
         "tla": "USA",
         "crest": "https://crests.football-data.org/usa.svg",
         "owner": "Nicha",
         "color": "#ff5d8f",
-        "result": null
+        "result": "W"
       },
       "away": {
         "name": "Bosnia-Herzegovina",
@@ -1979,10 +1984,10 @@
         "crest": "https://crests.football-data.org/bosnia.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "L"
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 2,
+      "scoreAway": 0,
       "penHome": null,
       "penAway": null
     },
@@ -2561,8 +2566,48 @@
   ],
   "recent": [
     {
+      "id": 537421,
+      "utcDate": "2026-07-02T00:00:00Z",
+      "status": "FINISHED",
+      "stage": "LAST_32",
+      "group": null,
+      "home": {
+        "name": "United States",
+        "tla": "USA",
+        "crest": "https://crests.football-data.org/usa.svg"
+      },
+      "away": {
+        "name": "Bosnia-Herzegovina",
+        "tla": "BIH",
+        "crest": "https://crests.football-data.org/bosnia.svg"
+      },
+      "scoreHome": 2,
+      "scoreAway": 0,
+      "htHome": 1,
+      "htAway": 0,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Raphael Claus",
+        "nationality": "Brazil"
+      },
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "United States",
+          "tla": "USA",
+          "isHome": true,
+          "result": "W",
+          "points": 3
+        }
+      ],
+      "headToHead": false
+    },
+    {
       "id": 537425,
-      "utcDate": "2026-07-01T01:00:00Z",
+      "utcDate": "2026-07-01T02:00:00Z",
       "status": "FINISHED",
       "stage": "LAST_32",
       "group": null,
@@ -3616,46 +3661,6 @@
   ],
   "upcoming": [
     {
-      "id": 537421,
-      "utcDate": "2026-07-02T00:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "United States",
-        "tla": "USA",
-        "crest": "https://crests.football-data.org/usa.svg"
-      },
-      "away": {
-        "name": "Bosnia-Herzegovina",
-        "tla": "BIH",
-        "crest": "https://crests.football-data.org/bosnia.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Raphael Claus",
-        "nationality": "Brazil"
-      },
-      "stakes": [
-        {
-          "player": "Nicha",
-          "color": "#ff5d8f",
-          "team": "United States",
-          "tla": "USA",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        }
-      ],
-      "headToHead": false
-    },
-    {
       "id": 537420,
       "utcDate": "2026-07-02T19:00:00Z",
       "status": "TIMED",
@@ -3841,6 +3846,15 @@
       "color": "#3da5ff"
     },
     {
+      "name": "Folarin Balogun",
+      "goals": 3,
+      "team": "United States",
+      "teamTla": "USA",
+      "teamCrest": "https://crests.football-data.org/usa.svg",
+      "owner": "Nicha",
+      "color": "#ff5d8f"
+    },
+    {
       "name": "Ismael Saibari",
       "goals": 3,
       "team": "Morocco",
@@ -3949,15 +3963,6 @@
       "color": null
     },
     {
-      "name": "Folarin Balogun",
-      "goals": 2,
-      "team": "United States",
-      "teamTla": "USA",
-      "teamCrest": "https://crests.football-data.org/usa.svg",
-      "owner": "Nicha",
-      "color": "#ff5d8f"
-    },
-    {
       "name": "Crysencio Summerville",
       "goals": 2,
       "team": "Netherlands",
@@ -4043,7 +4048,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "251 in 81 games"
+      "value": "253 in 82 games"
     },
     {
       "icon": "📊",
@@ -4068,7 +4073,7 @@
     {
       "icon": "🎯",
       "label": "Your teams' goals",
-      "value": "Nicha 23 · Daniele 34"
+      "value": "Nicha 25 · Daniele 34"
     },
     {
       "icon": "⭐",
