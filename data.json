@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T19:46:13Z",
+  "updatedAt": "2026-07-02T21:20:43Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -11,13 +11,13 @@
     {
       "name": "Nicha",
       "color": "#ff5d8f",
-      "total": 28,
+      "total": 31,
       "agg": {
-        "played": 13,
-        "w": 9,
+        "played": 14,
+        "w": 10,
         "d": 1,
         "l": 3,
-        "gf": 25,
+        "gf": 28,
         "ga": 8
       },
       "teams": [
@@ -27,8 +27,8 @@
           "tla": "ESP",
           "flag": "🇪🇸",
           "crest": "https://crests.football-data.org/760.svg",
-          "points": 7,
-          "w": 2,
+          "points": 10,
+          "w": 3,
           "d": 1,
           "l": 0,
           "group": {
@@ -98,15 +98,15 @@
               "opponentTla": "AUT",
               "opponentCrest": "https://crests.football-data.org/816.svg",
               "utcDate": "2026-07-02T19:00:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": true,
-              "goalsFor": 1,
+              "goalsFor": 3,
               "goalsAgainst": 0,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
           "status": "in"
@@ -1758,6 +1758,11 @@
       "date": "2026-07-02T00:00:00Z",
       "n": 28,
       "d": 30
+    },
+    {
+      "date": "2026-07-02T19:00:00Z",
+      "n": 31,
+      "d": 30
     }
   ],
   "knockout": [
@@ -2025,14 +2030,14 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-07-02T19:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "home": {
         "name": "Spain",
         "tla": "ESP",
         "crest": "https://crests.football-data.org/760.svg",
         "owner": "Nicha",
         "color": "#ff5d8f",
-        "result": null
+        "result": "W"
       },
       "away": {
         "name": "Austria",
@@ -2040,9 +2045,9 @@
         "crest": "https://crests.football-data.org/816.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "L"
       },
-      "scoreHome": 1,
+      "scoreHome": 3,
       "scoreAway": 0,
       "penHome": null,
       "penAway": null
@@ -2595,6 +2600,46 @@
     }
   ],
   "recent": [
+    {
+      "id": 537420,
+      "utcDate": "2026-07-02T19:00:00Z",
+      "status": "FINISHED",
+      "stage": "LAST_32",
+      "group": null,
+      "home": {
+        "name": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg"
+      },
+      "away": {
+        "name": "Austria",
+        "tla": "AUT",
+        "crest": "https://crests.football-data.org/816.svg"
+      },
+      "scoreHome": 3,
+      "scoreAway": 0,
+      "htHome": 1,
+      "htAway": 0,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Glenn Nyberg",
+        "nationality": "Sweden"
+      },
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "Spain",
+          "tla": "ESP",
+          "isHome": true,
+          "result": "W",
+          "points": 3
+        }
+      ],
+      "headToHead": false
+    },
     {
       "id": 537421,
       "utcDate": "2026-07-02T00:00:00Z",
@@ -3691,46 +3736,6 @@
   ],
   "upcoming": [
     {
-      "id": 537420,
-      "utcDate": "2026-07-02T19:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "Spain",
-        "tla": "ESP",
-        "crest": "https://crests.football-data.org/760.svg"
-      },
-      "away": {
-        "name": "Austria",
-        "tla": "AUT",
-        "crest": "https://crests.football-data.org/816.svg"
-      },
-      "scoreHome": 1,
-      "scoreAway": 0,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Glenn Nyberg",
-        "nationality": "Sweden"
-      },
-      "stakes": [
-        {
-          "player": "Nicha",
-          "color": "#ff5d8f",
-          "team": "Spain",
-          "tla": "ESP",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        }
-      ],
-      "headToHead": false
-    },
-    {
       "id": 537427,
       "utcDate": "2026-07-03T22:00:00Z",
       "status": "TIMED",
@@ -3926,6 +3931,15 @@
       "color": null
     },
     {
+      "name": "Mikel Oyarzabal",
+      "goals": 4,
+      "team": "Spain",
+      "teamTla": "ESP",
+      "teamCrest": "https://crests.football-data.org/760.svg",
+      "owner": "Nicha",
+      "color": "#ff5d8f"
+    },
+    {
       "name": "Ousmane Dembélé",
       "goals": 4,
       "team": "France",
@@ -4052,15 +4066,6 @@
       "color": null
     },
     {
-      "name": "Mikel Oyarzabal",
-      "goals": 3,
-      "team": "Spain",
-      "teamTla": "ESP",
-      "teamCrest": "https://crests.football-data.org/760.svg",
-      "owner": "Nicha",
-      "color": "#ff5d8f"
-    },
-    {
       "name": "Raúl Jiménez",
       "goals": 2,
       "team": "Mexico",
@@ -4155,7 +4160,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "253 in 82 games"
+      "value": "256 in 83 games"
     },
     {
       "icon": "📊",
@@ -4180,7 +4185,7 @@
     {
       "icon": "🎯",
       "label": "Your teams' goals",
-      "value": "Nicha 25 · Daniele 34"
+      "value": "Nicha 28 · Daniele 34"
     },
     {
       "icon": "⭐",
