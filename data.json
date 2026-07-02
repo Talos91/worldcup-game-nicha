@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T21:20:43Z",
+  "updatedAt": "2026-07-02T23:19:27Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -2056,7 +2056,7 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-07-02T23:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "home": {
         "name": "Portugal",
         "tla": "POR",
@@ -2073,8 +2073,8 @@
         "color": null,
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 0,
+      "scoreAway": 0,
       "penHome": null,
       "penAway": null
     },
