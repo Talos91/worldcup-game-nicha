@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T21:20:25Z",
+  "updatedAt": "2026-07-03T23:16:25Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -263,12 +263,12 @@
               "opponentTla": "CPV",
               "opponentCrest": "https://crests.football-data.org/cape_verde.svg",
               "utcDate": "2026-07-03T22:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "LAST_32",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 1,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -2134,7 +2134,7 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-07-03T22:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "home": {
         "name": "Argentina",
         "tla": "ARG",
@@ -2151,8 +2151,8 @@
         "color": null,
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 1,
+      "scoreAway": 0,
       "penHome": null,
       "penAway": null
     },
@@ -2600,6 +2600,46 @@
     }
   ],
   "recent": [
+    {
+      "id": 537427,
+      "utcDate": "2026-07-03T22:00:00Z",
+      "status": "IN_PLAY",
+      "stage": "LAST_32",
+      "group": null,
+      "home": {
+        "name": "Argentina",
+        "tla": "ARG",
+        "crest": "https://crests.football-data.org/762.png"
+      },
+      "away": {
+        "name": "Cape Verde Islands",
+        "tla": "CPV",
+        "crest": "https://crests.football-data.org/cape_verde.svg"
+      },
+      "scoreHome": 1,
+      "scoreAway": 0,
+      "htHome": 1,
+      "htAway": 0,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Drew Fischer",
+        "nationality": "Canada"
+      },
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "Argentina",
+          "tla": "ARG",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
     {
       "id": 537420,
       "utcDate": "2026-07-02T19:00:00Z",
@@ -3736,46 +3776,6 @@
   ],
   "upcoming": [
     {
-      "id": 537427,
-      "utcDate": "2026-07-03T22:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "Argentina",
-        "tla": "ARG",
-        "crest": "https://crests.football-data.org/762.png"
-      },
-      "away": {
-        "name": "Cape Verde Islands",
-        "tla": "CPV",
-        "crest": "https://crests.football-data.org/cape_verde.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Drew Fischer",
-        "nationality": "Canada"
-      },
-      "stakes": [
-        {
-          "player": "Nicha",
-          "color": "#ff5d8f",
-          "team": "Argentina",
-          "tla": "ARG",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        }
-      ],
-      "headToHead": false
-    },
-    {
       "id": 537430,
       "utcDate": "2026-07-04T01:30:00Z",
       "status": "TIMED",
@@ -3889,6 +3889,15 @@
   ],
   "scorers": [
     {
+      "name": "Lionel Messi",
+      "goals": 7,
+      "team": "Argentina",
+      "teamTla": "ARG",
+      "teamCrest": "https://crests.football-data.org/762.png",
+      "owner": "Nicha",
+      "color": "#ff5d8f"
+    },
+    {
       "name": "Kylian Mbappé",
       "goals": 6,
       "team": "France",
@@ -3896,15 +3905,6 @@
       "teamCrest": "https://crests.football-data.org/773.svg",
       "owner": null,
       "color": null
-    },
-    {
-      "name": "Lionel Messi",
-      "goals": 6,
-      "team": "Argentina",
-      "teamTla": "ARG",
-      "teamCrest": "https://crests.football-data.org/762.png",
-      "owner": "Nicha",
-      "color": "#ff5d8f"
     },
     {
       "name": "Erling Haaland",
