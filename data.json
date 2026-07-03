@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T04:03:51Z",
+  "updatedAt": "2026-07-03T07:33:19Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -2082,14 +2082,14 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-07-03T03:00:00Z",
-      "status": "PAUSED",
+      "status": "FINISHED",
       "home": {
         "name": "Switzerland",
         "tla": "SUI",
         "crest": "https://crests.football-data.org/788.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "W"
       },
       "away": {
         "name": "Algeria",
@@ -2097,9 +2097,9 @@
         "crest": "https://crests.football-data.org/algeria.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "L"
       },
-      "scoreHome": 1,
+      "scoreHome": 2,
       "scoreAway": 0,
       "penHome": null,
       "penAway": null
@@ -4160,7 +4160,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "259 in 84 games"
+      "value": "261 in 85 games"
     },
     {
       "icon": "📊",
