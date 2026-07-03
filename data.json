@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T07:33:19Z",
+  "updatedAt": "2026-07-03T19:44:03Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -2108,7 +2108,7 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-07-03T18:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "home": {
         "name": "Australia",
         "tla": "AUS",
@@ -2125,8 +2125,8 @@
         "color": null,
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 1,
+      "scoreAway": 1,
       "penHome": null,
       "penAway": null
     },
@@ -4138,20 +4138,20 @@
       "color": null
     },
     {
+      "name": "Emam Ashour",
+      "goals": 2,
+      "team": "Egypt",
+      "teamTla": "EGY",
+      "teamCrest": "https://crests.football-data.org/825.svg",
+      "owner": null,
+      "color": null
+    },
+    {
       "name": "Maximiliano Araújo",
       "goals": 2,
       "team": "Uruguay",
       "teamTla": "URU",
       "teamCrest": "https://crests.football-data.org/758.svg",
-      "owner": null,
-      "color": null
-    },
-    {
-      "name": "Ramin Rezaeian",
-      "goals": 2,
-      "team": "Iran",
-      "teamTla": "IRN",
-      "teamCrest": "https://crests.football-data.org/iran.svg",
       "owner": null,
       "color": null
     }
