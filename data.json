@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T23:19:27Z",
+  "updatedAt": "2026-07-03T04:03:51Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -2056,14 +2056,14 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-07-02T23:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "home": {
         "name": "Portugal",
         "tla": "POR",
         "crest": "https://crests.football-data.org/765.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "W"
       },
       "away": {
         "name": "Croatia",
@@ -2071,10 +2071,10 @@
         "crest": "https://crests.football-data.org/799.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "L"
       },
-      "scoreHome": 0,
-      "scoreAway": 0,
+      "scoreHome": 2,
+      "scoreAway": 1,
       "penHome": null,
       "penAway": null
     },
@@ -2082,7 +2082,7 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-07-03T03:00:00Z",
-      "status": "TIMED",
+      "status": "PAUSED",
       "home": {
         "name": "Switzerland",
         "tla": "SUI",
@@ -2099,8 +2099,8 @@
         "color": null,
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 1,
+      "scoreAway": 0,
       "penHome": null,
       "penAway": null
     },
@@ -4066,6 +4066,15 @@
       "color": null
     },
     {
+      "name": "Cristiano Ronaldo",
+      "goals": 3,
+      "team": "Portugal",
+      "teamTla": "POR",
+      "teamCrest": "https://crests.football-data.org/765.svg",
+      "owner": null,
+      "color": null
+    },
+    {
       "name": "Raúl Jiménez",
       "goals": 2,
       "team": "Mexico",
@@ -4080,6 +4089,15 @@
       "team": "Canada",
       "teamTla": "CAN",
       "teamCrest": "https://crests.football-data.org/canada.svg",
+      "owner": null,
+      "color": null
+    },
+    {
+      "name": "Breel Embolo",
+      "goals": 2,
+      "team": "Switzerland",
+      "teamTla": "SUI",
+      "teamCrest": "https://crests.football-data.org/788.svg",
       "owner": null,
       "color": null
     },
@@ -4136,31 +4154,13 @@
       "teamCrest": "https://crests.football-data.org/iran.svg",
       "owner": null,
       "color": null
-    },
-    {
-      "name": "Bradley Barcola",
-      "goals": 2,
-      "team": "France",
-      "teamTla": "FRA",
-      "teamCrest": "https://crests.football-data.org/773.svg",
-      "owner": null,
-      "color": null
-    },
-    {
-      "name": "Marko Arnautovic",
-      "goals": 2,
-      "team": "Austria",
-      "teamTla": "AUT",
-      "teamCrest": "https://crests.football-data.org/816.svg",
-      "owner": null,
-      "color": null
     }
   ],
   "curiosities": [
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "256 in 83 games"
+      "value": "259 in 84 games"
     },
     {
       "icon": "📊",
