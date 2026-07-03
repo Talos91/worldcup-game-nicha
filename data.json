@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T19:44:03Z",
+  "updatedAt": "2026-07-03T21:20:25Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -2108,7 +2108,7 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-07-03T18:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "home": {
         "name": "Australia",
         "tla": "AUS",
@@ -2125,10 +2125,10 @@
         "color": null,
         "result": null
       },
-      "scoreHome": 1,
-      "scoreAway": 1,
-      "penHome": null,
-      "penAway": null
+      "scoreHome": 3,
+      "scoreAway": 5,
+      "penHome": 4,
+      "penAway": 4
     },
     {
       "stage": "LAST_32",
@@ -3758,7 +3758,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Drew Fischer",
+        "nationality": "Canada"
+      },
       "stakes": [
         {
           "player": "Nicha",
@@ -4160,7 +4163,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "261 in 85 games"
+      "value": "269 in 86 games"
     },
     {
       "icon": "📊",
