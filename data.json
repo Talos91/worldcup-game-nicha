@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T21:12:09Z",
+  "updatedAt": "2026-07-04T23:09:56Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -2267,14 +2267,14 @@
       "stage": "LAST_16",
       "order": 2,
       "utcDate": "2026-07-04T21:00:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "home": {
         "name": "Paraguay",
         "tla": "PAR",
         "crest": "https://crests.football-data.org/761.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "L"
       },
       "away": {
         "name": "France",
@@ -2282,10 +2282,10 @@
         "crest": "https://crests.football-data.org/773.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "W"
       },
       "scoreHome": 0,
-      "scoreAway": 0,
+      "scoreAway": 1,
       "penHome": null,
       "penAway": null
     },
@@ -4058,6 +4058,15 @@
   ],
   "scorers": [
     {
+      "name": "Kylian Mbappé",
+      "goals": 7,
+      "team": "France",
+      "teamTla": "FRA",
+      "teamCrest": "https://crests.football-data.org/773.svg",
+      "owner": null,
+      "color": null
+    },
+    {
       "name": "Lionel Messi",
       "goals": 7,
       "team": "Argentina",
@@ -4065,15 +4074,6 @@
       "teamCrest": "https://crests.football-data.org/762.png",
       "owner": "Nicha",
       "color": "#ff5d8f"
-    },
-    {
-      "name": "Kylian Mbappé",
-      "goals": 6,
-      "team": "France",
-      "teamTla": "FRA",
-      "teamCrest": "https://crests.football-data.org/773.svg",
-      "owner": null,
-      "color": null
     },
     {
       "name": "Erling Haaland",
@@ -4332,7 +4332,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "278 in 89 games"
+      "value": "279 in 90 games"
     },
     {
       "icon": "📊",
