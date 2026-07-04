@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T23:16:25Z",
+  "updatedAt": "2026-07-04T03:57:19Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -11,14 +11,14 @@
     {
       "name": "Nicha",
       "color": "#ff5d8f",
-      "total": 31,
+      "total": 34,
       "agg": {
-        "played": 14,
-        "w": 10,
+        "played": 15,
+        "w": 11,
         "d": 1,
         "l": 3,
-        "gf": 28,
-        "ga": 8
+        "gf": 31,
+        "ga": 10
       },
       "teams": [
         {
@@ -192,8 +192,8 @@
           "tla": "ARG",
           "flag": "🇦🇷",
           "crest": "https://crests.football-data.org/762.png",
-          "points": 9,
-          "w": 3,
+          "points": 12,
+          "w": 4,
           "d": 0,
           "l": 0,
           "group": {
@@ -263,15 +263,15 @@
               "opponentTla": "CPV",
               "opponentCrest": "https://crests.football-data.org/cape_verde.svg",
               "utcDate": "2026-07-03T22:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": true,
-              "goalsFor": 1,
-              "goalsAgainst": 0,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "goalsFor": 3,
+              "goalsAgainst": 2,
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
           "status": "in"
@@ -387,13 +387,13 @@
     {
       "name": "Daniele",
       "color": "#3da5ff",
-      "total": 30,
+      "total": 33,
       "agg": {
-        "played": 15,
-        "w": 9,
+        "played": 16,
+        "w": 10,
         "d": 3,
         "l": 3,
-        "gf": 34,
+        "gf": 36,
         "ga": 15
       },
       "teams": [
@@ -688,8 +688,8 @@
           "tla": "COL",
           "flag": "🇨🇴",
           "crest": "https://crests.football-data.org/818.svg",
-          "points": 7,
-          "w": 2,
+          "points": 10,
+          "w": 3,
           "d": 1,
           "l": 0,
           "group": {
@@ -759,15 +759,15 @@
               "opponentTla": "GHA",
               "opponentCrest": "https://crests.football-data.org/ghana.svg",
               "utcDate": "2026-07-04T01:30:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "LAST_32",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "goalsFor": 2,
+              "goalsAgainst": 0,
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
           "status": "in"
@@ -1763,6 +1763,16 @@
       "date": "2026-07-02T19:00:00Z",
       "n": 31,
       "d": 30
+    },
+    {
+      "date": "2026-07-03T22:00:00Z",
+      "n": 34,
+      "d": 30
+    },
+    {
+      "date": "2026-07-04T01:30:00Z",
+      "n": 34,
+      "d": 33
     }
   ],
   "knockout": [
@@ -2134,14 +2144,14 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-07-03T22:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "home": {
         "name": "Argentina",
         "tla": "ARG",
         "crest": "https://crests.football-data.org/762.png",
         "owner": "Nicha",
         "color": "#ff5d8f",
-        "result": null
+        "result": "W"
       },
       "away": {
         "name": "Cape Verde Islands",
@@ -2149,10 +2159,10 @@
         "crest": "https://crests.football-data.org/cape_verde.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "L"
       },
-      "scoreHome": 1,
-      "scoreAway": 0,
+      "scoreHome": 3,
+      "scoreAway": 2,
       "penHome": null,
       "penAway": null
     },
@@ -2160,14 +2170,14 @@
       "stage": "LAST_32",
       "order": 1,
       "utcDate": "2026-07-04T01:30:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "home": {
         "name": "Colombia",
         "tla": "COL",
         "crest": "https://crests.football-data.org/818.svg",
         "owner": "Daniele",
         "color": "#3da5ff",
-        "result": null
+        "result": "W"
       },
       "away": {
         "name": "Ghana",
@@ -2175,10 +2185,10 @@
         "crest": "https://crests.football-data.org/ghana.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "L"
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 2,
+      "scoreAway": 0,
       "penHome": null,
       "penAway": null
     },
@@ -2601,9 +2611,49 @@
   ],
   "recent": [
     {
+      "id": 537430,
+      "utcDate": "2026-07-04T01:30:00Z",
+      "status": "FINISHED",
+      "stage": "LAST_32",
+      "group": null,
+      "home": {
+        "name": "Colombia",
+        "tla": "COL",
+        "crest": "https://crests.football-data.org/818.svg"
+      },
+      "away": {
+        "name": "Ghana",
+        "tla": "GHA",
+        "crest": "https://crests.football-data.org/ghana.svg"
+      },
+      "scoreHome": 2,
+      "scoreAway": 0,
+      "htHome": 1,
+      "htAway": 0,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Clément Turpin",
+        "nationality": "France"
+      },
+      "stakes": [
+        {
+          "player": "Daniele",
+          "color": "#3da5ff",
+          "team": "Colombia",
+          "tla": "COL",
+          "isHome": true,
+          "result": "W",
+          "points": 3
+        }
+      ],
+      "headToHead": false
+    },
+    {
       "id": 537427,
       "utcDate": "2026-07-03T22:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "LAST_32",
       "group": null,
       "home": {
@@ -2616,11 +2666,11 @@
         "tla": "CPV",
         "crest": "https://crests.football-data.org/cape_verde.svg"
       },
-      "scoreHome": 1,
-      "scoreAway": 0,
+      "scoreHome": 3,
+      "scoreAway": 2,
       "htHome": 1,
       "htAway": 0,
-      "duration": "REGULAR",
+      "duration": "EXTRA_TIME",
       "penHome": null,
       "penAway": null,
       "referee": {
@@ -2634,8 +2684,8 @@
           "team": "Argentina",
           "tla": "ARG",
           "isHome": true,
-          "result": null,
-          "points": 0
+          "result": "W",
+          "points": 3
         }
       ],
       "headToHead": false
@@ -3776,43 +3826,6 @@
   ],
   "upcoming": [
     {
-      "id": 537430,
-      "utcDate": "2026-07-04T01:30:00Z",
-      "status": "TIMED",
-      "stage": "LAST_32",
-      "group": null,
-      "home": {
-        "name": "Colombia",
-        "tla": "COL",
-        "crest": "https://crests.football-data.org/818.svg"
-      },
-      "away": {
-        "name": "Ghana",
-        "tla": "GHA",
-        "crest": "https://crests.football-data.org/ghana.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Daniele",
-          "color": "#3da5ff",
-          "team": "Colombia",
-          "tla": "COL",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        }
-      ],
-      "headToHead": false
-    },
-    {
       "id": 537378,
       "utcDate": "2026-07-06T00:00:00Z",
       "status": "TIMED",
@@ -4163,7 +4176,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "269 in 86 games"
+      "value": "276 in 88 games"
     },
     {
       "icon": "📊",
@@ -4188,12 +4201,12 @@
     {
       "icon": "🎯",
       "label": "Your teams' goals",
-      "value": "Nicha 28 · Daniele 34"
+      "value": "Nicha 31 · Daniele 36"
     },
     {
       "icon": "⭐",
       "label": "Top team",
-      "value": "Mexico (+12)"
+      "value": "Argentina (+12)"
     }
   ]
 }
