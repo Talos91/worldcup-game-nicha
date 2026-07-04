@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T19:34:06Z",
+  "updatedAt": "2026-07-04T21:12:09Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -2267,7 +2267,7 @@
       "stage": "LAST_16",
       "order": 2,
       "utcDate": "2026-07-04T21:00:00Z",
-      "status": "TIMED",
+      "status": "LIVE",
       "home": {
         "name": "Paraguay",
         "tla": "PAR",
@@ -2284,8 +2284,8 @@
         "color": null,
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 0,
+      "scoreAway": 0,
       "penHome": null,
       "penAway": null
     },
