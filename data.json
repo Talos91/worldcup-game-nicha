@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T07:11:42Z",
+  "updatedAt": "2026-07-04T17:16:40Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -2241,7 +2241,7 @@
       "stage": "LAST_16",
       "order": 2,
       "utcDate": "2026-07-04T17:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "home": {
         "name": "Canada",
         "tla": "CAN",
@@ -2258,8 +2258,8 @@
         "color": null,
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 0,
+      "scoreAway": 0,
       "penHome": null,
       "penAway": null
     },
