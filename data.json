@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T17:16:40Z",
+  "updatedAt": "2026-07-04T19:34:06Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -2241,14 +2241,14 @@
       "stage": "LAST_16",
       "order": 2,
       "utcDate": "2026-07-04T17:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "home": {
         "name": "Canada",
         "tla": "CAN",
         "crest": "https://crests.football-data.org/canada.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "L"
       },
       "away": {
         "name": "Morocco",
@@ -2256,10 +2256,10 @@
         "crest": "https://crests.football-data.org/morocco.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "W"
       },
       "scoreHome": 0,
-      "scoreAway": 0,
+      "scoreAway": 3,
       "penHome": null,
       "penAway": null
     },
@@ -4332,7 +4332,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "275 in 88 games"
+      "value": "278 in 89 games"
     },
     {
       "icon": "📊",
