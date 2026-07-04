@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T03:57:19Z",
+  "updatedAt": "2026-07-04T07:11:42Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -107,6 +107,21 @@
               "result": "W",
               "points": 3,
               "counted": true
+            },
+            {
+              "opponent": "Portugal",
+              "opponentTla": "POR",
+              "opponentCrest": "https://crests.football-data.org/765.svg",
+              "utcDate": "2026-07-06T19:00:00Z",
+              "status": "TIMED",
+              "stage": "LAST_16",
+              "group": null,
+              "isHome": false,
+              "goalsFor": null,
+              "goalsAgainst": null,
+              "result": null,
+              "points": 0,
+              "counted": false
             }
           ],
           "status": "in"
@@ -272,6 +287,21 @@
               "result": "W",
               "points": 3,
               "counted": true
+            },
+            {
+              "opponent": "Egypt",
+              "opponentTla": "EGY",
+              "opponentCrest": "https://crests.football-data.org/825.svg",
+              "utcDate": "2026-07-07T16:00:00Z",
+              "status": "TIMED",
+              "stage": "LAST_16",
+              "group": null,
+              "isHome": true,
+              "goalsFor": null,
+              "goalsAgainst": null,
+              "result": null,
+              "points": 0,
+              "counted": false
             }
           ],
           "status": "in"
@@ -393,7 +423,7 @@
         "w": 10,
         "d": 3,
         "l": 3,
-        "gf": 36,
+        "gf": 35,
         "ga": 15
       },
       "teams": [
@@ -763,11 +793,26 @@
               "stage": "LAST_32",
               "group": null,
               "isHome": true,
-              "goalsFor": 2,
+              "goalsFor": 1,
               "goalsAgainst": 0,
               "result": "W",
               "points": 3,
               "counted": true
+            },
+            {
+              "opponent": "Switzerland",
+              "opponentTla": "SUI",
+              "opponentCrest": "https://crests.football-data.org/788.svg",
+              "utcDate": "2026-07-07T20:00:00Z",
+              "status": "TIMED",
+              "stage": "LAST_16",
+              "group": null,
+              "isHome": false,
+              "goalsFor": null,
+              "goalsAgainst": null,
+              "result": null,
+              "points": 0,
+              "counted": false
             }
           ],
           "status": "in"
@@ -2125,7 +2170,7 @@
         "crest": "https://crests.football-data.org/779.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "L"
       },
       "away": {
         "name": "Egypt",
@@ -2133,11 +2178,11 @@
         "crest": "https://crests.football-data.org/825.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "W"
       },
       "scoreHome": 3,
       "scoreAway": 5,
-      "penHome": 4,
+      "penHome": 2,
       "penAway": 4
     },
     {
@@ -2187,7 +2232,7 @@
         "color": null,
         "result": "L"
       },
-      "scoreHome": 2,
+      "scoreHome": 1,
       "scoreAway": 0,
       "penHome": null,
       "penAway": null
@@ -2302,19 +2347,19 @@
       "utcDate": "2026-07-06T19:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": null,
-        "tla": null,
-        "crest": null,
+        "name": "Portugal",
+        "tla": "POR",
+        "crest": "https://crests.football-data.org/765.svg",
         "owner": null,
         "color": null,
         "result": null
       },
       "away": {
-        "name": null,
-        "tla": null,
-        "crest": null,
-        "owner": null,
-        "color": null,
+        "name": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg",
+        "owner": "Nicha",
+        "color": "#ff5d8f",
         "result": null
       },
       "scoreHome": null,
@@ -2354,17 +2399,17 @@
       "utcDate": "2026-07-07T16:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": null,
-        "tla": null,
-        "crest": null,
-        "owner": null,
-        "color": null,
+        "name": "Argentina",
+        "tla": "ARG",
+        "crest": "https://crests.football-data.org/762.png",
+        "owner": "Nicha",
+        "color": "#ff5d8f",
         "result": null
       },
       "away": {
-        "name": null,
-        "tla": null,
-        "crest": null,
+        "name": "Egypt",
+        "tla": "EGY",
+        "crest": "https://crests.football-data.org/825.svg",
         "owner": null,
         "color": null,
         "result": null
@@ -2380,19 +2425,19 @@
       "utcDate": "2026-07-07T20:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": null,
-        "tla": null,
-        "crest": null,
+        "name": "Switzerland",
+        "tla": "SUI",
+        "crest": "https://crests.football-data.org/788.svg",
         "owner": null,
         "color": null,
         "result": null
       },
       "away": {
-        "name": null,
-        "tla": null,
-        "crest": null,
-        "owner": null,
-        "color": null,
+        "name": "Colombia",
+        "tla": "COL",
+        "crest": "https://crests.football-data.org/818.svg",
+        "owner": "Daniele",
+        "color": "#3da5ff",
         "result": null
       },
       "scoreHome": null,
@@ -2626,7 +2671,7 @@
         "tla": "GHA",
         "crest": "https://crests.football-data.org/ghana.svg"
       },
-      "scoreHome": 2,
+      "scoreHome": 1,
       "scoreAway": 0,
       "htHome": 1,
       "htAway": 0,
@@ -3863,6 +3908,43 @@
       "headToHead": false
     },
     {
+      "id": 537379,
+      "utcDate": "2026-07-06T19:00:00Z",
+      "status": "TIMED",
+      "stage": "LAST_16",
+      "group": null,
+      "home": {
+        "name": "Portugal",
+        "tla": "POR",
+        "crest": "https://crests.football-data.org/765.svg"
+      },
+      "away": {
+        "name": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg"
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "Spain",
+          "tla": "ESP",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
+    {
       "id": 537380,
       "utcDate": "2026-07-07T00:00:00Z",
       "status": "TIMED",
@@ -3893,6 +3975,80 @@
           "team": "United States",
           "tla": "USA",
           "isHome": true,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
+    {
+      "id": 537381,
+      "utcDate": "2026-07-07T16:00:00Z",
+      "status": "TIMED",
+      "stage": "LAST_16",
+      "group": null,
+      "home": {
+        "name": "Argentina",
+        "tla": "ARG",
+        "crest": "https://crests.football-data.org/762.png"
+      },
+      "away": {
+        "name": "Egypt",
+        "tla": "EGY",
+        "crest": "https://crests.football-data.org/825.svg"
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "Argentina",
+          "tla": "ARG",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
+    {
+      "id": 537382,
+      "utcDate": "2026-07-07T20:00:00Z",
+      "status": "TIMED",
+      "stage": "LAST_16",
+      "group": null,
+      "home": {
+        "name": "Switzerland",
+        "tla": "SUI",
+        "crest": "https://crests.football-data.org/788.svg"
+      },
+      "away": {
+        "name": "Colombia",
+        "tla": "COL",
+        "crest": "https://crests.football-data.org/818.svg"
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
+      "stakes": [
+        {
+          "player": "Daniele",
+          "color": "#3da5ff",
+          "team": "Colombia",
+          "tla": "COL",
+          "isHome": false,
           "result": null,
           "points": 0
         }
@@ -4176,7 +4332,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "276 in 88 games"
+      "value": "275 in 88 games"
     },
     {
       "icon": "📊",
@@ -4201,7 +4357,7 @@
     {
       "icon": "🎯",
       "label": "Your teams' goals",
-      "value": "Nicha 31 · Daniele 36"
+      "value": "Nicha 31 · Daniele 35"
     },
     {
       "icon": "⭐",
