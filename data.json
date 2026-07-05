@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T09:19:50Z",
+  "updatedAt": "2026-07-05T21:15:56Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -2293,7 +2293,7 @@
       "stage": "LAST_16",
       "order": 2,
       "utcDate": "2026-07-05T20:00:00Z",
-      "status": "TIMED",
+      "status": "LIVE",
       "home": {
         "name": "Brazil",
         "tla": "BRA",
@@ -2310,8 +2310,8 @@
         "color": null,
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 0,
+      "scoreAway": 0,
       "penHome": null,
       "penAway": null
     },
