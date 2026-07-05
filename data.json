@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T23:09:56Z",
+  "updatedAt": "2026-07-05T09:19:50Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -2451,17 +2451,17 @@
       "utcDate": "2026-07-09T20:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": null,
-        "tla": null,
-        "crest": null,
+        "name": "France",
+        "tla": "FRA",
+        "crest": "https://crests.football-data.org/773.svg",
         "owner": null,
         "color": null,
         "result": null
       },
       "away": {
-        "name": null,
-        "tla": null,
-        "crest": null,
+        "name": "Morocco",
+        "tla": "MAR",
+        "crest": "https://crests.football-data.org/morocco.svg",
         "owner": null,
         "color": null,
         "result": null
