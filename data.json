@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T23:14:38Z",
+  "updatedAt": "2026-07-06T04:35:19Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -419,12 +419,12 @@
       "color": "#3da5ff",
       "total": 33,
       "agg": {
-        "played": 16,
+        "played": 17,
         "w": 10,
         "d": 3,
-        "l": 3,
-        "gf": 35,
-        "ga": 15
+        "l": 4,
+        "gf": 37,
+        "ga": 18
       },
       "teams": [
         {
@@ -616,7 +616,7 @@
           "points": 12,
           "w": 4,
           "d": 0,
-          "l": 0,
+          "l": 1,
           "group": {
             "position": 1,
             "played": 3,
@@ -698,19 +698,19 @@
               "opponent": "England",
               "opponentTla": "ENG",
               "opponentCrest": "https://crests.football-data.org/770.svg",
-              "utcDate": "2026-07-06T00:00:00Z",
-              "status": "TIMED",
+              "utcDate": "2026-07-06T01:00:00Z",
+              "status": "FINISHED",
               "stage": "LAST_16",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
+              "goalsFor": 2,
+              "goalsAgainst": 3,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 818,
@@ -818,7 +818,7 @@
           "status": "in"
         }
       ],
-      "alive": 2
+      "alive": 1
     }
   ],
   "groups": [
@@ -1818,6 +1818,11 @@
       "date": "2026-07-04T01:30:00Z",
       "n": 34,
       "d": 33
+    },
+    {
+      "date": "2026-07-06T01:00:00Z",
+      "n": 34,
+      "d": 33
     }
   ],
   "knockout": [
@@ -2318,15 +2323,15 @@
     {
       "stage": "LAST_16",
       "order": 2,
-      "utcDate": "2026-07-06T00:00:00Z",
-      "status": "TIMED",
+      "utcDate": "2026-07-06T01:00:00Z",
+      "status": "FINISHED",
       "home": {
         "name": "Mexico",
         "tla": "MEX",
         "crest": "https://crests.football-data.org/769.svg",
         "owner": "Daniele",
         "color": "#3da5ff",
-        "result": null
+        "result": "L"
       },
       "away": {
         "name": "England",
@@ -2334,10 +2339,10 @@
         "crest": "https://crests.football-data.org/770.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "W"
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 2,
+      "scoreAway": 3,
       "penHome": null,
       "penAway": null
     },
@@ -2655,6 +2660,46 @@
     }
   ],
   "recent": [
+    {
+      "id": 537378,
+      "utcDate": "2026-07-06T01:00:00Z",
+      "status": "FINISHED",
+      "stage": "LAST_16",
+      "group": null,
+      "home": {
+        "name": "Mexico",
+        "tla": "MEX",
+        "crest": "https://crests.football-data.org/769.svg"
+      },
+      "away": {
+        "name": "England",
+        "tla": "ENG",
+        "crest": "https://crests.football-data.org/770.svg"
+      },
+      "scoreHome": 2,
+      "scoreAway": 3,
+      "htHome": 1,
+      "htAway": 2,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Alireza Faghani",
+        "nationality": "Iran"
+      },
+      "stakes": [
+        {
+          "player": "Daniele",
+          "color": "#3da5ff",
+          "team": "Mexico",
+          "tla": "MEX",
+          "isHome": true,
+          "result": "L",
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
     {
       "id": 537430,
       "utcDate": "2026-07-04T01:30:00Z",
@@ -3871,46 +3916,6 @@
   ],
   "upcoming": [
     {
-      "id": 537378,
-      "utcDate": "2026-07-06T00:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_16",
-      "group": null,
-      "home": {
-        "name": "Mexico",
-        "tla": "MEX",
-        "crest": "https://crests.football-data.org/769.svg"
-      },
-      "away": {
-        "name": "England",
-        "tla": "ENG",
-        "crest": "https://crests.football-data.org/770.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Alireza Faghani",
-        "nationality": "Iran"
-      },
-      "stakes": [
-        {
-          "player": "Daniele",
-          "color": "#3da5ff",
-          "team": "Mexico",
-          "tla": "MEX",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        }
-      ],
-      "headToHead": false
-    },
-    {
       "id": 537379,
       "utcDate": "2026-07-06T19:00:00Z",
       "status": "TIMED",
@@ -4089,7 +4094,7 @@
     },
     {
       "name": "Harry Kane",
-      "goals": 5,
+      "goals": 6,
       "team": "England",
       "teamTla": "ENG",
       "teamCrest": "https://crests.football-data.org/770.svg",
@@ -4097,11 +4102,29 @@
       "color": null
     },
     {
+      "name": "Julián Quiñones",
+      "goals": 4,
+      "team": "Mexico",
+      "teamTla": "MEX",
+      "teamCrest": "https://crests.football-data.org/769.svg",
+      "owner": "Daniele",
+      "color": "#3da5ff"
+    },
+    {
       "name": "Vinicius Junior",
       "goals": 4,
       "team": "Brazil",
       "teamTla": "BRA",
       "teamCrest": "https://crests.football-data.org/764.svg",
+      "owner": null,
+      "color": null
+    },
+    {
+      "name": "Jude Bellingham",
+      "goals": 4,
+      "team": "England",
+      "teamTla": "ENG",
+      "teamCrest": "https://crests.football-data.org/770.svg",
       "owner": null,
       "color": null
     },
@@ -4133,7 +4156,7 @@
       "color": null
     },
     {
-      "name": "Julián Quiñones",
+      "name": "Raúl Jiménez",
       "goals": 3,
       "team": "Mexico",
       "teamTla": "MEX",
@@ -4250,15 +4273,6 @@
       "color": null
     },
     {
-      "name": "Raúl Jiménez",
-      "goals": 2,
-      "team": "Mexico",
-      "teamTla": "MEX",
-      "teamCrest": "https://crests.football-data.org/769.svg",
-      "owner": "Daniele",
-      "color": "#3da5ff"
-    },
-    {
       "name": "Cyle Larin",
       "goals": 2,
       "team": "Canada",
@@ -4320,22 +4334,13 @@
       "teamCrest": "https://crests.football-data.org/825.svg",
       "owner": null,
       "color": null
-    },
-    {
-      "name": "Maximiliano Araújo",
-      "goals": 2,
-      "team": "Uruguay",
-      "teamTla": "URU",
-      "teamCrest": "https://crests.football-data.org/758.svg",
-      "owner": null,
-      "color": null
     }
   ],
   "curiosities": [
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "282 in 91 games"
+      "value": "287 in 92 games"
     },
     {
       "icon": "📊",
@@ -4360,7 +4365,7 @@
     {
       "icon": "🎯",
       "label": "Your teams' goals",
-      "value": "Nicha 31 · Daniele 35"
+      "value": "Nicha 31 · Daniele 37"
     },
     {
       "icon": "⭐",
