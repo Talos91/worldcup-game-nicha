@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T10:58:13Z",
+  "updatedAt": "2026-07-06T18:18:57Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -3938,7 +3938,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Anthony Taylor",
+        "nationality": "England"
+      },
       "stakes": [
         {
           "player": "Nicha",
