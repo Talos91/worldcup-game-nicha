@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T21:45:13Z",
+  "updatedAt": "2026-07-06T23:20:13Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -3983,7 +3983,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Adham Makhadmeh",
+        "nationality": "Jordan"
+      },
       "stakes": [
         {
           "player": "Nicha",
