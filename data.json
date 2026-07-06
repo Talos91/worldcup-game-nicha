@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T18:18:57Z",
+  "updatedAt": "2026-07-06T21:45:13Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -11,13 +11,13 @@
     {
       "name": "Nicha",
       "color": "#ff5d8f",
-      "total": 34,
+      "total": 37,
       "agg": {
-        "played": 15,
-        "w": 11,
+        "played": 16,
+        "w": 12,
         "d": 1,
         "l": 3,
-        "gf": 31,
+        "gf": 32,
         "ga": 10
       },
       "teams": [
@@ -27,8 +27,8 @@
           "tla": "ESP",
           "flag": "🇪🇸",
           "crest": "https://crests.football-data.org/760.svg",
-          "points": 10,
-          "w": 3,
+          "points": 13,
+          "w": 4,
           "d": 1,
           "l": 0,
           "group": {
@@ -113,15 +113,15 @@
               "opponentTla": "POR",
               "opponentCrest": "https://crests.football-data.org/765.svg",
               "utcDate": "2026-07-06T19:00:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "LAST_16",
               "group": null,
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "goalsFor": 1,
+              "goalsAgainst": 0,
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
           "status": "in"
@@ -1823,6 +1823,11 @@
       "date": "2026-07-06T01:00:00Z",
       "n": 34,
       "d": 33
+    },
+    {
+      "date": "2026-07-06T19:00:00Z",
+      "n": 37,
+      "d": 33
     }
   ],
   "knockout": [
@@ -2350,14 +2355,14 @@
       "stage": "LAST_16",
       "order": 2,
       "utcDate": "2026-07-06T19:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "home": {
         "name": "Portugal",
         "tla": "POR",
         "crest": "https://crests.football-data.org/765.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "L"
       },
       "away": {
         "name": "Spain",
@@ -2365,10 +2370,10 @@
         "crest": "https://crests.football-data.org/760.svg",
         "owner": "Nicha",
         "color": "#ff5d8f",
-        "result": null
+        "result": "W"
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 0,
+      "scoreAway": 1,
       "penHome": null,
       "penAway": null
     },
@@ -2660,6 +2665,46 @@
     }
   ],
   "recent": [
+    {
+      "id": 537379,
+      "utcDate": "2026-07-06T19:00:00Z",
+      "status": "FINISHED",
+      "stage": "LAST_16",
+      "group": null,
+      "home": {
+        "name": "Portugal",
+        "tla": "POR",
+        "crest": "https://crests.football-data.org/765.svg"
+      },
+      "away": {
+        "name": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg"
+      },
+      "scoreHome": 0,
+      "scoreAway": 1,
+      "htHome": 0,
+      "htAway": 0,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Anthony Taylor",
+        "nationality": "England"
+      },
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "Spain",
+          "tla": "ESP",
+          "isHome": false,
+          "result": "W",
+          "points": 3
+        }
+      ],
+      "headToHead": false
+    },
     {
       "id": 537378,
       "utcDate": "2026-07-06T01:00:00Z",
@@ -3916,46 +3961,6 @@
   ],
   "upcoming": [
     {
-      "id": 537379,
-      "utcDate": "2026-07-06T19:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_16",
-      "group": null,
-      "home": {
-        "name": "Portugal",
-        "tla": "POR",
-        "crest": "https://crests.football-data.org/765.svg"
-      },
-      "away": {
-        "name": "Spain",
-        "tla": "ESP",
-        "crest": "https://crests.football-data.org/760.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Anthony Taylor",
-        "nationality": "England"
-      },
-      "stakes": [
-        {
-          "player": "Nicha",
-          "color": "#ff5d8f",
-          "team": "Spain",
-          "tla": "ESP",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ],
-      "headToHead": false
-    },
-    {
       "id": 537380,
       "utcDate": "2026-07-07T00:00:00Z",
       "status": "TIMED",
@@ -4343,7 +4348,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "287 in 92 games"
+      "value": "288 in 93 games"
     },
     {
       "icon": "📊",
@@ -4368,12 +4373,12 @@
     {
       "icon": "🎯",
       "label": "Your teams' goals",
-      "value": "Nicha 31 · Daniele 37"
+      "value": "Nicha 32 · Daniele 37"
     },
     {
       "icon": "⭐",
       "label": "Top team",
-      "value": "Argentina (+12)"
+      "value": "Spain (+13)"
     }
   ]
 }
