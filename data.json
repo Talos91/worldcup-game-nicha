@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T04:35:19Z",
+  "updatedAt": "2026-07-06T10:58:13Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -2508,17 +2508,17 @@
       "utcDate": "2026-07-11T21:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": null,
-        "tla": null,
-        "crest": null,
+        "name": "Norway",
+        "tla": "NOR",
+        "crest": "https://crests.football-data.org/813.svg",
         "owner": null,
         "color": null,
         "result": null
       },
       "away": {
-        "name": null,
-        "tla": null,
-        "crest": null,
+        "name": "England",
+        "tla": "ENG",
+        "crest": "https://crests.football-data.org/770.svg",
         "owner": null,
         "color": null,
         "result": null
