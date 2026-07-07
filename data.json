@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T20:09:28Z",
+  "updatedAt": "2026-07-07T23:12:19Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -819,12 +819,12 @@
               "opponentTla": "SUI",
               "opponentCrest": "https://crests.football-data.org/788.svg",
               "utcDate": "2026-07-07T20:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "LAST_16",
               "group": null,
               "isHome": false,
-              "goalsFor": 0,
-              "goalsAgainst": 0,
+              "goalsFor": 3,
+              "goalsAgainst": 4,
               "result": null,
               "points": 0,
               "counted": false
@@ -2458,7 +2458,7 @@
       "stage": "LAST_16",
       "order": 2,
       "utcDate": "2026-07-07T20:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "home": {
         "name": "Switzerland",
         "tla": "SUI",
@@ -2475,10 +2475,10 @@
         "color": "#3da5ff",
         "result": null
       },
-      "scoreHome": 0,
-      "scoreAway": 0,
-      "penHome": null,
-      "penAway": null
+      "scoreHome": 4,
+      "scoreAway": 3,
+      "penHome": 3,
+      "penAway": 3
     },
     {
       "stage": "QUARTER_FINALS",
@@ -2690,46 +2690,6 @@
     }
   ],
   "recent": [
-    {
-      "id": 537382,
-      "utcDate": "2026-07-07T20:00:00Z",
-      "status": "IN_PLAY",
-      "stage": "LAST_16",
-      "group": null,
-      "home": {
-        "name": "Switzerland",
-        "tla": "SUI",
-        "crest": "https://crests.football-data.org/788.svg"
-      },
-      "away": {
-        "name": "Colombia",
-        "tla": "COL",
-        "crest": "https://crests.football-data.org/818.svg"
-      },
-      "scoreHome": 0,
-      "scoreAway": 0,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Ivan Barton",
-        "nationality": null
-      },
-      "stakes": [
-        {
-          "player": "Daniele",
-          "color": "#3da5ff",
-          "team": "Colombia",
-          "tla": "COL",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ],
-      "headToHead": false
-    },
     {
       "id": 537381,
       "utcDate": "2026-07-07T16:00:00Z",
@@ -4419,12 +4379,12 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "298 in 95 games"
+      "value": "305 in 96 games"
     },
     {
       "icon": "📊",
       "label": "Goals per game",
-      "value": "3.1"
+      "value": "3.2"
     },
     {
       "icon": "💥",
