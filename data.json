@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T23:20:13Z",
+  "updatedAt": "2026-07-07T04:13:06Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -13,12 +13,12 @@
       "color": "#ff5d8f",
       "total": 37,
       "agg": {
-        "played": 16,
+        "played": 17,
         "w": 12,
         "d": 1,
-        "l": 3,
-        "gf": 32,
-        "ga": 10
+        "l": 4,
+        "gf": 33,
+        "ga": 14
       },
       "teams": [
         {
@@ -315,7 +315,7 @@
           "points": 9,
           "w": 3,
           "d": 0,
-          "l": 1,
+          "l": 2,
           "group": {
             "position": 1,
             "played": 3,
@@ -398,21 +398,21 @@
               "opponentTla": "BEL",
               "opponentCrest": "https://crests.football-data.org/805.svg",
               "utcDate": "2026-07-07T00:00:00Z",
-              "status": "TIMED",
+              "status": "FINISHED",
               "stage": "LAST_16",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
-              "result": null,
+              "goalsFor": 1,
+              "goalsAgainst": 4,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         }
       ],
-      "alive": 3
+      "alive": 2
     },
     {
       "name": "Daniele",
@@ -1828,6 +1828,11 @@
       "date": "2026-07-06T19:00:00Z",
       "n": 37,
       "d": 33
+    },
+    {
+      "date": "2026-07-07T00:00:00Z",
+      "n": 37,
+      "d": 33
     }
   ],
   "knockout": [
@@ -2381,14 +2386,14 @@
       "stage": "LAST_16",
       "order": 2,
       "utcDate": "2026-07-07T00:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "home": {
         "name": "United States",
         "tla": "USA",
         "crest": "https://crests.football-data.org/usa.svg",
         "owner": "Nicha",
         "color": "#ff5d8f",
-        "result": null
+        "result": "L"
       },
       "away": {
         "name": "Belgium",
@@ -2396,10 +2401,10 @@
         "crest": "https://crests.football-data.org/805.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "W"
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 1,
+      "scoreAway": 4,
       "penHome": null,
       "penAway": null
     },
@@ -2665,6 +2670,46 @@
     }
   ],
   "recent": [
+    {
+      "id": 537380,
+      "utcDate": "2026-07-07T00:00:00Z",
+      "status": "FINISHED",
+      "stage": "LAST_16",
+      "group": null,
+      "home": {
+        "name": "United States",
+        "tla": "USA",
+        "crest": "https://crests.football-data.org/usa.svg"
+      },
+      "away": {
+        "name": "Belgium",
+        "tla": "BEL",
+        "crest": "https://crests.football-data.org/805.svg"
+      },
+      "scoreHome": 1,
+      "scoreAway": 4,
+      "htHome": 1,
+      "htAway": 2,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Adham Makhadmeh",
+        "nationality": "Jordan"
+      },
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "United States",
+          "tla": "USA",
+          "isHome": true,
+          "result": "L",
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
     {
       "id": 537379,
       "utcDate": "2026-07-06T19:00:00Z",
@@ -3961,46 +4006,6 @@
   ],
   "upcoming": [
     {
-      "id": 537380,
-      "utcDate": "2026-07-07T00:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_16",
-      "group": null,
-      "home": {
-        "name": "United States",
-        "tla": "USA",
-        "crest": "https://crests.football-data.org/usa.svg"
-      },
-      "away": {
-        "name": "Belgium",
-        "tla": "BEL",
-        "crest": "https://crests.football-data.org/805.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "Adham Makhadmeh",
-        "nationality": "Jordan"
-      },
-      "stakes": [
-        {
-          "player": "Nicha",
-          "color": "#ff5d8f",
-          "team": "United States",
-          "tla": "USA",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        }
-      ],
-      "headToHead": false
-    },
-    {
       "id": 537381,
       "utcDate": "2026-07-07T16:00:00Z",
       "status": "TIMED",
@@ -4284,6 +4289,15 @@
       "color": null
     },
     {
+      "name": "Romelu Lukaku",
+      "goals": 3,
+      "team": "Belgium",
+      "teamTla": "BEL",
+      "teamCrest": "https://crests.football-data.org/805.svg",
+      "owner": null,
+      "color": null
+    },
+    {
       "name": "Cyle Larin",
       "goals": 2,
       "team": "Canada",
@@ -4336,22 +4350,13 @@
       "teamCrest": "https://crests.football-data.org/792.svg",
       "owner": null,
       "color": null
-    },
-    {
-      "name": "Emam Ashour",
-      "goals": 2,
-      "team": "Egypt",
-      "teamTla": "EGY",
-      "teamCrest": "https://crests.football-data.org/825.svg",
-      "owner": null,
-      "color": null
     }
   ],
   "curiosities": [
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "288 in 93 games"
+      "value": "293 in 94 games"
     },
     {
       "icon": "📊",
@@ -4376,7 +4381,7 @@
     {
       "icon": "🎯",
       "label": "Your teams' goals",
-      "value": "Nicha 32 · Daniele 37"
+      "value": "Nicha 33 · Daniele 37"
     },
     {
       "icon": "⭐",
