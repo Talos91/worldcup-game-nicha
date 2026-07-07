@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T16:39:50Z",
+  "updatedAt": "2026-07-07T20:09:28Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -11,14 +11,14 @@
     {
       "name": "Nicha",
       "color": "#ff5d8f",
-      "total": 37,
+      "total": 40,
       "agg": {
-        "played": 17,
-        "w": 12,
+        "played": 18,
+        "w": 13,
         "d": 1,
         "l": 4,
-        "gf": 33,
-        "ga": 14
+        "gf": 36,
+        "ga": 16
       },
       "teams": [
         {
@@ -222,8 +222,8 @@
           "tla": "ARG",
           "flag": "🇦🇷",
           "crest": "https://crests.football-data.org/762.png",
-          "points": 12,
-          "w": 4,
+          "points": 15,
+          "w": 5,
           "d": 0,
           "l": 0,
           "group": {
@@ -308,15 +308,15 @@
               "opponentTla": "EGY",
               "opponentCrest": "https://crests.football-data.org/825.svg",
               "utcDate": "2026-07-07T16:00:00Z",
-              "status": "LIVE",
+              "status": "FINISHED",
               "stage": "LAST_16",
               "group": null,
               "isHome": true,
-              "goalsFor": 0,
-              "goalsAgainst": 1,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "goalsFor": 3,
+              "goalsAgainst": 2,
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
           "status": "in"
@@ -819,12 +819,12 @@
               "opponentTla": "SUI",
               "opponentCrest": "https://crests.football-data.org/788.svg",
               "utcDate": "2026-07-07T20:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "LAST_16",
               "group": null,
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 0,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -1848,6 +1848,11 @@
       "date": "2026-07-07T00:00:00Z",
       "n": 37,
       "d": 33
+    },
+    {
+      "date": "2026-07-07T16:00:00Z",
+      "n": 40,
+      "d": 33
     }
   ],
   "knockout": [
@@ -2427,14 +2432,14 @@
       "stage": "LAST_16",
       "order": 2,
       "utcDate": "2026-07-07T16:00:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "home": {
         "name": "Argentina",
         "tla": "ARG",
         "crest": "https://crests.football-data.org/762.png",
         "owner": "Nicha",
         "color": "#ff5d8f",
-        "result": null
+        "result": "W"
       },
       "away": {
         "name": "Egypt",
@@ -2442,10 +2447,10 @@
         "crest": "https://crests.football-data.org/825.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "L"
       },
-      "scoreHome": 0,
-      "scoreAway": 1,
+      "scoreHome": 3,
+      "scoreAway": 2,
       "penHome": null,
       "penAway": null
     },
@@ -2453,7 +2458,7 @@
       "stage": "LAST_16",
       "order": 2,
       "utcDate": "2026-07-07T20:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "home": {
         "name": "Switzerland",
         "tla": "SUI",
@@ -2470,8 +2475,8 @@
         "color": "#3da5ff",
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 0,
+      "scoreAway": 0,
       "penHome": null,
       "penAway": null
     },
@@ -2685,6 +2690,86 @@
     }
   ],
   "recent": [
+    {
+      "id": 537382,
+      "utcDate": "2026-07-07T20:00:00Z",
+      "status": "IN_PLAY",
+      "stage": "LAST_16",
+      "group": null,
+      "home": {
+        "name": "Switzerland",
+        "tla": "SUI",
+        "crest": "https://crests.football-data.org/788.svg"
+      },
+      "away": {
+        "name": "Colombia",
+        "tla": "COL",
+        "crest": "https://crests.football-data.org/818.svg"
+      },
+      "scoreHome": 0,
+      "scoreAway": 0,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Ivan Barton",
+        "nationality": null
+      },
+      "stakes": [
+        {
+          "player": "Daniele",
+          "color": "#3da5ff",
+          "team": "Colombia",
+          "tla": "COL",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
+    {
+      "id": 537381,
+      "utcDate": "2026-07-07T16:00:00Z",
+      "status": "FINISHED",
+      "stage": "LAST_16",
+      "group": null,
+      "home": {
+        "name": "Argentina",
+        "tla": "ARG",
+        "crest": "https://crests.football-data.org/762.png"
+      },
+      "away": {
+        "name": "Egypt",
+        "tla": "EGY",
+        "crest": "https://crests.football-data.org/825.svg"
+      },
+      "scoreHome": 3,
+      "scoreAway": 2,
+      "htHome": 0,
+      "htAway": 1,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "François Letexier",
+        "nationality": "France"
+      },
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "Argentina",
+          "tla": "ARG",
+          "isHome": true,
+          "result": "W",
+          "points": 3
+        }
+      ],
+      "headToHead": false
+    },
     {
       "id": 537380,
       "utcDate": "2026-07-07T00:00:00Z",
@@ -4021,43 +4106,6 @@
   ],
   "upcoming": [
     {
-      "id": 537382,
-      "utcDate": "2026-07-07T20:00:00Z",
-      "status": "TIMED",
-      "stage": "LAST_16",
-      "group": null,
-      "home": {
-        "name": "Switzerland",
-        "tla": "SUI",
-        "crest": "https://crests.football-data.org/788.svg"
-      },
-      "away": {
-        "name": "Colombia",
-        "tla": "COL",
-        "crest": "https://crests.football-data.org/818.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Daniele",
-          "color": "#3da5ff",
-          "team": "Colombia",
-          "tla": "COL",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ],
-      "headToHead": false
-    },
-    {
       "id": 537384,
       "utcDate": "2026-07-10T19:00:00Z",
       "status": "TIMED",
@@ -4097,6 +4145,15 @@
   ],
   "scorers": [
     {
+      "name": "Lionel Messi",
+      "goals": 8,
+      "team": "Argentina",
+      "teamTla": "ARG",
+      "teamCrest": "https://crests.football-data.org/762.png",
+      "owner": "Nicha",
+      "color": "#ff5d8f"
+    },
+    {
       "name": "Kylian Mbappé",
       "goals": 7,
       "team": "France",
@@ -4113,15 +4170,6 @@
       "teamCrest": "https://crests.football-data.org/813.svg",
       "owner": null,
       "color": null
-    },
-    {
-      "name": "Lionel Messi",
-      "goals": 7,
-      "team": "Argentina",
-      "teamTla": "ARG",
-      "teamCrest": "https://crests.football-data.org/762.png",
-      "owner": "Nicha",
-      "color": "#ff5d8f"
     },
     {
       "name": "Harry Kane",
@@ -4371,7 +4419,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "293 in 94 games"
+      "value": "298 in 95 games"
     },
     {
       "icon": "📊",
@@ -4396,12 +4444,12 @@
     {
       "icon": "🎯",
       "label": "Your teams' goals",
-      "value": "Nicha 33 · Daniele 37"
+      "value": "Nicha 36 · Daniele 37"
     },
     {
       "icon": "⭐",
       "label": "Top team",
-      "value": "Spain (+13)"
+      "value": "Argentina (+15)"
     }
   ]
 }
