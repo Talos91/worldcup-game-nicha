@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T04:13:06Z",
+  "updatedAt": "2026-07-07T09:58:19Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -122,6 +122,21 @@
               "result": "W",
               "points": 3,
               "counted": true
+            },
+            {
+              "opponent": "Belgium",
+              "opponentTla": "BEL",
+              "opponentCrest": "https://crests.football-data.org/805.svg",
+              "utcDate": "2026-07-10T19:00:00Z",
+              "status": "TIMED",
+              "stage": "QUARTER_FINALS",
+              "group": null,
+              "isHome": true,
+              "goalsFor": null,
+              "goalsAgainst": null,
+              "result": null,
+              "points": 0,
+              "counted": false
             }
           ],
           "status": "in"
@@ -2492,17 +2507,17 @@
       "utcDate": "2026-07-10T19:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": null,
-        "tla": null,
-        "crest": null,
-        "owner": null,
-        "color": null,
+        "name": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg",
+        "owner": "Nicha",
+        "color": "#ff5d8f",
         "result": null
       },
       "away": {
-        "name": null,
-        "tla": null,
-        "crest": null,
+        "name": "Belgium",
+        "tla": "BEL",
+        "crest": "https://crests.football-data.org/805.svg",
         "owner": null,
         "color": null,
         "result": null
@@ -4073,6 +4088,43 @@
           "team": "Colombia",
           "tla": "COL",
           "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
+    {
+      "id": 537384,
+      "utcDate": "2026-07-10T19:00:00Z",
+      "status": "TIMED",
+      "stage": "QUARTER_FINALS",
+      "group": null,
+      "home": {
+        "name": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg"
+      },
+      "away": {
+        "name": "Belgium",
+        "tla": "BEL",
+        "crest": "https://crests.football-data.org/805.svg"
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "Spain",
+          "tla": "ESP",
+          "isHome": true,
           "result": null,
           "points": 0
         }
