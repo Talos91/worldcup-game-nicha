@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T23:12:19Z",
+  "updatedAt": "2026-07-08T06:36:23Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -317,6 +317,21 @@
               "result": "W",
               "points": 3,
               "counted": true
+            },
+            {
+              "opponent": "Switzerland",
+              "opponentTla": "SUI",
+              "opponentCrest": "https://crests.football-data.org/788.svg",
+              "utcDate": "2026-07-12T01:00:00Z",
+              "status": "TIMED",
+              "stage": "QUARTER_FINALS",
+              "group": null,
+              "isHome": true,
+              "goalsFor": null,
+              "goalsAgainst": null,
+              "result": null,
+              "points": 0,
+              "counted": false
             }
           ],
           "status": "in"
@@ -434,12 +449,12 @@
       "color": "#3da5ff",
       "total": 33,
       "agg": {
-        "played": 17,
+        "played": 18,
         "w": 10,
         "d": 3,
-        "l": 4,
-        "gf": 37,
-        "ga": 18
+        "l": 5,
+        "gf": 40,
+        "ga": 22
       },
       "teams": [
         {
@@ -736,7 +751,7 @@
           "points": 10,
           "w": 3,
           "d": 1,
-          "l": 0,
+          "l": 1,
           "group": {
             "position": 1,
             "played": 3,
@@ -825,15 +840,15 @@
               "isHome": false,
               "goalsFor": 3,
               "goalsAgainst": 4,
-              "result": null,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         }
       ],
-      "alive": 1
+      "alive": 0
     }
   ],
   "groups": [
@@ -1853,6 +1868,11 @@
       "date": "2026-07-07T16:00:00Z",
       "n": 40,
       "d": 33
+    },
+    {
+      "date": "2026-07-07T20:00:00Z",
+      "n": 40,
+      "d": 33
     }
   ],
   "knockout": [
@@ -2465,7 +2485,7 @@
         "crest": "https://crests.football-data.org/788.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "W"
       },
       "away": {
         "name": "Colombia",
@@ -2473,11 +2493,11 @@
         "crest": "https://crests.football-data.org/818.svg",
         "owner": "Daniele",
         "color": "#3da5ff",
-        "result": null
+        "result": "L"
       },
       "scoreHome": 4,
       "scoreAway": 3,
-      "penHome": 3,
+      "penHome": 4,
       "penAway": 3
     },
     {
@@ -2564,17 +2584,17 @@
       "utcDate": "2026-07-12T01:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": null,
-        "tla": null,
-        "crest": null,
-        "owner": null,
-        "color": null,
+        "name": "Argentina",
+        "tla": "ARG",
+        "crest": "https://crests.football-data.org/762.png",
+        "owner": "Nicha",
+        "color": "#ff5d8f",
         "result": null
       },
       "away": {
-        "name": null,
-        "tla": null,
-        "crest": null,
+        "name": "Switzerland",
+        "tla": "SUI",
+        "crest": "https://crests.football-data.org/788.svg",
         "owner": null,
         "color": null,
         "result": null
@@ -2690,6 +2710,46 @@
     }
   ],
   "recent": [
+    {
+      "id": 537382,
+      "utcDate": "2026-07-07T20:00:00Z",
+      "status": "FINISHED",
+      "stage": "LAST_16",
+      "group": null,
+      "home": {
+        "name": "Switzerland",
+        "tla": "SUI",
+        "crest": "https://crests.football-data.org/788.svg"
+      },
+      "away": {
+        "name": "Colombia",
+        "tla": "COL",
+        "crest": "https://crests.football-data.org/818.svg"
+      },
+      "scoreHome": 4,
+      "scoreAway": 3,
+      "htHome": 0,
+      "htAway": 0,
+      "duration": "PENALTY_SHOOTOUT",
+      "penHome": 4,
+      "penAway": 3,
+      "referee": {
+        "name": "Ivan Barton",
+        "nationality": null
+      },
+      "stakes": [
+        {
+          "player": "Daniele",
+          "color": "#3da5ff",
+          "team": "Colombia",
+          "tla": "COL",
+          "isHome": false,
+          "result": "L",
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
     {
       "id": 537381,
       "utcDate": "2026-07-07T16:00:00Z",
@@ -4101,6 +4161,43 @@
         }
       ],
       "headToHead": false
+    },
+    {
+      "id": 537386,
+      "utcDate": "2026-07-12T01:00:00Z",
+      "status": "TIMED",
+      "stage": "QUARTER_FINALS",
+      "group": null,
+      "home": {
+        "name": "Argentina",
+        "tla": "ARG",
+        "crest": "https://crests.football-data.org/762.png"
+      },
+      "away": {
+        "name": "Switzerland",
+        "tla": "SUI",
+        "crest": "https://crests.football-data.org/788.svg"
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "Argentina",
+          "tla": "ARG",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
     }
   ],
   "scorers": [
@@ -4404,7 +4501,7 @@
     {
       "icon": "🎯",
       "label": "Your teams' goals",
-      "value": "Nicha 36 · Daniele 37"
+      "value": "Nicha 36 · Daniele 40"
     },
     {
       "icon": "⭐",
