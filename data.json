@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T06:36:23Z",
+  "updatedAt": "2026-07-09T21:39:22Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -2504,7 +2504,7 @@
       "stage": "QUARTER_FINALS",
       "order": 3,
       "utcDate": "2026-07-09T20:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "home": {
         "name": "France",
         "tla": "FRA",
@@ -2521,8 +2521,8 @@
         "color": null,
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 2,
+      "scoreAway": 0,
       "penHome": null,
       "penAway": null
     },
@@ -4202,6 +4202,15 @@
   ],
   "scorers": [
     {
+      "name": "Kylian Mbappé",
+      "goals": 8,
+      "team": "France",
+      "teamTla": "FRA",
+      "teamCrest": "https://crests.football-data.org/773.svg",
+      "owner": null,
+      "color": null
+    },
+    {
       "name": "Lionel Messi",
       "goals": 8,
       "team": "Argentina",
@@ -4209,15 +4218,6 @@
       "teamCrest": "https://crests.football-data.org/762.png",
       "owner": "Nicha",
       "color": "#ff5d8f"
-    },
-    {
-      "name": "Kylian Mbappé",
-      "goals": 7,
-      "team": "France",
-      "teamTla": "FRA",
-      "teamCrest": "https://crests.football-data.org/773.svg",
-      "owner": null,
-      "color": null
     },
     {
       "name": "Erling Haaland",
@@ -4234,6 +4234,15 @@
       "team": "England",
       "teamTla": "ENG",
       "teamCrest": "https://crests.football-data.org/770.svg",
+      "owner": null,
+      "color": null
+    },
+    {
+      "name": "Ousmane Dembélé",
+      "goals": 5,
+      "team": "France",
+      "teamTla": "FRA",
+      "teamCrest": "https://crests.football-data.org/773.svg",
       "owner": null,
       "color": null
     },
@@ -4272,15 +4281,6 @@
       "teamCrest": "https://crests.football-data.org/760.svg",
       "owner": "Nicha",
       "color": "#ff5d8f"
-    },
-    {
-      "name": "Ousmane Dembélé",
-      "goals": 4,
-      "team": "France",
-      "teamTla": "FRA",
-      "teamCrest": "https://crests.football-data.org/773.svg",
-      "owner": null,
-      "color": null
     },
     {
       "name": "Ismaïla Sarr",
