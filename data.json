@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T21:39:22Z",
+  "updatedAt": "2026-07-09T23:23:44Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -2504,14 +2504,14 @@
       "stage": "QUARTER_FINALS",
       "order": 3,
       "utcDate": "2026-07-09T20:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "home": {
         "name": "France",
         "tla": "FRA",
         "crest": "https://crests.football-data.org/773.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "W"
       },
       "away": {
         "name": "Morocco",
@@ -2519,7 +2519,7 @@
         "crest": "https://crests.football-data.org/morocco.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "L"
       },
       "scoreHome": 2,
       "scoreAway": 0,
@@ -4476,7 +4476,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "305 in 96 games"
+      "value": "307 in 97 games"
     },
     {
       "icon": "📊",
