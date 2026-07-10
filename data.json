@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T23:23:44Z",
+  "updatedAt": "2026-07-10T09:50:46Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -2610,9 +2610,9 @@
       "utcDate": "2026-07-14T19:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": null,
-        "tla": null,
-        "crest": null,
+        "name": "France",
+        "tla": "FRA",
+        "crest": "https://crests.football-data.org/773.svg",
         "owner": null,
         "color": null,
         "result": null
