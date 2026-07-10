@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T09:50:46Z",
+  "updatedAt": "2026-07-10T19:47:47Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -128,12 +128,12 @@
               "opponentTla": "BEL",
               "opponentCrest": "https://crests.football-data.org/805.svg",
               "utcDate": "2026-07-10T19:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "QUARTER_FINALS",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 1,
+              "goalsAgainst": 1,
               "result": null,
               "points": 0,
               "counted": false
@@ -2530,7 +2530,7 @@
       "stage": "QUARTER_FINALS",
       "order": 3,
       "utcDate": "2026-07-10T19:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "home": {
         "name": "Spain",
         "tla": "ESP",
@@ -2547,8 +2547,8 @@
         "color": null,
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 1,
+      "scoreAway": 1,
       "penHome": null,
       "penAway": null
     },
@@ -2710,6 +2710,46 @@
     }
   ],
   "recent": [
+    {
+      "id": 537384,
+      "utcDate": "2026-07-10T19:00:00Z",
+      "status": "IN_PLAY",
+      "stage": "QUARTER_FINALS",
+      "group": null,
+      "home": {
+        "name": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg"
+      },
+      "away": {
+        "name": "Belgium",
+        "tla": "BEL",
+        "crest": "https://crests.football-data.org/805.svg"
+      },
+      "scoreHome": 1,
+      "scoreAway": 1,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Michael Oliver",
+        "nationality": "England"
+      },
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "Spain",
+          "tla": "ESP",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
     {
       "id": 537382,
       "utcDate": "2026-07-07T20:00:00Z",
@@ -4126,43 +4166,6 @@
   ],
   "upcoming": [
     {
-      "id": 537384,
-      "utcDate": "2026-07-10T19:00:00Z",
-      "status": "TIMED",
-      "stage": "QUARTER_FINALS",
-      "group": null,
-      "home": {
-        "name": "Spain",
-        "tla": "ESP",
-        "crest": "https://crests.football-data.org/760.svg"
-      },
-      "away": {
-        "name": "Belgium",
-        "tla": "BEL",
-        "crest": "https://crests.football-data.org/805.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Nicha",
-          "color": "#ff5d8f",
-          "team": "Spain",
-          "tla": "ESP",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        }
-      ],
-      "headToHead": false
-    },
-    {
       "id": 537386,
       "utcDate": "2026-07-12T01:00:00Z",
       "status": "TIMED",
@@ -4418,6 +4421,15 @@
       "color": null
     },
     {
+      "name": "Charles De Ketelaere",
+      "goals": 3,
+      "team": "Belgium",
+      "teamTla": "BEL",
+      "teamCrest": "https://crests.football-data.org/805.svg",
+      "owner": null,
+      "color": null
+    },
+    {
       "name": "Cyle Larin",
       "goals": 2,
       "team": "Canada",
@@ -4459,15 +4471,6 @@
       "team": "Ivory Coast",
       "teamTla": "CIV",
       "teamCrest": "https://crests.football-data.org/787.svg",
-      "owner": null,
-      "color": null
-    },
-    {
-      "name": "Yasin Ayari",
-      "goals": 2,
-      "team": "Sweden",
-      "teamTla": "SWE",
-      "teamCrest": "https://crests.football-data.org/792.svg",
       "owner": null,
       "color": null
     }
