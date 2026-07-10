@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T19:47:47Z",
+  "updatedAt": "2026-07-10T21:16:33Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -11,14 +11,14 @@
     {
       "name": "Nicha",
       "color": "#ff5d8f",
-      "total": 40,
+      "total": 43,
       "agg": {
-        "played": 18,
-        "w": 13,
+        "played": 19,
+        "w": 14,
         "d": 1,
         "l": 4,
-        "gf": 36,
-        "ga": 16
+        "gf": 38,
+        "ga": 17
       },
       "teams": [
         {
@@ -27,8 +27,8 @@
           "tla": "ESP",
           "flag": "🇪🇸",
           "crest": "https://crests.football-data.org/760.svg",
-          "points": 13,
-          "w": 4,
+          "points": 16,
+          "w": 5,
           "d": 1,
           "l": 0,
           "group": {
@@ -128,15 +128,15 @@
               "opponentTla": "BEL",
               "opponentCrest": "https://crests.football-data.org/805.svg",
               "utcDate": "2026-07-10T19:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "QUARTER_FINALS",
               "group": null,
               "isHome": true,
-              "goalsFor": 1,
+              "goalsFor": 2,
               "goalsAgainst": 1,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
           "status": "in"
@@ -1873,6 +1873,11 @@
       "date": "2026-07-07T20:00:00Z",
       "n": 40,
       "d": 33
+    },
+    {
+      "date": "2026-07-10T19:00:00Z",
+      "n": 43,
+      "d": 33
     }
   ],
   "knockout": [
@@ -2530,14 +2535,14 @@
       "stage": "QUARTER_FINALS",
       "order": 3,
       "utcDate": "2026-07-10T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "home": {
         "name": "Spain",
         "tla": "ESP",
         "crest": "https://crests.football-data.org/760.svg",
         "owner": "Nicha",
         "color": "#ff5d8f",
-        "result": null
+        "result": "W"
       },
       "away": {
         "name": "Belgium",
@@ -2545,9 +2550,9 @@
         "crest": "https://crests.football-data.org/805.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "L"
       },
-      "scoreHome": 1,
+      "scoreHome": 2,
       "scoreAway": 1,
       "penHome": null,
       "penAway": null
@@ -2713,7 +2718,7 @@
     {
       "id": 537384,
       "utcDate": "2026-07-10T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "QUARTER_FINALS",
       "group": null,
       "home": {
@@ -2726,10 +2731,10 @@
         "tla": "BEL",
         "crest": "https://crests.football-data.org/805.svg"
       },
-      "scoreHome": 1,
+      "scoreHome": 2,
       "scoreAway": 1,
-      "htHome": null,
-      "htAway": null,
+      "htHome": 1,
+      "htAway": 1,
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
@@ -2744,8 +2749,8 @@
           "team": "Spain",
           "tla": "ESP",
           "isHome": true,
-          "result": null,
-          "points": 0
+          "result": "W",
+          "points": 3
         }
       ],
       "headToHead": false
@@ -4479,7 +4484,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "307 in 97 games"
+      "value": "310 in 98 games"
     },
     {
       "icon": "📊",
@@ -4504,12 +4509,12 @@
     {
       "icon": "🎯",
       "label": "Your teams' goals",
-      "value": "Nicha 36 · Daniele 40"
+      "value": "Nicha 38 · Daniele 40"
     },
     {
       "icon": "⭐",
       "label": "Top team",
-      "value": "Argentina (+15)"
+      "value": "Spain (+16)"
     }
   ]
 }
