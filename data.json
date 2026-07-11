@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T21:16:33Z",
+  "updatedAt": "2026-07-11T06:23:30Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -137,6 +137,21 @@
               "result": "W",
               "points": 3,
               "counted": true
+            },
+            {
+              "opponent": "France",
+              "opponentTla": "FRA",
+              "opponentCrest": "https://crests.football-data.org/773.svg",
+              "utcDate": "2026-07-14T19:00:00Z",
+              "status": "TIMED",
+              "stage": "SEMI_FINALS",
+              "group": null,
+              "isHome": false,
+              "goalsFor": null,
+              "goalsAgainst": null,
+              "result": null,
+              "points": 0,
+              "counted": false
             }
           ],
           "status": "in"
@@ -2623,11 +2638,11 @@
         "result": null
       },
       "away": {
-        "name": null,
-        "tla": null,
-        "crest": null,
-        "owner": null,
-        "color": null,
+        "name": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg",
+        "owner": "Nicha",
+        "color": "#ff5d8f",
         "result": null
       },
       "scoreHome": null,
@@ -4201,6 +4216,43 @@
           "team": "Argentina",
           "tla": "ARG",
           "isHome": true,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
+    {
+      "id": 537387,
+      "utcDate": "2026-07-14T19:00:00Z",
+      "status": "TIMED",
+      "stage": "SEMI_FINALS",
+      "group": null,
+      "home": {
+        "name": "France",
+        "tla": "FRA",
+        "crest": "https://crests.football-data.org/773.svg"
+      },
+      "away": {
+        "name": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg"
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "Spain",
+          "tla": "ESP",
+          "isHome": false,
           "result": null,
           "points": 0
         }
