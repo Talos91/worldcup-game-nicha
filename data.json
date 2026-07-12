@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T23:04:46Z",
+  "updatedAt": "2026-07-12T03:50:14Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -338,12 +338,12 @@
               "opponentTla": "SUI",
               "opponentCrest": "https://crests.football-data.org/788.svg",
               "utcDate": "2026-07-12T01:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "QUARTER_FINALS",
               "group": null,
               "isHome": true,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 3,
+              "goalsAgainst": 1,
               "result": null,
               "points": 0,
               "counted": false
@@ -2571,14 +2571,14 @@
       "stage": "QUARTER_FINALS",
       "order": 3,
       "utcDate": "2026-07-11T21:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "home": {
         "name": "Norway",
         "tla": "NOR",
         "crest": "https://crests.football-data.org/813.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "L"
       },
       "away": {
         "name": "England",
@@ -2586,10 +2586,10 @@
         "crest": "https://crests.football-data.org/770.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "W"
       },
-      "scoreHome": 2,
-      "scoreAway": 1,
+      "scoreHome": 1,
+      "scoreAway": 2,
       "penHome": null,
       "penAway": null
     },
@@ -2597,7 +2597,7 @@
       "stage": "QUARTER_FINALS",
       "order": 3,
       "utcDate": "2026-07-12T01:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "home": {
         "name": "Argentina",
         "tla": "ARG",
@@ -2614,8 +2614,8 @@
         "color": null,
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 3,
+      "scoreAway": 1,
       "penHome": null,
       "penAway": null
     },
@@ -2725,6 +2725,46 @@
     }
   ],
   "recent": [
+    {
+      "id": 537386,
+      "utcDate": "2026-07-12T01:00:00Z",
+      "status": "IN_PLAY",
+      "stage": "QUARTER_FINALS",
+      "group": null,
+      "home": {
+        "name": "Argentina",
+        "tla": "ARG",
+        "crest": "https://crests.football-data.org/762.png"
+      },
+      "away": {
+        "name": "Switzerland",
+        "tla": "SUI",
+        "crest": "https://crests.football-data.org/788.svg"
+      },
+      "scoreHome": 3,
+      "scoreAway": 1,
+      "htHome": 1,
+      "htAway": 0,
+      "duration": "EXTRA_TIME",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "João Pinheiro",
+        "nationality": "Portugal"
+      },
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "Argentina",
+          "tla": "ARG",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
     {
       "id": 537384,
       "utcDate": "2026-07-10T19:00:00Z",
@@ -4141,46 +4181,6 @@
   ],
   "upcoming": [
     {
-      "id": 537386,
-      "utcDate": "2026-07-12T01:00:00Z",
-      "status": "TIMED",
-      "stage": "QUARTER_FINALS",
-      "group": null,
-      "home": {
-        "name": "Argentina",
-        "tla": "ARG",
-        "crest": "https://crests.football-data.org/762.png"
-      },
-      "away": {
-        "name": "Switzerland",
-        "tla": "SUI",
-        "crest": "https://crests.football-data.org/788.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": {
-        "name": "João Pinheiro",
-        "nationality": "Portugal"
-      },
-      "stakes": [
-        {
-          "player": "Nicha",
-          "color": "#ff5d8f",
-          "team": "Argentina",
-          "tla": "ARG",
-          "isHome": true,
-          "result": null,
-          "points": 0
-        }
-      ],
-      "headToHead": false
-    },
-    {
       "id": 537387,
       "utcDate": "2026-07-14T19:00:00Z",
       "status": "TIMED",
@@ -4257,7 +4257,7 @@
     },
     {
       "name": "Jude Bellingham",
-      "goals": 5,
+      "goals": 6,
       "team": "England",
       "teamTla": "ENG",
       "teamCrest": "https://crests.football-data.org/770.svg",
@@ -4494,7 +4494,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "305 in 97 games"
+      "value": "308 in 98 games"
     },
     {
       "icon": "📊",
