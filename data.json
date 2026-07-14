@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T19:39:59Z",
+  "updatedAt": "2026-07-14T21:11:08Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -11,13 +11,13 @@
     {
       "name": "Nicha",
       "color": "#ff5d8f",
-      "total": 46,
+      "total": 49,
       "agg": {
-        "played": 20,
-        "w": 15,
+        "played": 21,
+        "w": 16,
         "d": 1,
         "l": 4,
-        "gf": 41,
+        "gf": 43,
         "ga": 18
       },
       "teams": [
@@ -27,8 +27,8 @@
           "tla": "ESP",
           "flag": "🇪🇸",
           "crest": "https://crests.football-data.org/760.svg",
-          "points": 16,
-          "w": 5,
+          "points": 19,
+          "w": 6,
           "d": 1,
           "l": 0,
           "group": {
@@ -143,15 +143,15 @@
               "opponentTla": "FRA",
               "opponentCrest": "https://crests.football-data.org/773.svg",
               "utcDate": "2026-07-14T19:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "SEMI_FINALS",
               "group": null,
               "isHome": false,
-              "goalsFor": 1,
+              "goalsFor": 2,
               "goalsAgainst": 0,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
           "status": "in"
@@ -1913,6 +1913,11 @@
       "date": "2026-07-12T01:00:00Z",
       "n": 46,
       "d": 33
+    },
+    {
+      "date": "2026-07-14T19:00:00Z",
+      "n": 49,
+      "d": 33
     }
   ],
   "knockout": [
@@ -2648,14 +2653,14 @@
       "stage": "SEMI_FINALS",
       "order": 4,
       "utcDate": "2026-07-14T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "home": {
         "name": "France",
         "tla": "FRA",
         "crest": "https://crests.football-data.org/773.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "L"
       },
       "away": {
         "name": "Spain",
@@ -2663,10 +2668,10 @@
         "crest": "https://crests.football-data.org/760.svg",
         "owner": "Nicha",
         "color": "#ff5d8f",
-        "result": null
+        "result": "W"
       },
       "scoreHome": 0,
-      "scoreAway": 1,
+      "scoreAway": 2,
       "penHome": null,
       "penAway": null
     },
@@ -2753,7 +2758,7 @@
     {
       "id": 537387,
       "utcDate": "2026-07-14T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "SEMI_FINALS",
       "group": null,
       "home": {
@@ -2767,9 +2772,9 @@
         "crest": "https://crests.football-data.org/760.svg"
       },
       "scoreHome": 0,
-      "scoreAway": 1,
-      "htHome": null,
-      "htAway": null,
+      "scoreAway": 2,
+      "htHome": 0,
+      "htAway": 1,
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
@@ -2784,8 +2789,8 @@
           "team": "Spain",
           "tla": "ESP",
           "isHome": false,
-          "result": null,
-          "points": 0
+          "result": "W",
+          "points": 3
         }
       ],
       "headToHead": false
@@ -4599,7 +4604,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "317 in 100 games"
+      "value": "319 in 101 games"
     },
     {
       "icon": "📊",
@@ -4624,12 +4629,12 @@
     {
       "icon": "🎯",
       "label": "Your teams' goals",
-      "value": "Nicha 41 · Daniele 40"
+      "value": "Nicha 43 · Daniele 40"
     },
     {
       "icon": "⭐",
       "label": "Top team",
-      "value": "Argentina (+18)"
+      "value": "Spain (+19)"
     }
   ]
 }
