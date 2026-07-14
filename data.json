@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T06:44:09Z",
+  "updatedAt": "2026-07-14T19:39:59Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -143,12 +143,12 @@
               "opponentTla": "FRA",
               "opponentCrest": "https://crests.football-data.org/773.svg",
               "utcDate": "2026-07-14T19:00:00Z",
-              "status": "TIMED",
+              "status": "IN_PLAY",
               "stage": "SEMI_FINALS",
               "group": null,
               "isHome": false,
-              "goalsFor": null,
-              "goalsAgainst": null,
+              "goalsFor": 1,
+              "goalsAgainst": 0,
               "result": null,
               "points": 0,
               "counted": false
@@ -2648,7 +2648,7 @@
       "stage": "SEMI_FINALS",
       "order": 4,
       "utcDate": "2026-07-14T19:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "home": {
         "name": "France",
         "tla": "FRA",
@@ -2665,8 +2665,8 @@
         "color": "#ff5d8f",
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 0,
+      "scoreAway": 1,
       "penHome": null,
       "penAway": null
     },
@@ -2750,6 +2750,46 @@
     }
   ],
   "recent": [
+    {
+      "id": 537387,
+      "utcDate": "2026-07-14T19:00:00Z",
+      "status": "IN_PLAY",
+      "stage": "SEMI_FINALS",
+      "group": null,
+      "home": {
+        "name": "France",
+        "tla": "FRA",
+        "crest": "https://crests.football-data.org/773.svg"
+      },
+      "away": {
+        "name": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg"
+      },
+      "scoreHome": 0,
+      "scoreAway": 1,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Ivan Barton",
+        "nationality": null
+      },
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "Spain",
+          "tla": "ESP",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
     {
       "id": 537386,
       "utcDate": "2026-07-12T01:00:00Z",
@@ -4246,43 +4286,6 @@
   ],
   "upcoming": [
     {
-      "id": 537387,
-      "utcDate": "2026-07-14T19:00:00Z",
-      "status": "TIMED",
-      "stage": "SEMI_FINALS",
-      "group": null,
-      "home": {
-        "name": "France",
-        "tla": "FRA",
-        "crest": "https://crests.football-data.org/773.svg"
-      },
-      "away": {
-        "name": "Spain",
-        "tla": "ESP",
-        "crest": "https://crests.football-data.org/760.svg"
-      },
-      "scoreHome": null,
-      "scoreAway": null,
-      "htHome": null,
-      "htAway": null,
-      "duration": "REGULAR",
-      "penHome": null,
-      "penAway": null,
-      "referee": null,
-      "stakes": [
-        {
-          "player": "Nicha",
-          "color": "#ff5d8f",
-          "team": "Spain",
-          "tla": "ESP",
-          "isHome": false,
-          "result": null,
-          "points": 0
-        }
-      ],
-      "headToHead": false
-    },
-    {
       "id": 537388,
       "utcDate": "2026-07-15T19:00:00Z",
       "status": "TIMED",
@@ -4367,6 +4370,15 @@
       "color": null
     },
     {
+      "name": "Mikel Oyarzabal",
+      "goals": 5,
+      "team": "Spain",
+      "teamTla": "ESP",
+      "teamCrest": "https://crests.football-data.org/760.svg",
+      "owner": "Nicha",
+      "color": "#ff5d8f"
+    },
+    {
       "name": "Ousmane Dembélé",
       "goals": 5,
       "team": "France",
@@ -4392,15 +4404,6 @@
       "teamCrest": "https://crests.football-data.org/764.svg",
       "owner": null,
       "color": null
-    },
-    {
-      "name": "Mikel Oyarzabal",
-      "goals": 4,
-      "team": "Spain",
-      "teamTla": "ESP",
-      "teamCrest": "https://crests.football-data.org/760.svg",
-      "owner": "Nicha",
-      "color": "#ff5d8f"
     },
     {
       "name": "Ismaïla Sarr",
