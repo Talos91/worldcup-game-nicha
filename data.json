@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T21:11:08Z",
+  "updatedAt": "2026-07-15T06:25:06Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -152,6 +152,21 @@
               "result": "W",
               "points": 3,
               "counted": true
+            },
+            {
+              "opponent": null,
+              "opponentTla": null,
+              "opponentCrest": null,
+              "utcDate": "2026-07-19T19:00:00Z",
+              "status": "TIMED",
+              "stage": "FINAL",
+              "group": null,
+              "isHome": true,
+              "goalsFor": null,
+              "goalsAgainst": null,
+              "result": null,
+              "points": 0,
+              "counted": false
             }
           ],
           "status": "in"
@@ -2707,9 +2722,9 @@
       "utcDate": "2026-07-18T21:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": null,
-        "tla": null,
-        "crest": null,
+        "name": "France",
+        "tla": "FRA",
+        "crest": "https://crests.football-data.org/773.svg",
         "owner": null,
         "color": null,
         "result": null
@@ -2733,11 +2748,11 @@
       "utcDate": "2026-07-19T19:00:00Z",
       "status": "TIMED",
       "home": {
-        "name": null,
-        "tla": null,
-        "crest": null,
-        "owner": null,
-        "color": null,
+        "name": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg",
+        "owner": "Nicha",
+        "color": "#ff5d8f",
         "result": null
       },
       "away": {
@@ -4321,6 +4336,43 @@
           "team": "Argentina",
           "tla": "ARG",
           "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": false
+    },
+    {
+      "id": 537390,
+      "utcDate": "2026-07-19T19:00:00Z",
+      "status": "TIMED",
+      "stage": "FINAL",
+      "group": null,
+      "home": {
+        "name": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg"
+      },
+      "away": {
+        "name": null,
+        "tla": null,
+        "crest": null
+      },
+      "scoreHome": null,
+      "scoreAway": null,
+      "htHome": null,
+      "htAway": null,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": null,
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "Spain",
+          "tla": "ESP",
+          "isHome": true,
           "result": null,
           "points": 0
         }
