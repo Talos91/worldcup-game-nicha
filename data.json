@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T21:11:54Z",
+  "updatedAt": "2026-07-16T06:28:20Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -154,9 +154,9 @@
               "counted": true
             },
             {
-              "opponent": null,
-              "opponentTla": null,
-              "opponentCrest": null,
+              "opponent": "Argentina",
+              "opponentTla": "ARG",
+              "opponentCrest": "https://crests.football-data.org/762.png",
               "utcDate": "2026-07-19T19:00:00Z",
               "status": "TIMED",
               "stage": "FINAL",
@@ -377,6 +377,21 @@
               "result": "W",
               "points": 3,
               "counted": true
+            },
+            {
+              "opponent": "Spain",
+              "opponentTla": "ESP",
+              "opponentCrest": "https://crests.football-data.org/760.svg",
+              "utcDate": "2026-07-19T19:00:00Z",
+              "status": "TIMED",
+              "stage": "FINAL",
+              "group": null,
+              "isHome": false,
+              "goalsFor": null,
+              "goalsAgainst": null,
+              "result": null,
+              "points": 0,
+              "counted": false
             }
           ],
           "status": "in"
@@ -2735,9 +2750,9 @@
         "result": null
       },
       "away": {
-        "name": null,
-        "tla": null,
-        "crest": null,
+        "name": "England",
+        "tla": "ENG",
+        "crest": "https://crests.football-data.org/770.svg",
         "owner": null,
         "color": null,
         "result": null
@@ -2761,11 +2776,11 @@
         "result": null
       },
       "away": {
-        "name": null,
-        "tla": null,
-        "crest": null,
-        "owner": null,
-        "color": null,
+        "name": "Argentina",
+        "tla": "ARG",
+        "crest": "https://crests.football-data.org/762.png",
+        "owner": "Nicha",
+        "color": "#ff5d8f",
         "result": null
       },
       "scoreHome": null,
@@ -4362,9 +4377,9 @@
         "crest": "https://crests.football-data.org/760.svg"
       },
       "away": {
-        "name": null,
-        "tla": null,
-        "crest": null
+        "name": "Argentina",
+        "tla": "ARG",
+        "crest": "https://crests.football-data.org/762.png"
       },
       "scoreHome": null,
       "scoreAway": null,
@@ -4383,9 +4398,25 @@
           "isHome": true,
           "result": null,
           "points": 0
+        },
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "Argentina",
+          "tla": "ARG",
+          "isHome": false,
+          "result": null,
+          "points": 0
         }
       ],
-      "headToHead": false
+      "headToHead": true,
+      "h2h": {
+        "numberOfMatches": 1,
+        "totalGoals": 3,
+        "homeWins": 0,
+        "awayWins": 0,
+        "draws": 0
+      }
     }
   ],
   "scorers": [
