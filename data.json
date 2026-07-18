@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T06:28:20Z",
+  "updatedAt": "2026-07-18T23:04:30Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -2740,7 +2740,7 @@
       "stage": "THIRD_PLACE",
       "order": 5,
       "utcDate": "2026-07-18T21:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "home": {
         "name": "France",
         "tla": "FRA",
@@ -2757,8 +2757,8 @@
         "color": null,
         "result": null
       },
-      "scoreHome": null,
-      "scoreAway": null,
+      "scoreHome": 3,
+      "scoreAway": 5,
       "penHome": null,
       "penAway": null
     },
@@ -4422,7 +4422,7 @@
   "scorers": [
     {
       "name": "Kylian Mbappé",
-      "goals": 8,
+      "goals": 10,
       "team": "France",
       "teamTla": "FRA",
       "teamCrest": "https://crests.football-data.org/773.svg",
@@ -4448,6 +4448,15 @@
       "color": null
     },
     {
+      "name": "Jude Bellingham",
+      "goals": 7,
+      "team": "England",
+      "teamTla": "ENG",
+      "teamCrest": "https://crests.football-data.org/770.svg",
+      "owner": null,
+      "color": null
+    },
+    {
       "name": "Harry Kane",
       "goals": 6,
       "team": "England",
@@ -4457,11 +4466,11 @@
       "color": null
     },
     {
-      "name": "Jude Bellingham",
+      "name": "Ousmane Dembélé",
       "goals": 6,
-      "team": "England",
-      "teamTla": "ENG",
-      "teamCrest": "https://crests.football-data.org/770.svg",
+      "team": "France",
+      "teamTla": "FRA",
+      "teamCrest": "https://crests.football-data.org/773.svg",
       "owner": null,
       "color": null
     },
@@ -4473,15 +4482,6 @@
       "teamCrest": "https://crests.football-data.org/760.svg",
       "owner": "Nicha",
       "color": "#ff5d8f"
-    },
-    {
-      "name": "Ousmane Dembélé",
-      "goals": 5,
-      "team": "France",
-      "teamTla": "FRA",
-      "teamCrest": "https://crests.football-data.org/773.svg",
-      "owner": null,
-      "color": null
     },
     {
       "name": "Julián Quiñones",
@@ -4561,6 +4561,15 @@
       "team": "New Zealand",
       "teamTla": "NZL",
       "teamCrest": "https://crests.football-data.org/783.svg",
+      "owner": null,
+      "color": null
+    },
+    {
+      "name": "Bradley Barcola",
+      "goals": 3,
+      "team": "France",
+      "teamTla": "FRA",
+      "teamCrest": "https://crests.football-data.org/773.svg",
       "owner": null,
       "color": null
     },
@@ -4655,6 +4664,15 @@
       "color": null
     },
     {
+      "name": "Bukayo Saka",
+      "goals": 3,
+      "team": "England",
+      "teamTla": "ENG",
+      "teamCrest": "https://crests.football-data.org/770.svg",
+      "owner": null,
+      "color": null
+    },
+    {
       "name": "Cyle Larin",
       "goals": 2,
       "team": "Canada",
@@ -4671,24 +4689,6 @@
       "teamCrest": "https://crests.football-data.org/788.svg",
       "owner": null,
       "color": null
-    },
-    {
-      "name": "Crysencio Summerville",
-      "goals": 2,
-      "team": "Netherlands",
-      "teamTla": "NED",
-      "teamCrest": "https://crests.football-data.org/8601.svg",
-      "owner": null,
-      "color": null
-    },
-    {
-      "name": "Daichi Kamada",
-      "goals": 2,
-      "team": "Japan",
-      "teamTla": "JPN",
-      "teamCrest": "https://crests.football-data.org/766.svg",
-      "owner": "Daniele",
-      "color": "#3da5ff"
     }
   ],
   "curiosities": [
