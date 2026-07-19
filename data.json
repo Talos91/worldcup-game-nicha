@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T23:04:30Z",
+  "updatedAt": "2026-07-19T03:46:06Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -2740,14 +2740,14 @@
       "stage": "THIRD_PLACE",
       "order": 5,
       "utcDate": "2026-07-18T21:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "home": {
         "name": "France",
         "tla": "FRA",
         "crest": "https://crests.football-data.org/773.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "L"
       },
       "away": {
         "name": "England",
@@ -2755,10 +2755,10 @@
         "crest": "https://crests.football-data.org/770.svg",
         "owner": null,
         "color": null,
-        "result": null
+        "result": "W"
       },
-      "scoreHome": 3,
-      "scoreAway": 5,
+      "scoreHome": 4,
+      "scoreAway": 6,
       "penHome": null,
       "penAway": null
     },
@@ -4695,7 +4695,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "322 in 102 games"
+      "value": "332 in 103 games"
     },
     {
       "icon": "📊",
@@ -4710,7 +4710,7 @@
     {
       "icon": "🔥",
       "label": "Wildest game",
-      "value": "GER 4–5 PAR"
+      "value": "FRA 4–6 ENG"
     },
     {
       "icon": "🤝",
