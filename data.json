@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T03:46:06Z",
+  "updatedAt": "2026-07-19T17:11:28Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -4388,7 +4388,10 @@
       "duration": "REGULAR",
       "penHome": null,
       "penAway": null,
-      "referee": null,
+      "referee": {
+        "name": "Slavko Vinčič",
+        "nationality": "Slovenia"
+      },
       "stakes": [
         {
           "player": "Nicha",
