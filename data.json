@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T19:21:20Z",
+  "updatedAt": "2026-07-19T21:03:47Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -158,7 +158,7 @@
               "opponentTla": "ARG",
               "opponentCrest": "https://crests.football-data.org/762.png",
               "utcDate": "2026-07-19T19:00:00Z",
-              "status": "LIVE",
+              "status": "IN_PLAY",
               "stage": "FINAL",
               "group": null,
               "isHome": true,
@@ -383,7 +383,7 @@
               "opponentTla": "ESP",
               "opponentCrest": "https://crests.football-data.org/760.svg",
               "utcDate": "2026-07-19T19:00:00Z",
-              "status": "LIVE",
+              "status": "IN_PLAY",
               "stage": "FINAL",
               "group": null,
               "isHome": false,
@@ -2766,7 +2766,7 @@
       "stage": "FINAL",
       "order": 6,
       "utcDate": "2026-07-19T19:00:00Z",
-      "status": "LIVE",
+      "status": "IN_PLAY",
       "home": {
         "name": "Spain",
         "tla": "ESP",
@@ -2790,6 +2790,62 @@
     }
   ],
   "recent": [
+    {
+      "id": 537390,
+      "utcDate": "2026-07-19T19:00:00Z",
+      "status": "IN_PLAY",
+      "stage": "FINAL",
+      "group": null,
+      "home": {
+        "name": "Spain",
+        "tla": "ESP",
+        "crest": "https://crests.football-data.org/760.svg"
+      },
+      "away": {
+        "name": "Argentina",
+        "tla": "ARG",
+        "crest": "https://crests.football-data.org/762.png"
+      },
+      "scoreHome": 0,
+      "scoreAway": 0,
+      "htHome": 0,
+      "htAway": 0,
+      "duration": "REGULAR",
+      "penHome": null,
+      "penAway": null,
+      "referee": {
+        "name": "Slavko Vinčič",
+        "nationality": "Slovenia"
+      },
+      "stakes": [
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "Spain",
+          "tla": "ESP",
+          "isHome": true,
+          "result": null,
+          "points": 0
+        },
+        {
+          "player": "Nicha",
+          "color": "#ff5d8f",
+          "team": "Argentina",
+          "tla": "ARG",
+          "isHome": false,
+          "result": null,
+          "points": 0
+        }
+      ],
+      "headToHead": true,
+      "h2h": {
+        "numberOfMatches": 1,
+        "totalGoals": 3,
+        "homeWins": 0,
+        "awayWins": 0,
+        "draws": 0
+      }
+    },
     {
       "id": 537388,
       "utcDate": "2026-07-15T19:00:00Z",
