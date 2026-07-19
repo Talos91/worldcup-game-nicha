@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T21:03:47Z",
+  "updatedAt": "2026-07-19T23:05:46Z",
   "version": "2.5",
   "competition": "FIFA World Cup 2026",
   "rules": {
@@ -11,14 +11,14 @@
     {
       "name": "Nicha",
       "color": "#ff5d8f",
-      "total": 52,
+      "total": 55,
       "agg": {
-        "played": 22,
-        "w": 17,
+        "played": 24,
+        "w": 18,
         "d": 1,
-        "l": 4,
-        "gf": 45,
-        "ga": 19
+        "l": 5,
+        "gf": 46,
+        "ga": 20
       },
       "teams": [
         {
@@ -27,8 +27,8 @@
           "tla": "ESP",
           "flag": "🇪🇸",
           "crest": "https://crests.football-data.org/760.svg",
-          "points": 19,
-          "w": 6,
+          "points": 22,
+          "w": 7,
           "d": 1,
           "l": 0,
           "group": {
@@ -158,18 +158,18 @@
               "opponentTla": "ARG",
               "opponentCrest": "https://crests.football-data.org/762.png",
               "utcDate": "2026-07-19T19:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "FINAL",
               "group": null,
               "isHome": true,
-              "goalsFor": 0,
+              "goalsFor": 1,
               "goalsAgainst": 0,
-              "result": null,
-              "points": 0,
-              "counted": false
+              "result": "W",
+              "points": 3,
+              "counted": true
             }
           ],
-          "status": "in"
+          "status": "champion"
         },
         {
           "id": 772,
@@ -255,7 +255,7 @@
           "points": 21,
           "w": 7,
           "d": 0,
-          "l": 0,
+          "l": 1,
           "group": {
             "position": 1,
             "played": 3,
@@ -383,18 +383,18 @@
               "opponentTla": "ESP",
               "opponentCrest": "https://crests.football-data.org/760.svg",
               "utcDate": "2026-07-19T19:00:00Z",
-              "status": "IN_PLAY",
+              "status": "FINISHED",
               "stage": "FINAL",
               "group": null,
               "isHome": false,
               "goalsFor": 0,
-              "goalsAgainst": 0,
-              "result": null,
+              "goalsAgainst": 1,
+              "result": "L",
               "points": 0,
-              "counted": false
+              "counted": true
             }
           ],
-          "status": "in"
+          "status": "out"
         },
         {
           "id": 771,
@@ -502,7 +502,7 @@
           "status": "out"
         }
       ],
-      "alive": 2
+      "alive": 1
     },
     {
       "name": "Daniele",
@@ -1953,6 +1953,11 @@
       "date": "2026-07-15T19:00:00Z",
       "n": 52,
       "d": 33
+    },
+    {
+      "date": "2026-07-19T19:00:00Z",
+      "n": 55,
+      "d": 33
     }
   ],
   "knockout": [
@@ -2766,14 +2771,14 @@
       "stage": "FINAL",
       "order": 6,
       "utcDate": "2026-07-19T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "home": {
         "name": "Spain",
         "tla": "ESP",
         "crest": "https://crests.football-data.org/760.svg",
         "owner": "Nicha",
         "color": "#ff5d8f",
-        "result": null
+        "result": "W"
       },
       "away": {
         "name": "Argentina",
@@ -2781,9 +2786,9 @@
         "crest": "https://crests.football-data.org/762.png",
         "owner": "Nicha",
         "color": "#ff5d8f",
-        "result": null
+        "result": "L"
       },
-      "scoreHome": 0,
+      "scoreHome": 1,
       "scoreAway": 0,
       "penHome": null,
       "penAway": null
@@ -2793,7 +2798,7 @@
     {
       "id": 537390,
       "utcDate": "2026-07-19T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "stage": "FINAL",
       "group": null,
       "home": {
@@ -2806,11 +2811,11 @@
         "tla": "ARG",
         "crest": "https://crests.football-data.org/762.png"
       },
-      "scoreHome": 0,
+      "scoreHome": 1,
       "scoreAway": 0,
       "htHome": 0,
       "htAway": 0,
-      "duration": "REGULAR",
+      "duration": "EXTRA_TIME",
       "penHome": null,
       "penAway": null,
       "referee": {
@@ -2824,8 +2829,8 @@
           "team": "Spain",
           "tla": "ESP",
           "isHome": true,
-          "result": null,
-          "points": 0
+          "result": "W",
+          "points": 3
         },
         {
           "player": "Nicha",
@@ -2833,14 +2838,14 @@
           "team": "Argentina",
           "tla": "ARG",
           "isHome": false,
-          "result": null,
+          "result": "L",
           "points": 0
         }
       ],
       "headToHead": true,
       "h2h": {
-        "numberOfMatches": 1,
-        "totalGoals": 3,
+        "numberOfMatches": 2,
+        "totalGoals": 4,
         "homeWins": 0,
         "awayWins": 0,
         "draws": 0
@@ -4697,7 +4702,7 @@
     {
       "icon": "⚽",
       "label": "Goals so far",
-      "value": "332 in 103 games"
+      "value": "333 in 104 games"
     },
     {
       "icon": "📊",
@@ -4722,12 +4727,12 @@
     {
       "icon": "🎯",
       "label": "Your teams' goals",
-      "value": "Nicha 45 · Daniele 40"
+      "value": "Nicha 46 · Daniele 40"
     },
     {
       "icon": "⭐",
       "label": "Top team",
-      "value": "Argentina (+21)"
+      "value": "Spain (+22)"
     }
   ]
 }
